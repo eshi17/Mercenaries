@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x378b60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0xb587f40" />
+  <item nodeId="node-0x378b60">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. What you see surprises you: the mayor and some villagers are fighting off a group of men in suits. Who are these men? Where did they come from? No. Those are unnecessary questions. It must be the Company.
+
+Mercenaries
+An Interactive Fiction by Elana Shi
+Release 1 / Serial number 141012 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Home
+A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove and oven, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="6">NO</temporary>
+    <children>
+      <child nodeId="node-0xb5aaae0" />
+      <child nodeId="node-0x8e6b020" />
+      <child nodeId="node-0xb587f40" />
+    </children>
+  </item>
+  <item nodeId="node-0xb587f40">
+    <command xml:space="preserve">x bed</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x8e6b020">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Home
+A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove and oven, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0xb5aaae0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x13fba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13fba0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x9cf8b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9cf8b40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Town Square
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+</Skein>
