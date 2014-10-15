@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x378b60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x340440" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xb587f40" />
-  <item nodeId="node-0x378b60">
+  <activeNode nodeId="node-0x9083650" />
+  <item nodeId="node-0x340440">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,38 +11,81 @@ You wake up to shouts and loud banging. It is early; the sun has just begun to r
 
 Mercenaries
 An Interactive Fiction by Elana Shi
-Release 1 / Serial number 141012 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-Home
-A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove and oven, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
+Cottage
+A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table with the stone on it. On the wall above your sink is a small one way window that looks into Town Square.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="6">NO</temporary>
     <children>
-      <child nodeId="node-0xb5aaae0" />
-      <child nodeId="node-0x8e6b020" />
-      <child nodeId="node-0xb587f40" />
+      <child nodeId="node-0x3f5fa0" />
+      <child nodeId="node-0x7740650" />
+      <child nodeId="node-0x3f5f50" />
+      <child nodeId="node-0x340490" />
     </children>
   </item>
-  <item nodeId="node-0xb587f40">
+  <item nodeId="node-0x340490">
     <command xml:space="preserve">x bed</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x8e6b020">
+  <item nodeId="node-0x3f5f50">
     <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Home
-A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove and oven, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
+    <result xml:space="preserve">Cottage
+A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x8ee2150" />
+    </children>
   </item>
-  <item nodeId="node-0xb5aaae0">
+  <item nodeId="node-0x8ee2150">
+    <command xml:space="preserve">x sink</command>
+    <result xml:space="preserve">Yesterday, the mayor cut off all water from the pipes to prevent the Company&apos;s factory from working. Although it was inconvenient, the town&apos;s residents all agreed that we needed to send a warning to the Company.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x908c280" />
+    </children>
+  </item>
+  <item nodeId="node-0x908c280">
+    <command xml:space="preserve">x stove</command>
+    <result xml:space="preserve">Occasionally you dabble in some cooking, and you&apos;re quite good at it too. The neighbors often ask for recipes and tips, which you willingly give. The stove itself is quite old, as you bought it from a second hand store.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x7740650">
+    <command xml:space="preserve">x stone</command>
+    <result xml:space="preserve">The townspeople call it Lady&apos;s Flower. The opaque material is an intense purple, mixed with grays and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager&apos;s farms. There, they found masses of the Lady&apos;s Flower, which they called Charoite. Shortly after, they offered a huge sum of money to the town&apos;s mayor, hoping that he would allow the Company to keep digging. The mayor refused.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x9083650" />
+    </children>
+  </item>
+  <item nodeId="node-0x9083650">
+    <command xml:space="preserve">x window</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x3f5fa0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -51,10 +94,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x13fba0" />
+      <child nodeId="node-0x3f5ff0" />
     </children>
   </item>
-  <item nodeId="node-0x13fba0">
+  <item nodeId="node-0x3f5ff0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -63,10 +106,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x9cf8b40" />
+      <child nodeId="node-0x3f6060" />
     </children>
   </item>
-  <item nodeId="node-0x9cf8b40">
+  <item nodeId="node-0x3f6060">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
