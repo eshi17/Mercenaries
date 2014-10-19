@@ -34,13 +34,13 @@ Town Square is a room. Town Square is east of Cottage. "A square plaza with a co
 [Benches]
 	Benches are scenery in Town Square. "Plain wooden benches meant for decoration." Benches are an enterable scenery supporter in Town Square.
 	Understand "Bench" as Benches.
-	Standing is an action applying to one visible thing.
+	Standing on is an action applying to one visible thing. Understand "stand on" as standing on.
 [Crowd]
 	Crowd is scenery in Town Square. "The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what's happening."
-	[Instead of standing on Benches, say "After stepping onto the bench, you take a look over the crowd. What you see does not surprise you. A young man in a black suit stands proudly at the center of the crowd, a smirk corrupting his handsome face. This man is Edgar, a representative of the Company."]
+	After standing on Benches, say "After stepping onto the bench, you take a look over the crowd. What you see does not surprise you. A young man in a black suit stands proudly at the center of the crowd, a smirk corrupting his handsome face. This man is Edgar, a representative of the Company."
 	
 [Edgar]
-	Edgar is a man in Town Square. "Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit."
+	Edgar is a man in Town Square. Edgar is undescribed. "Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit."
 
 [Mayor's House]
 Mayor's House is a room. Mayor's House is east of Town Square.

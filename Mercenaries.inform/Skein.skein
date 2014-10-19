@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x102530a0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x783ce0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x102530a0" />
-  <item nodeId="node-0x102530a0">
+  <activeNode nodeId="node-0x783dd0" />
+  <item nodeId="node-0x783ce0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
-You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. What you see surprises you: the mayor and some villagers are fighting off a group of men in suits. Who are these men? Where did they come from? No. Those are unnecessary questions. It must be the Company.
+You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. There is a crowd of people gathered outside in front of the Mayor&apos;s House.  It&apos;s too early? What is happening?
 
 Mercenaries
 An Interactive Fiction by Elana Shi
-Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141019 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Cottage
 A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table with the stone on it. On the wall above your sink is a small one way window that looks into Town Square.
@@ -19,23 +19,23 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="15">NO</temporary>
+    <temporary score="14">NO</temporary>
     <children>
-      <child nodeId="node-0x6889bc0" />
-      <child nodeId="node-0x69c8080" />
-      <child nodeId="node-0x6889d70" />
-      <child nodeId="node-0x102460d0" />
-      <child nodeId="node-0x1025bbb0" />
-      <child nodeId="node-0x1025bb60" />
+      <child nodeId="node-0x7d6580" />
+      <child nodeId="node-0x7d64a0" />
+      <child nodeId="node-0x7d62b0" />
+      <child nodeId="node-0x7d5ee0" />
+      <child nodeId="node-0x783d80" />
+      <child nodeId="node-0x783d30" />
     </children>
   </item>
-  <item nodeId="node-0x1025bb60">
+  <item nodeId="node-0x783d30">
     <command xml:space="preserve">x bed</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x1025bbb0">
+  <item nodeId="node-0x783d80">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -43,13 +43,56 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1025bc00" />
+      <child nodeId="node-0x7d5d80" />
+      <child nodeId="node-0x783dd0" />
     </children>
   </item>
-  <item nodeId="node-0x1025bc00">
+  <item nodeId="node-0x783dd0">
+    <command xml:space="preserve">stand on bench</command>
+    <result xml:space="preserve">You get onto Benches.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x783e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x783e60">
+    <command xml:space="preserve">x crowd</command>
+    <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x783ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x783ed0">
+    <command xml:space="preserve">x crowd</command>
+    <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x783f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x783f40">
+    <command xml:space="preserve">stand on bench</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x7d5d80">
     <command xml:space="preserve">sit on bench</command>
     <result xml:space="preserve">You get onto Benches.
 
@@ -58,10 +101,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x69c4000" />
+      <child nodeId="node-0x7d5dd0" />
     </children>
   </item>
-  <item nodeId="node-0x69c4000">
+  <item nodeId="node-0x7d5dd0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -70,10 +113,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x69c4050" />
+      <child nodeId="node-0x7d5e20" />
     </children>
   </item>
-  <item nodeId="node-0x69c4050">
+  <item nodeId="node-0x7d5e20">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Town Square (on Benches)
 A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
@@ -83,29 +126,29 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0x69c40a0" />
+      <child nodeId="node-0x7d5e70" />
     </children>
   </item>
-  <item nodeId="node-0x69c40a0">
+  <item nodeId="node-0x7d5e70">
     <command xml:space="preserve">x bench</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
   </item>
-  <item nodeId="node-0x102460d0">
+  <item nodeId="node-0x7d5ee0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x6889c80" />
-      <child nodeId="node-0x10246120" />
+      <child nodeId="node-0x7d6160" />
+      <child nodeId="node-0x7d6010" />
     </children>
   </item>
-  <item nodeId="node-0x10246120">
+  <item nodeId="node-0x7d6010">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -114,10 +157,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x6889a90" />
+      <child nodeId="node-0x7d5d20" />
     </children>
   </item>
-  <item nodeId="node-0x6889a90">
+  <item nodeId="node-0x7d5d20">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -126,10 +169,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x6889ae0" />
+      <child nodeId="node-0x7d6080" />
     </children>
   </item>
-  <item nodeId="node-0x6889ae0">
+  <item nodeId="node-0x7d6080">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -140,10 +183,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x6889b50" />
+      <child nodeId="node-0x7d60f0" />
     </children>
   </item>
-  <item nodeId="node-0x6889b50">
+  <item nodeId="node-0x7d60f0">
     <command xml:space="preserve">sit on bench</command>
     <result xml:space="preserve">You get into Benches.
 
@@ -152,33 +195,35 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x6889c80">
+  <item nodeId="node-0x7d6160">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x6889cd0" />
+      <child nodeId="node-0x7d61d0" />
     </children>
   </item>
-  <item nodeId="node-0x6889cd0">
+  <item nodeId="node-0x7d61d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
 A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
 
+Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x6889d20" />
+      <child nodeId="node-0x7d6240" />
     </children>
   </item>
-  <item nodeId="node-0x6889d20">
+  <item nodeId="node-0x7d6240">
     <command xml:space="preserve">sit on bench</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -187,7 +232,7 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x6889d70">
+  <item nodeId="node-0x7d62b0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Cottage
 A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
@@ -197,10 +242,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x6889dc0" />
+      <child nodeId="node-0x7d5f50" />
     </children>
   </item>
-  <item nodeId="node-0x6889dc0">
+  <item nodeId="node-0x7d5f50">
     <command xml:space="preserve">x sink</command>
     <result xml:space="preserve">Yesterday, the mayor cut off all water from the pipes to prevent the Company&apos;s factory from working. Although it was inconvenient, the town&apos;s residents all agreed that we needed to send a warning to the Company.
 
@@ -209,10 +254,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x69c8010" />
+      <child nodeId="node-0x7d5fa0" />
     </children>
   </item>
-  <item nodeId="node-0x69c8010">
+  <item nodeId="node-0x7d5fa0">
     <command xml:space="preserve">x stove</command>
     <result xml:space="preserve">Occasionally you dabble in some cooking, and you&apos;re quite good at it too. The neighbors often ask for recipes and tips, which you willingly give. The stove itself is quite old, as you bought it from a second hand store.
 
@@ -221,7 +266,7 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x69c8080">
+  <item nodeId="node-0x7d64a0">
     <command xml:space="preserve">x stone</command>
     <result xml:space="preserve">The townspeople call it Lady&apos;s Flower. The opaque material is an intense purple, mixed with grays and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager&apos;s farms. There, they found masses of the Lady&apos;s Flower, which they called Charoite. Shortly after, they offered a huge sum of money to the town&apos;s mayor, hoping that he would allow the Company to keep digging. The mayor refused.
 
@@ -230,10 +275,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x69c80f0" />
+      <child nodeId="node-0x7d6510" />
     </children>
   </item>
-  <item nodeId="node-0x69c80f0">
+  <item nodeId="node-0x7d6510">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">The window overlooks Town Hall.
 
@@ -242,7 +287,7 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x6889bc0">
+  <item nodeId="node-0x7d6580">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -251,10 +296,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x6889c10" />
+      <child nodeId="node-0x7d65f0" />
     </children>
   </item>
-  <item nodeId="node-0x6889c10">
+  <item nodeId="node-0x7d65f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -263,10 +308,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x1025b0d0" />
+      <child nodeId="node-0x7d6660" />
     </children>
   </item>
-  <item nodeId="node-0x1025b0d0">
+  <item nodeId="node-0x7d6660">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
