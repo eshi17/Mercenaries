@@ -63,9 +63,10 @@ Instead of talking to Mayor, say "You push and squeeze through the crowd of angr
 	
 	'Enough!' The crowd goes silent. 'Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.'
 
-	Edgar laughs. 'Now? Probably on the way to the train station. I will await your reply!' He cackles as he walks away." [Jim Aikin.]
-	[After talking to Mayor:
-		Move Edgar to the Train Station.]
+	Edgar laughs. 'Now? Probably on the way to the train station. I will await your reply!' He cackles, as he walks away." [Jim Aikin.]
+	
+		After Player talks to Mayor:
+			Move Edgar to Beyond.
 	
 Talking to is an action applying to one visible thing.
 	Understand "talk to [someone]" or “speak to [someone]” as talking to. [from Jim Aikin]
@@ -76,3 +77,5 @@ Mayor's House is a room. Mayor's House is east of Town Square.
 
 [Train Station]
 Train Station is a room. Train Station is south of Town Square.
+
+Beyond is Room.

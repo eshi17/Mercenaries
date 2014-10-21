@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x7a78b90" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x33df40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x7a78b90" />
-  <item nodeId="node-0x7a78b90">
+  <activeNode nodeId="node-0x33df40" />
+  <item nodeId="node-0x33df40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,16 +21,16 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>NO</changed>
     <temporary score="43">NO</temporary>
     <children>
-      <child nodeId="node-0x7ae6f90" />
-      <child nodeId="node-0x29a830" />
-      <child nodeId="node-0x2a7da0" />
-      <child nodeId="node-0x2a7c70" />
-      <child nodeId="node-0x7ae71f0" />
-      <child nodeId="node-0x2c6d10" />
-      <child nodeId="node-0x2351c0" />
+      <child nodeId="node-0x384800" />
+      <child nodeId="node-0x384720" />
+      <child nodeId="node-0x3845d0" />
+      <child nodeId="node-0x384480" />
+      <child nodeId="node-0x383cd0" />
+      <child nodeId="node-0x383700" />
+      <child nodeId="node-0x33ded0" />
     </children>
   </item>
-  <item nodeId="node-0x2351c0">
+  <item nodeId="node-0x33ded0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -39,11 +39,11 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>NO</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6ba0" />
-      <child nodeId="node-0x235210" />
+      <child nodeId="node-0x3835d0" />
+      <child nodeId="node-0x383490" />
     </children>
   </item>
-  <item nodeId="node-0x235210">
+  <item nodeId="node-0x383490">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -52,10 +52,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x235260" />
+      <child nodeId="node-0x3834e0" />
     </children>
   </item>
-  <item nodeId="node-0x235260">
+  <item nodeId="node-0x3834e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -64,10 +64,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6b00" />
+      <child nodeId="node-0x383530" />
     </children>
   </item>
-  <item nodeId="node-0x2c6b00">
+  <item nodeId="node-0x383530">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -78,10 +78,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6b50" />
+      <child nodeId="node-0x383580" />
     </children>
   </item>
-  <item nodeId="node-0x2c6b50">
+  <item nodeId="node-0x383580">
     <command xml:space="preserve">sit on bench</command>
     <result xml:space="preserve">You get into Benches.
 
@@ -90,7 +90,7 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
   </item>
-  <item nodeId="node-0x2c6ba0">
+  <item nodeId="node-0x3835d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -99,10 +99,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6c70" />
+      <child nodeId="node-0x383660" />
     </children>
   </item>
-  <item nodeId="node-0x2c6c70">
+  <item nodeId="node-0x383660">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -115,10 +115,10 @@ Edgar is a handsome young man. Although the Company has been around town for mor
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6cc0" />
+      <child nodeId="node-0x3836b0" />
     </children>
   </item>
-  <item nodeId="node-0x2c6cc0">
+  <item nodeId="node-0x3836b0">
     <command xml:space="preserve">sit on bench</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -127,7 +127,7 @@ Edgar is a handsome young man. Although the Company has been around town for mor
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x2c6d10">
+  <item nodeId="node-0x383700">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -138,20 +138,20 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="43">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6dd0" />
-      <child nodeId="node-0x7ae7180" />
-      <child nodeId="node-0x7ae6f20" />
-      <child nodeId="node-0x7a0c8b0" />
-      <child nodeId="node-0x2c6d60" />
+      <child nodeId="node-0x383f30" />
+      <child nodeId="node-0x383d70" />
+      <child nodeId="node-0x383fa0" />
+      <child nodeId="node-0x3837c0" />
+      <child nodeId="node-0x383750" />
     </children>
   </item>
-  <item nodeId="node-0x2c6d60">
+  <item nodeId="node-0x383750">
     <command xml:space="preserve">x benches</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x7a0c8b0">
+  <item nodeId="node-0x3837c0">
     <command xml:space="preserve">speak to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -178,12 +178,12 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>NO</changed>
     <temporary score="43">YES</temporary>
     <children>
-      <child nodeId="node-0x104d3580" />
-      <child nodeId="node-0x10dcf1c0" />
-      <child nodeId="node-0x105d1670" />
+      <child nodeId="node-0x383880" />
+      <child nodeId="node-0x3839e0" />
+      <child nodeId="node-0x3838f0" />
     </children>
   </item>
-  <item nodeId="node-0x105d1670">
+  <item nodeId="node-0x3838f0">
     <command xml:space="preserve">x edgar</command>
     <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
 
@@ -192,10 +192,10 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>NO</changed>
     <temporary score="42">YES</temporary>
     <children>
-      <child nodeId="node-0xfd18ef0" />
+      <child nodeId="node-0x383940" />
     </children>
   </item>
-  <item nodeId="node-0xfd18ef0">
+  <item nodeId="node-0x383940">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Train Station
@@ -205,10 +205,10 @@ Train Station
     <changed>YES</changed>
     <temporary score="37">YES</temporary>
     <children>
-      <child nodeId="node-0x10dba7c0" />
+      <child nodeId="node-0x383990" />
     </children>
   </item>
-  <item nodeId="node-0x10dba7c0">
+  <item nodeId="node-0x383990">
     <command xml:space="preserve">x edgar</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -217,7 +217,7 @@ Train Station
     <changed>YES</changed>
     <temporary score="36">YES</temporary>
   </item>
-  <item nodeId="node-0x10dcf1c0">
+  <item nodeId="node-0x3839e0">
     <command xml:space="preserve">g</command>
     <result xml:space="preserve">
 
@@ -231,10 +231,10 @@ Train Station
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x10db2030" />
+      <child nodeId="node-0x383a30" />
     </children>
   </item>
-  <item nodeId="node-0x10db2030">
+  <item nodeId="node-0x383a30">
     <command xml:space="preserve">g</command>
     <result xml:space="preserve">
 
@@ -253,11 +253,11 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>YES</changed>
     <temporary score="32">YES</temporary>
     <children>
-      <child nodeId="node-0x97566d0" />
-      <child nodeId="node-0x10597540" />
+      <child nodeId="node-0x383b10" />
+      <child nodeId="node-0x383aa0" />
     </children>
   </item>
-  <item nodeId="node-0x10597540">
+  <item nodeId="node-0x383aa0">
     <command xml:space="preserve">x edgar</command>
     <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
 
@@ -266,7 +266,7 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>YES</changed>
     <temporary score="31">YES</temporary>
   </item>
-  <item nodeId="node-0x97566d0">
+  <item nodeId="node-0x383b10">
     <command xml:space="preserve">g</command>
     <result xml:space="preserve">
 
@@ -279,10 +279,10 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>YES</changed>
     <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x7a23e30" />
+      <child nodeId="node-0x383b80" />
     </children>
   </item>
-  <item nodeId="node-0x7a23e30">
+  <item nodeId="node-0x383b80">
     <command xml:space="preserve">g</command>
     <result xml:space="preserve">
 
@@ -295,10 +295,10 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>YES</changed>
     <temporary score="27">YES</temporary>
     <children>
-      <child nodeId="node-0x10d7d730" />
+      <child nodeId="node-0x383830" />
     </children>
   </item>
-  <item nodeId="node-0x10d7d730">
+  <item nodeId="node-0x383830">
     <command xml:space="preserve">g</command>
     <result xml:space="preserve">
 
@@ -311,7 +311,7 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>YES</changed>
     <temporary score="26">YES</temporary>
   </item>
-  <item nodeId="node-0x104d3580">
+  <item nodeId="node-0x383880">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -322,59 +322,7 @@ Edgar laughs. &quot;Now? Probably on the way to the train station. I will await 
     <changed>NO</changed>
     <temporary score="19">YES</temporary>
   </item>
-  <item nodeId="node-0x7ae6f20">
-    <command xml:space="preserve">sit on bench</command>
-    <result xml:space="preserve">You get onto Benches.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae6bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae6bc0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae6c10" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae6c10">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Town Square (on Benches)
-A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x7ae7110" />
-    </children>
-  </item>
-  <item nodeId="node-0x7ae7110">
-    <command xml:space="preserve">x bench</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0x7ae7180">
-    <command xml:space="preserve">x edgar</command>
-    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-  </item>
-  <item nodeId="node-0x2c6dd0">
+  <item nodeId="node-0x383fa0">
     <command xml:space="preserve">stand on bench</command>
     <result xml:space="preserve">You get onto Benches.
 
@@ -385,11 +333,11 @@ After stepping onto the bench, you take a look over the crowd. What you see does
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae6dd0" />
-      <child nodeId="node-0x7ae6c80" />
+      <child nodeId="node-0x3841d0" />
+      <child nodeId="node-0x384010" />
     </children>
   </item>
-  <item nodeId="node-0x7ae6c80">
+  <item nodeId="node-0x384010">
     <command xml:space="preserve">get off bench</command>
     <result xml:space="preserve">You get off Benches.
 
@@ -401,10 +349,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x2c6c10" />
+      <child nodeId="node-0x384080" />
     </children>
   </item>
-  <item nodeId="node-0x2c6c10">
+  <item nodeId="node-0x384080">
     <command xml:space="preserve">x crowd</command>
     <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
 
@@ -413,10 +361,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae6cf0" />
+      <child nodeId="node-0x3840f0" />
     </children>
   </item>
-  <item nodeId="node-0x7ae6cf0">
+  <item nodeId="node-0x3840f0">
     <command xml:space="preserve">stand on bench</command>
     <result xml:space="preserve">You get onto Benches.
 
@@ -427,10 +375,10 @@ After stepping onto the bench, you take a look over the crowd. What you see does
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae6d60" />
+      <child nodeId="node-0x384160" />
     </children>
   </item>
-  <item nodeId="node-0x7ae6d60">
+  <item nodeId="node-0x384160">
     <command xml:space="preserve">x edgar</command>
     <result xml:space="preserve">You see nothing special about Edgar.
 
@@ -439,7 +387,7 @@ After stepping onto the bench, you take a look over the crowd. What you see does
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x7ae6dd0">
+  <item nodeId="node-0x3841d0">
     <command xml:space="preserve">x crowd</command>
     <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
 
@@ -448,10 +396,10 @@ After stepping onto the bench, you take a look over the crowd. What you see does
     <changed>NO</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae6e40" />
+      <child nodeId="node-0x383bf0" />
     </children>
   </item>
-  <item nodeId="node-0x7ae6e40">
+  <item nodeId="node-0x383bf0">
     <command xml:space="preserve">x crowd</command>
     <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
 
@@ -460,22 +408,74 @@ After stepping onto the bench, you take a look over the crowd. What you see does
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae6eb0" />
+      <child nodeId="node-0x383c60" />
     </children>
   </item>
-  <item nodeId="node-0x7ae6eb0">
+  <item nodeId="node-0x383c60">
     <command xml:space="preserve">stand on bench</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x7ae71f0">
+  <item nodeId="node-0x383d70">
+    <command xml:space="preserve">sit on bench</command>
+    <result xml:space="preserve">You get onto Benches.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x383de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x383de0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x383e50" />
+    </children>
+  </item>
+  <item nodeId="node-0x383e50">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Town Square (on Benches)
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x383ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x383ec0">
+    <command xml:space="preserve">x bench</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x383f30">
+    <command xml:space="preserve">x edgar</command>
+    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x383cd0">
     <command xml:space="preserve">x bed</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x2a7c70">
+  <item nodeId="node-0x384480">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Cottage
 A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table. On the wall above your sink is a small one way window that looks into Town Square.
@@ -485,10 +485,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x2a7cc0" />
+      <child nodeId="node-0x3844f0" />
     </children>
   </item>
-  <item nodeId="node-0x2a7cc0">
+  <item nodeId="node-0x3844f0">
     <command xml:space="preserve">x sink</command>
     <result xml:space="preserve">Yesterday, the mayor cut off all water from the pipes to prevent the Company&apos;s factory from working. Although it was inconvenient, the town&apos;s residents all agreed that we needed to send a warning to the Company.
 
@@ -497,10 +497,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x2a7d30" />
+      <child nodeId="node-0x384560" />
     </children>
   </item>
-  <item nodeId="node-0x2a7d30">
+  <item nodeId="node-0x384560">
     <command xml:space="preserve">x stove</command>
     <result xml:space="preserve">Occasionally you dabble in some cooking, and you&apos;re quite good at it too. The neighbors often ask for recipes and tips, which you willingly give. The stove itself is quite old, as you bought it from a second hand store.
 
@@ -509,7 +509,7 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x2a7da0">
+  <item nodeId="node-0x3845d0">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">The window overlooks Town Hall. There is a crowd of people gathered outside.
 
@@ -518,10 +518,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x2a7e10" />
+      <child nodeId="node-0x384640" />
     </children>
   </item>
-  <item nodeId="node-0x2a7e10">
+  <item nodeId="node-0x384640">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -532,10 +532,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x2a7e80" />
+      <child nodeId="node-0x3846b0" />
     </children>
   </item>
-  <item nodeId="node-0x2a7e80">
+  <item nodeId="node-0x3846b0">
     <command xml:space="preserve">x crowd</command>
     <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
 
@@ -544,7 +544,7 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x29a830">
+  <item nodeId="node-0x384720">
     <command xml:space="preserve">x stone</command>
     <result xml:space="preserve">The townspeople call it Lady&apos;s Flower. The opaque material is an intense purple, mixed with grays and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager&apos;s farms. There, they found masses of the Lady&apos;s Flower, which they called Charoite. Shortly after, they offered a huge sum of money to the town&apos;s mayor, hoping that he would allow the Company to keep digging. The mayor refused.
 
@@ -553,10 +553,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x29a8a0" />
+      <child nodeId="node-0x384790" />
     </children>
   </item>
-  <item nodeId="node-0x29a8a0">
+  <item nodeId="node-0x384790">
     <command xml:space="preserve">x window</command>
     <result xml:space="preserve">The window overlooks Town Hall.
 
@@ -565,7 +565,7 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x7ae6f90">
+  <item nodeId="node-0x384800">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -574,10 +574,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae7000" />
+      <child nodeId="node-0x384870" />
     </children>
   </item>
-  <item nodeId="node-0x7ae7000">
+  <item nodeId="node-0x384870">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -586,10 +586,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x7ae7070" />
+      <child nodeId="node-0x3848e0" />
     </children>
   </item>
-  <item nodeId="node-0x7ae7070">
+  <item nodeId="node-0x3848e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
