@@ -24,7 +24,9 @@ Purple Stone is thing in Cottage. Description of Purple Stone is "The townspeopl
 	Window is scenery in Cottage. "The window overlooks Town Hall. There is a crowd of people gathered outside."
 
 [Town Square]
-Town Square is a room. Town Square is east of Cottage. "A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor's House. There is a crowd gathered outside the Mayor's door."
+Town Square is a room. Town Square is east of Cottage. Description of Town Square is "A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor's House, and South is the Station. There is a crowd gathered outside the Mayor's door."
+Instead of going to a room which is the Station when the Mayor is in the Town Square: say "You have no reason to go to the Station."
+
 [Ground]
 	Cobblestone Ground is scenery in Town Square. "Medium sized rocks lay in a circular pattern around the fountain."
 [Buildings]
@@ -63,22 +65,31 @@ Instead of talking to Mayor for the first time: say "You push and squeeze throug
 	
 	'Enough!' The crowd goes silent. 'Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.'
 
-	Edgar laughs. 'Now? Probably on the way to the Station. I will await your reply,' he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves."; remove Crowd from play; remove Edgar from play. [Jim Aikin.]
+	Edgar laughs. 'Now? Probably on the way to the Station. I will await your reply,' he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
+	
+	You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion."; remove Crowd from play; move Edgar to Station; move player to Mayor's House; move Mayor to Mayor's House. [Jim Aikin.]
 
 	
 Talking to is an action applying to one visible thing.
 	Understand "talk to [someone]" or “speak to [someone]” as talking to. [from Jim Aikin]
 
 [Mayor's House]
+Mayor's House is a room. Mayor's House is east of Town Square. Description of Mayor's House is "When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor's wife, Annabelle."
 	[Main Door]
-	Main Door is a door. Main Door is west of Mayor's House. Main door is a locked lockable door. Main door is undescribed. Brass Key unlocks Main Door. Description of Main Door is "A tall door made of smooth wood. Expertly carved into the door are two women, holding hands and sitting on a rock. Placed on their heads are two flower garlands. The brass handles curve elegantly outward from the center of the door. The mayor should have the key."
+	Main Door is a door. Main Door is west of Mayor's House. Main door is undescribed. Description of Main Door is "A tall door made of smooth wood. Expertly carved into the door are two women, holding hands and sitting on a rock. Placed on their heads are two flower garlands. The brass handles curve elegantly outward from the center of the door. The mayor should have the key."
+	Instead of going to a room which is the Mayor's House when the player is in Town Square: say "You pull the on the brass handle, but the door appears to unlocked. Plus, it's not your home–you shouldn't go in without permission."
+[Annabelle]
+	Annabelle is a woman. Annabelle is in Mayor's House. She is undescribed. Description of Annabelle is "An elegant looking woman in her 40s, it is obviously that she was extremely attractive in her youth. Annabelle wears a long satin blue dress, adorned with lace and ribbons. Her hair is pulled into a knot, with strands falling out each time she shakes her head. Her lips are pursed into a tight light, and tears threaten to fall from her eyes. [if unvisited] The mayor walks to the table, and pours himself a glass of wine, which is swiftly follows."
+	Instead of talking to Annabelle, say "You approach her, but something about her sunken eyes tell you it wouldn't be considerate."
+[Mayor]
+	Instead of Talking to Mayor when Mayor is in Mayor's House: say "'Mayor, I think we need to hurry.' The Mayor closes his eyes and sinks to the floor.
 	
+	'Yes,' he murmurs, 'We should. Sheriff, I need you to chase my son. I am well past my prime, and cannot leave the villagers. Our Lady only knows what they would do if I walked away from the town. Please go to the Station and save my son.' You nod dutifully, and walk to the exit.
 	
-Mayor's House is a room. Mayor's House is east of Town Square.
-	
+	'Please take this,' Annabelle says in a pale whisper, as she hands you a small velvet box."; Move Velvet Box to player; move player to Town Square. Velvet Box is a thing.
 
 [Station]
-Station is a room. Station is south of Town Square. Description of Station is "The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. [if unvisited] Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?"
+Station is a room. Station is south of Town Square. Description of Station is "The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. [if unvisited] Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?"
 
 [Felix]
 Felix is man in Station. Felix is undescribed. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face, evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
@@ -109,9 +120,9 @@ Instead of talking to Rita for the first time: say "You walk up to the counter, 
 
 'How much?'
 
-'$75 dollahs.'
+'$20 dollahs.'
 
-'75!? That's daylight robbery!' She grabs a piece of scrap paper from her cluttered desk and scrawls something on it.
+'20!? That's daylight robbery!' She grabs a piece of scrap paper from her cluttered desk and scrawls something on it.
 
 'Here,' she says as she hands it to you. 'Give it to the kiosk guy. He owes me.'"; move Paper Scrap to player.
 
@@ -129,7 +140,7 @@ Instead of going to a room which is the Train when the Conductor is in the Stati
 		
 		'Ah. Hello. I need to get on the train.'
 		
-		'Do you have a ticket?' He asks.
+		'Do you have a ticket?' He asks. You shake your head.
 		
 		'Do you have anything else that can get you on the train?' He opens his palm towards you, facing upwards." [Code from "Bronze" by Emily Short.]
 		
@@ -145,4 +156,5 @@ The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is nor
 		Now the Sliding door is closed;
 		say "the door slides shut just as your leap into the car. You hear the train whir to life. Suddenly, the floor lurches beneath you, and you stumble backwards. Outside, the scenery flies past. You hear the Conductor's voice again: 'Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.'";
 		Continue the action.
-Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikins]
+Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikin]
+
