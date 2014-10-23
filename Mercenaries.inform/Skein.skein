@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0xe066240" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x30e170" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x15370110" />
-  <item nodeId="node-0xe066240">
+  <activeNode nodeId="node-0x154ea4c0" />
+  <item nodeId="node-0x30e170">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -19,45 +19,42 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="129">NO</temporary>
+    <temporary score="131">NO</temporary>
     <children>
-      <child nodeId="node-0xe0a5f90" />
-      <child nodeId="node-0xfdfa7c0" />
-      <child nodeId="node-0xe0a5dd0" />
-      <child nodeId="node-0x90324c0" />
-      <child nodeId="node-0x10313320" />
-      <child nodeId="node-0xe09da50" />
+      <child nodeId="node-0x6fb8c60" />
+      <child nodeId="node-0x6fb8bf0" />
+      <child nodeId="node-0x6fb6a20" />
+      <child nodeId="node-0x30e000" />
     </children>
   </item>
-  <item nodeId="node-0xe09da50">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x30e000">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0xe09db20" />
+      <child nodeId="node-0x6fb6980" />
     </children>
   </item>
-  <item nodeId="node-0xe09db20">
+  <item nodeId="node-0x6fb6980">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
-A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
-
-You can see Brass Key here.
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x9032390" />
+      <child nodeId="node-0x6fb69d0" />
+      <child nodeId="node-0x14e27d50" />
     </children>
   </item>
-  <item nodeId="node-0x9032390">
+  <item nodeId="node-0x14e27d50">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -77,50 +74,478 @@ You are taken aback. They have Felix?
 
 &quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
 
-Edgar laughs. &quot;Now? Probably on the way to the train station. I will await your reply,&quot; he cackles as he walks away.
+Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
+
+You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
+
+Mayor&apos;s House
+When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x90323e0" />
+      <child nodeId="node-0x14f38830" />
     </children>
   </item>
-  <item nodeId="node-0x90323e0">
-    <command xml:space="preserve">x edgar</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x14f38830">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x9032450" />
+      <child nodeId="node-0x186eaee0" />
     </children>
   </item>
-  <item nodeId="node-0x9032450">
-    <command xml:space="preserve">x crowd</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
+  <item nodeId="node-0x186eaee0">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
+
+&quot;Yes,&quot; he murmurs, &quot;We should. Sheriff, I need you to chase my son. I am well past my prime, and cannot leave the villagers. Our Lady only knows what they would do if I walked away from the town. Please go to the Station and save my son.&quot; You nod dutifully, and walk to the exit.
+
+&quot;Please take this,&quot; Annabelle says in a pale whisper, as she hands you a small velvet box.
+
+Town Square
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xa0b6460" />
+    </children>
   </item>
-  <item nodeId="node-0x10313320">
+  <item nodeId="node-0xa0b6460">
     <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart.  Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x15404a90" />
+    </children>
+  </item>
+  <item nodeId="node-0x15404a90">
+    <command xml:space="preserve">talk to rita</command>
+    <result xml:space="preserve">You walk up to the counter, and say,
+
+&quot;Hi Ms. Rita. Long time no see, how have you been?&quot; Her eyes focus, and she smiles grimly.
+
+&quot;Hello Marian,&quot;
+
+&quot;Marcus&quot;, you correct.
+
+&quot;Marcus. You know, same old same old. How&apos;s ya mother? She good?&quot; You nod.
+
+&quot;Yep. Uh, listen Rita. I need a ticket onto that train over there. How much does it cost?&quot;
+
+&quot;Sorry, boy. Tickets are all sold out. Budget cuts, ya know? They&apos;re limiting passengers to lighten the load.&quot; You raise your brow. Budget cuts?
+
+&quot;This is really important. The Company&apos;s done something real bad this time.&quot;
+
+&quot;The Company?&quot; Rita&apos;s eyes bulge, &quot;Oh dear. Uh... Oh! You see the Conductor over there? Sometimes he allows some extra people onto the train in exchange for something in return. Ya know what I mean?&quot;
+
+&quot;How much?&quot;
+
+&quot;$20 dollahs.&quot;
+
+&quot;20!? That&apos;s daylight robbery!&quot; She grabs a piece of scrap paper from her cluttered desk and scrawls something on it.
+
+&quot;Here,&quot; she says as she hands it to you. &quot;Give it to the kiosk guy. He owes me.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x186376a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x186376a0">
+    <command xml:space="preserve">give guy scrap</command>
+    <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x14f6b290" />
+    </children>
+  </item>
+  <item nodeId="node-0x14f6b290">
+    <command xml:space="preserve">give conductor money</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ba6fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ba6fa0">
+    <command xml:space="preserve">give conductor cash</command>
+    <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
+
+&quot;Alrighty. You&apos;re good to go!&quot; You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that&apos;s wrong. &quot;ALL ABOARD!&quot; He yells. And steps inside the Train.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x153afea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x153afea0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Town Square
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x18611af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18611af0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x154cd110" />
+    </children>
+  </item>
+  <item nodeId="node-0x154cd110">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
+
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.
+
+You can see Luna and Sir Allan here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x154cc940" />
+    </children>
+  </item>
+  <item nodeId="node-0x154cc940">
+    <command xml:space="preserve">talk to sir allan</command>
+    <result xml:space="preserve">You can ask Sir Allan about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b80510" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b80510">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f63a60" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f63a60">
+    <command xml:space="preserve">talk to luna</command>
+    <result xml:space="preserve">You can ask Audrey about:
+
+Herself.
+
+The purpose of her journey.
+
+The victim.
+
+anything suspicious. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xa00f610" />
+    </children>
+  </item>
+  <item nodeId="node-0xa00f610">
+    <command xml:space="preserve">ask luna if she saw anything suspicious</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x154fbbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x154fbbf0">
+    <command xml:space="preserve">ask lune about anything suspicious</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="129">YES</temporary>
+    <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x147586e0" />
+      <child nodeId="node-0x11ce3760" />
     </children>
   </item>
-  <item nodeId="node-0x147586e0">
+  <item nodeId="node-0x11ce3760">
+    <command xml:space="preserve">ask luna about anything suspicious</command>
+    <result xml:space="preserve">she saw mark looking through victim&apos;s belongings.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c1e1a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c1e1a0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  MarkInformation 1
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x14f2f3d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14f2f3d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car.
+
+You can see Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x10475700" />
+    </children>
+  </item>
+  <item nodeId="node-0x10475700">
+    <command xml:space="preserve">talk to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0xa0b19a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa0b19a0">
+    <command xml:space="preserve">talk to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x153e4410" />
+    </children>
+  </item>
+  <item nodeId="node-0x153e4410">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  MarkInformation 1
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b8ce00" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b8ce00">
+    <command xml:space="preserve">ask mark about him looking through victim&apos;s belongings</command>
+    <result xml:space="preserve">he says he did no such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x11cb0b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x11cb0b80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  MarkInformation 2
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x11cb63b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11cb63b0">
+    <command xml:space="preserve">talk to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x104bb230" />
+    </children>
+  </item>
+  <item nodeId="node-0x104bb230">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  MarkInformation 2
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x15315660" />
+    </children>
+  </item>
+  <item nodeId="node-0x15315660">
+    <command xml:space="preserve">ask audrey about her husband stealing</command>
+    <result xml:space="preserve">she knows nothing about it, and says that her husband is a good family man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x18610eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18610eb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  AudreyInformation 2
+  MarkInformation 2
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c0c540" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c0c540">
+    <command xml:space="preserve">ask audrey about $200 dollars in mark&apos;s possession</command>
+    <result xml:space="preserve">her eyes widen at the mention of $200 dollars. she realizes that mark must have stolen it because it is the exact sum that they needed in order to pay for their child&apos;s medicine.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="131">YES</temporary>
+    <children>
+      <child nodeId="node-0x154ea4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x154ea4c0">
+    <command xml:space="preserve">talk to audrey</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="130">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb69d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You have no reason to go to the Station.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb6a20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -128,21 +553,124 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="129">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="82">YES</temporary>
     <children>
-      <child nodeId="node-0x15370110" />
+      <child nodeId="node-0x6fb7ed0" />
+      <child nodeId="node-0x6fb76e0" />
+      <child nodeId="node-0x6fb7d10" />
+      <child nodeId="node-0x6fb8480" />
+      <child nodeId="node-0x6fb6a90" />
+      <child nodeId="node-0x6fb7440" />
     </children>
   </item>
-  <item nodeId="node-0x15370110">
-    <command xml:space="preserve">s</command>
+  <item nodeId="node-0x6fb7440">
+    <command xml:space="preserve">speak to mayor</command>
+    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
+
+&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
+
+You are taken aback. They have Felix?
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&quot;What can we do?&quot; You ask earnestly.
+
+&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
+
+&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
+
+&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
+
+Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
+
+You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
+
+Mayor&apos;s House
+When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
+
+&gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="128">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7bc0" />
+      <child nodeId="node-0x6fb7920" />
+      <child nodeId="node-0x6fb7520" />
+      <child nodeId="node-0x6fb74b0" />
+    </children>
   </item>
-  <item nodeId="node-0x90324c0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
+  <item nodeId="node-0x6fb74b0">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
+
+&quot;Him. He just informed us that the Company has Felix.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="19">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7520">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Mayor&apos;s House
+When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb6f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb6f40">
+    <command xml:space="preserve">speak to annabelle</command>
+    <result xml:space="preserve">You approach her, but something about her sunken eyes tell you it wouldn&apos;t be considerate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb6fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb6fb0">
+    <command xml:space="preserve">talk to annabelle</command>
+    <result xml:space="preserve">You approach her, but something about her sunken eyes tell you it wouldn&apos;t be considerate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7020" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7020">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Mayor&apos;s House
+When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb77d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb77d0">
+    <command xml:space="preserve">speak to mayor</command>
+    <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
+
+&quot;Yes,&quot; he murmurs, &quot;We should. Sheriff, I need you to chase my son. I am well past my prime, and cannot leave the villagers. Our Lady only knows what they would do if I walked away from the town. Please go to the Station and save my son.&quot; You nod dutifully, and walk to the exit.
+
+&quot;Please take this,&quot; Annabelle says in a pale whisper, as she hands you a small velvet box.
+
 Town Square
 A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
 
@@ -151,16 +679,161 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="126">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fb50" />
-      <child nodeId="node-0xe0a5d60" />
-      <child nodeId="node-0xfd4c7f0" />
-      <child nodeId="node-0xe0a04b0" />
-      <child nodeId="node-0x9032530" />
-      <child nodeId="node-0xe0a0670" />
-      <child nodeId="node-0xe0a0190" />
+      <child nodeId="node-0x6fb7840" />
     </children>
   </item>
-  <item nodeId="node-0xe0a0190">
+  <item nodeId="node-0x6fb7840">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You pull the on the brass handle, but the door appears to unlocked. Plus, it&apos;s not your home-you shouldn&apos;t go in without permission.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="126">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb78b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb78b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart.  Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="125">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7920">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7990" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7990">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+
+&quot;What can we do?&quot; You ask earnestly.
+
+&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
+
+&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
+
+&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
+
+Edgar laughs. &quot;Now? Probably on the way to the train station. I will await your reply!&quot; He cackles as he walks away.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="32">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7a70" />
+      <child nodeId="node-0x6fb7a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7a00">
+    <command xml:space="preserve">x edgar</command>
+    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="31">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7a70">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7ae0">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7b50">
+    <command xml:space="preserve">g</command>
+    <result xml:space="preserve">
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7bc0">
+    <command xml:space="preserve">x edgar</command>
+    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="42">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7c30" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7c30">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Train Station
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7ca0">
+    <command xml:space="preserve">x edgar</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb6a90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -171,13 +844,13 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c32f0" />
-      <child nodeId="node-0xe0c3280" />
-      <child nodeId="node-0xe0c3210" />
-      <child nodeId="node-0xe0c2e90" />
+      <child nodeId="node-0x6fb6bc0" />
+      <child nodeId="node-0x6fb6b70" />
+      <child nodeId="node-0x6fb6ed0" />
+      <child nodeId="node-0x6fb6b00" />
     </children>
   </item>
-  <item nodeId="node-0xe0c2e90">
+  <item nodeId="node-0x6fb6b00">
     <command xml:space="preserve">talk to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -210,11 +883,11 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c2f70" />
-      <child nodeId="node-0xe0c2f00" />
+      <child nodeId="node-0x30e090" />
+      <child nodeId="node-0x6fb6c30" />
     </children>
   </item>
-  <item nodeId="node-0xe0c2f00">
+  <item nodeId="node-0x6fb6c30">
     <command xml:space="preserve">x paper</command>
     <result xml:space="preserve">The white scrap of paper is folded. You open it and there&apos;s a large six pointed star drawn in the center, with the number 20 written on it. You wonder what kind of favor this guy owes Rita.
 
@@ -223,7 +896,7 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>YES</changed>
     <temporary score="25">YES</temporary>
   </item>
-  <item nodeId="node-0xe0c2f70">
+  <item nodeId="node-0x30e090">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Paper Scrap
@@ -233,10 +906,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c2fe0" />
+      <child nodeId="node-0x6fb6ca0" />
     </children>
   </item>
-  <item nodeId="node-0xe0c2fe0">
+  <item nodeId="node-0x6fb6ca0">
     <command xml:space="preserve">give paper to guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -245,10 +918,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c3050" />
+      <child nodeId="node-0x6fb6d10" />
     </children>
   </item>
-  <item nodeId="node-0xe0c3050">
+  <item nodeId="node-0x6fb6d10">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Wad of Cash
@@ -258,10 +931,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c30c0" />
+      <child nodeId="node-0x6fb6d80" />
     </children>
   </item>
-  <item nodeId="node-0xe0c30c0">
+  <item nodeId="node-0x6fb6d80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You walk up to the Train Conductor, an elderly man with a sneer on his face. You say,
 
@@ -276,10 +949,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c3130" />
+      <child nodeId="node-0x6fb6df0" />
     </children>
   </item>
-  <item nodeId="node-0xe0c3130">
+  <item nodeId="node-0x6fb6df0">
     <command xml:space="preserve">give wad of cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -290,10 +963,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="34">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c31a0" />
+      <child nodeId="node-0x6fb6e60" />
     </children>
   </item>
-  <item nodeId="node-0xe0c31a0">
+  <item nodeId="node-0x6fb6e60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the door slides shut just as your leap into the car. You hear the train whir to life. Suddenly, the floor lurches beneath you, and you stumble backwards. Outside, the scenery flies past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -304,7 +977,7 @@ Train
     <changed>YES</changed>
     <temporary score="33">YES</temporary>
   </item>
-  <item nodeId="node-0xe0c3210">
+  <item nodeId="node-0x6fb6ed0">
     <command xml:space="preserve">give paper scrap to guy</command>
     <result xml:space="preserve">(first taking Paper Scrap)
 You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
@@ -314,7 +987,7 @@ You firmly place the paper scrap onto the kiosk desk. The man looks up from his 
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
-  <item nodeId="node-0xe0c3280">
+  <item nodeId="node-0x6fb6b70">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Train Station
 The train station is slow and idle. The town is not an attraction, and the train station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. 
@@ -324,17 +997,17 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
   </item>
-  <item nodeId="node-0xe0c32f0">
+  <item nodeId="node-0x6fb6bc0">
     <command xml:space="preserve">speak to felix</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0c3360" />
+      <child nodeId="node-0x6fb70c0" />
     </children>
   </item>
-  <item nodeId="node-0xe0c3360">
+  <item nodeId="node-0x6fb70c0">
     <command xml:space="preserve">x red ticket booth</command>
     <result xml:space="preserve">A squat boxy room standing in the middle of the station. The ticket booth is old, its bright red color faded from years of neglect. On its faded walls are years of expired promotion posters, graffiti, and dried gum. Its windows are dirty and unclean, but a clean piece of paper is pasted on the glass-a train table. Behind the counter sits a bored woman. On closer inspection, you realize that the woman is a villager named Rita.
 
@@ -343,10 +1016,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5a50" />
+      <child nodeId="node-0x6fb7130" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5a50">
+  <item nodeId="node-0x6fb7130">
     <command xml:space="preserve">speak to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -379,10 +1052,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5ac0" />
+      <child nodeId="node-0x6fb71a0" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5ac0">
+  <item nodeId="node-0x6fb71a0">
     <command xml:space="preserve">give paper to guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -391,10 +1064,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5b30" />
+      <child nodeId="node-0x6fb7210" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5b30">
+  <item nodeId="node-0x6fb7210">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Wad of Cash
@@ -404,10 +1077,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5ba0" />
+      <child nodeId="node-0x6fb7280" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5ba0">
+  <item nodeId="node-0x6fb7280">
     <command xml:space="preserve">give cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -418,10 +1091,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5c10" />
+      <child nodeId="node-0x6fb72f0" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5c10">
+  <item nodeId="node-0x6fb72f0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Station
 [Previous turn undone.]
@@ -431,10 +1104,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5c80" />
+      <child nodeId="node-0x6fb7360" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5c80">
+  <item nodeId="node-0x6fb7360">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You walk up to the Train Conductor, an elderly man with a sneer on his face. You say,
 
@@ -449,10 +1122,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5cf0" />
+      <child nodeId="node-0x6fb73d0" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5cf0">
+  <item nodeId="node-0x6fb73d0">
     <command xml:space="preserve">give wad of cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -463,561 +1136,7 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="74">YES</temporary>
   </item>
-  <item nodeId="node-0xe0a0670">
-    <command xml:space="preserve">speak to mayor</command>
-    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
-
-&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
-
-You are taken aback. They have Felix?
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&quot;What can we do?&quot; You ask earnestly.
-
-&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
-
-&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
-
-&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
-
-Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
-
-You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
-
-Mayor&apos;s House
-When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a06e0" />
-      <child nodeId="node-0xe0a0830" />
-      <child nodeId="node-0xfde0610" />
-      <child nodeId="node-0xe0a0120" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0120">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
-
-&quot;Him. He just informed us that the Company has Felix.&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="19">YES</temporary>
-  </item>
-  <item nodeId="node-0xfde0610">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Mayor&apos;s House
-When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0x9e02f90" />
-    </children>
-  </item>
-  <item nodeId="node-0x9e02f90">
-    <command xml:space="preserve">speak to annabelle</command>
-    <result xml:space="preserve">You approach her, but something about her sunken eyes tell you it wouldn&apos;t be considerate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0xfde2730" />
-    </children>
-  </item>
-  <item nodeId="node-0xfde2730">
-    <command xml:space="preserve">talk to annabelle</command>
-    <result xml:space="preserve">You approach her, but something about her sunken eyes tell you it wouldn&apos;t be considerate.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0xf27d640" />
-    </children>
-  </item>
-  <item nodeId="node-0xf27d640">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Mayor&apos;s House
-When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0xfddee10" />
-    </children>
-  </item>
-  <item nodeId="node-0xfddee10">
-    <command xml:space="preserve">speak to mayor</command>
-    <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
-
-&quot;Yes,&quot; he murmurs, &quot;We should. Sheriff, I need you to chase my son. I am well past my prime, and cannot leave the villagers. Our Lady only knows what they would do if I walked away from the town. Please go to the Station and save my son.&quot; You nod dutifully, and walk to the exit.
-
-&quot;Please take this,&quot; Annabelle says in a pale whisper, as she hands you a small velvet box.
-
-Town Square
-A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0x1038b870" />
-    </children>
-  </item>
-  <item nodeId="node-0x1038b870">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You pull the on the brass handle, but the door appears to unlocked. Plus, it&apos;s not your home-you shouldn&apos;t go in without permission.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="126">YES</temporary>
-    <children>
-      <child nodeId="node-0x103401c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103401c0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Station
-The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart.  Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="125">YES</temporary>
-  </item>
-  <item nodeId="node-0xe0a0830">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0c2db0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0c2db0">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">
-
-&quot;What can we do?&quot; You ask earnestly.
-
-&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
-
-&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
-
-&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
-
-Edgar laughs. &quot;Now? Probably on the way to the train station. I will await your reply!&quot; He cackles as he walks away.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="32">YES</temporary>
-    <children>
-      <child nodeId="node-0xe09ffd0" />
-      <child nodeId="node-0xe0c2e20" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0c2e20">
-    <command xml:space="preserve">x edgar</command>
-    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="31">YES</temporary>
-  </item>
-  <item nodeId="node-0xe09ffd0">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a0040" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0040">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="27">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a00b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a00b0">
-    <command xml:space="preserve">g</command>
-    <result xml:space="preserve">
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="26">YES</temporary>
-  </item>
-  <item nodeId="node-0xe0a06e0">
-    <command xml:space="preserve">x edgar</command>
-    <result xml:space="preserve">Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="42">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a0750" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0750">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Train Station
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="37">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a07c0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a07c0">
-    <command xml:space="preserve">x edgar</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-  </item>
-  <item nodeId="node-0x9032530">
-    <command xml:space="preserve">sit on bench</command>
-    <result xml:space="preserve">You get onto Benches.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x9032580" />
-    </children>
-  </item>
-  <item nodeId="node-0x9032580">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying nothing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xe09fa70" />
-    </children>
-  </item>
-  <item nodeId="node-0xe09fa70">
-    <command xml:space="preserve">l</command>
-    <result xml:space="preserve">Town Square (on Benches)
-A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xe09fae0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe09fae0">
-    <command xml:space="preserve">x bench</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-  </item>
-  <item nodeId="node-0xe0a04b0">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
-
-&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
-
-You are taken aback. They have Felix?
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&quot;What can we do?&quot; You ask earnestly.
-
-&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
-
-&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
-
-&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
-
-Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
-
-Mayor&apos;s House
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="76">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a0520" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0520">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a0590" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0590">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="19">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a0600" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0a0600">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="18">YES</temporary>
-  </item>
-  <item nodeId="node-0xfd4c7f0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You pull the on the brass handle, but the door appears to unlocked. Plus, it&apos;s not your home-you shouldn&apos;t go in without permission.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0xfd81f40" />
-    </children>
-  </item>
-  <item nodeId="node-0xfd81f40">
-    <command xml:space="preserve">talk to mayor</command>
-    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
-
-&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
-
-You are taken aback. They have Felix?
-
-&quot;Your son, Felix?&quot;
-
-&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
-
-&quot;What can we do?&quot; You ask earnestly.
-
-&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
-
-&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
-
-&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
-
-Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
-
-You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
-
-Mayor&apos;s House
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x1035c3f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1035c3f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0xfda5460" />
-    </children>
-  </item>
-  <item nodeId="node-0xfda5460">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x9e35370" />
-    </children>
-  </item>
-  <item nodeId="node-0x9e35370">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x103908a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103908a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0c2cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0c2cf0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0babc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xe0babc0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x103de260" />
-    </children>
-  </item>
-  <item nodeId="node-0x103de260">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x758630" />
-    </children>
-  </item>
-  <item nodeId="node-0x758630">
-    <command xml:space="preserve">sn</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0xfd63bc0" />
-    </children>
-  </item>
-  <item nodeId="node-0xfd63bc0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x1038a4f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1038a4f0">
-    <command xml:space="preserve">sn</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
-    <children>
-      <child nodeId="node-0x103a4cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x103a4cf0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="90">YES</temporary>
-  </item>
-  <item nodeId="node-0xe0a5d60">
-    <command xml:space="preserve">x benches</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-  </item>
-  <item nodeId="node-0xe09fb50">
+  <item nodeId="node-0x6fb8480">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Cottage
@@ -1028,10 +1147,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>NO</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fbc0" />
+      <child nodeId="node-0x6fb84f0" />
     </children>
   </item>
-  <item nodeId="node-0xe09fbc0">
+  <item nodeId="node-0x6fb84f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -1042,10 +1161,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fc30" />
+      <child nodeId="node-0x6fb8560" />
     </children>
   </item>
-  <item nodeId="node-0xe09fc30">
+  <item nodeId="node-0x6fb8560">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Train Station
@@ -1056,11 +1175,11 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09ff60" />
-      <child nodeId="node-0xe09fca0" />
+      <child nodeId="node-0x6fb8800" />
+      <child nodeId="node-0x6fb85d0" />
     </children>
   </item>
-  <item nodeId="node-0xe09fca0">
+  <item nodeId="node-0x6fb85d0">
     <command xml:space="preserve">give paper scrap to guy</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1069,10 +1188,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>NO</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fd10" />
+      <child nodeId="node-0x6fb8640" />
     </children>
   </item>
-  <item nodeId="node-0xe09fd10">
+  <item nodeId="node-0x6fb8640">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1081,10 +1200,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fd80" />
+      <child nodeId="node-0x6fb86b0" />
     </children>
   </item>
-  <item nodeId="node-0xe09fd80">
+  <item nodeId="node-0x6fb86b0">
     <command xml:space="preserve">take paper scrpa</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1093,10 +1212,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fe80" />
+      <child nodeId="node-0x6fb8720" />
     </children>
   </item>
-  <item nodeId="node-0xe09fe80">
+  <item nodeId="node-0x6fb8720">
     <command xml:space="preserve">take paper scrap</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1105,10 +1224,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
     <children>
-      <child nodeId="node-0xe09fef0" />
+      <child nodeId="node-0x6fb8790" />
     </children>
   </item>
-  <item nodeId="node-0xe09fef0">
+  <item nodeId="node-0x6fb8790">
     <command xml:space="preserve">take wad of cash</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1117,7 +1236,7 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="57">YES</temporary>
   </item>
-  <item nodeId="node-0xe09ff60">
+  <item nodeId="node-0x6fb8800">
     <command xml:space="preserve">x ticket booth</command>
     <result xml:space="preserve">A squat boxy room standing in the middle of the station. The ticket booth is old, its bright red color faded from years of neglect. On its faded walls are years of expired promotion posters, graffiti, and dried gum. Its windows are dirty and unclean, but a clean piece of paper is pasted on the glass-a train table. Behind the counter sits a bored woman. On closer inspection, you realize that the woman is a villager named Rita.
 
@@ -1126,10 +1245,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe09f8f0" />
+      <child nodeId="node-0x6fb8870" />
     </children>
   </item>
-  <item nodeId="node-0xe09f8f0">
+  <item nodeId="node-0x6fb8870">
     <command xml:space="preserve">speak to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -1162,10 +1281,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe09f960" />
+      <child nodeId="node-0x6fb88e0" />
     </children>
   </item>
-  <item nodeId="node-0xe09f960">
+  <item nodeId="node-0x6fb88e0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Paper Scrap
@@ -1175,10 +1294,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe09f9d0" />
+      <child nodeId="node-0x6fb8950" />
     </children>
   </item>
-  <item nodeId="node-0xe09f9d0">
+  <item nodeId="node-0x6fb8950">
     <command xml:space="preserve">give paper scrap to guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -1187,10 +1306,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a0210" />
+      <child nodeId="node-0x6fb89c0" />
     </children>
   </item>
-  <item nodeId="node-0xe0a0210">
+  <item nodeId="node-0x6fb89c0">
     <command xml:space="preserve">undo </command>
     <result xml:space="preserve">Train Station
 [Previous turn undone.]
@@ -1200,10 +1319,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a0280" />
+      <child nodeId="node-0x6fb8a30" />
     </children>
   </item>
-  <item nodeId="node-0xe0a0280">
+  <item nodeId="node-0x6fb8a30">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Train Station
 [Previous turn undone.]
@@ -1213,10 +1332,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a02f0" />
+      <child nodeId="node-0x6fb8aa0" />
     </children>
   </item>
-  <item nodeId="node-0xe0a02f0">
+  <item nodeId="node-0x6fb8aa0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Paper Scrap
@@ -1226,10 +1345,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a0360" />
+      <child nodeId="node-0x6fb8b10" />
     </children>
   </item>
-  <item nodeId="node-0xe0a0360">
+  <item nodeId="node-0x6fb8b10">
     <command xml:space="preserve">drop paper scrap</command>
     <result xml:space="preserve">Dropped.
 
@@ -1238,10 +1357,10 @@ The train station is slow and idle. The town is not an attraction, and the train
     <changed>YES</changed>
     <temporary score="41">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a03d0" />
+      <child nodeId="node-0x6fb8b80" />
     </children>
   </item>
-  <item nodeId="node-0xe0a03d0">
+  <item nodeId="node-0x6fb8b80">
     <command xml:space="preserve">give paper scrap to guy</command>
     <result xml:space="preserve">(first taking Paper Scrap)
 You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
@@ -1251,42 +1370,485 @@ You firmly place the paper scrap onto the kiosk desk. The man looks up from his 
     <changed>YES</changed>
     <temporary score="40">YES</temporary>
   </item>
-  <item nodeId="node-0xe0a5dd0">
-    <command xml:space="preserve">x window</command>
-    <result xml:space="preserve">The window overlooks Town Hall. There is a crowd of people gathered outside.
+  <item nodeId="node-0x6fb7d10">
+    <command xml:space="preserve">sit on bench</command>
+    <result xml:space="preserve">You get onto Benches.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="12">YES</temporary>
+    <temporary score="15">YES</temporary>
     <children>
-      <child nodeId="node-0xe0a5e40" />
+      <child nodeId="node-0x6fb7d80" />
     </children>
   </item>
-  <item nodeId="node-0xe0a5e40">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Town Square
+  <item nodeId="node-0x6fb7d80">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7df0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7df0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Town Square (on Benches)
 A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. East is the Mayor&apos;s House. There is a crowd gathered outside the Mayor&apos;s door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="12">YES</temporary>
-    <children>
-      <child nodeId="node-0xe0a5eb0" />
-    </children>
+    <temporary score="15">YES</temporary>
   </item>
-  <item nodeId="node-0xe0a5eb0">
-    <command xml:space="preserve">x crowd</command>
-    <result xml:space="preserve">The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what&apos;s happening.
+  <item nodeId="node-0x6fb76e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You pull the on the brass handle, but the door appears to unlocked. Plus, it&apos;s not your home-you shouldn&apos;t go in without permission.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="11">YES</temporary>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7750" />
+    </children>
   </item>
-  <item nodeId="node-0xfdfa7c0">
+  <item nodeId="node-0x6fb7750">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
+
+&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
+
+You are taken aback. They have Felix?
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&quot;What can we do?&quot; You ask earnestly.
+
+&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
+
+&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
+
+&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
+
+Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
+
+You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
+
+Mayor&apos;s House
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7f40">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7fb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8020" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8020">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8090">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8100" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8100">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8170" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8170">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb81e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb81e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8250" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8250">
+    <command xml:space="preserve">sn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb82c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb82c0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb8330" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb8330">
+    <command xml:space="preserve">sn</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb83a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb83a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="90">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7ed0">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
+
+&quot;Him,&quot; he points to Edgar. &quot;He just informed us that the Company has Felix.&quot;
+
+You are taken aback. They have Felix?
+
+&quot;Your son, Felix?&quot;
+
+&quot;Who else?!&quot; The mayor cries angrily. &quot;They want the damn rocks! Now they&apos;ve resorted to this trickery and blackmailing. What villains!&quot;
+
+&quot;What can we do?&quot; You ask earnestly.
+
+&quot;I don&apos;t know,&quot; he says as he shakes his head, &quot;Why don&apos;t we go into the house to speak.&quot;
+
+&quot;Alright.&quot; The mayor turns to Edgar and says in his booming voice,
+
+&quot;Enough!&quot; The crowd goes silent. &quot;Edgar. We will give you an answer soon. In the meantime, at least tell me where my son is.&quot;
+
+Edgar laughs. &quot;Now? Probably on the way to the Station. I will await your reply,&quot; he cackles as he walks away. The mob of villagers glare at Edgar, as he arrogantly strides away. When he is out of sight, the villagers begin to head back to their homes, grumbling to themselves.
+
+You turn to the Mayor and he unlocks the door to his house. You follow him into the spacious mansion.
+
+Mayor&apos;s House
+When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished stone bench. Sitting on the bench is a worried-looking woman. She is the Mayor&apos;s wife, Annabelle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7590" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7590">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
+
+&quot;Yes,&quot; he murmurs, &quot;We should. Sheriff, I need you to chase my son. I am well past my prime, and cannot leave the villagers. Our Lady only knows what they would do if I walked away from the town. Please go to the Station and save my son.&quot; You nod dutifully, and walk to the exit.
+
+&quot;Please take this,&quot; Annabelle says in a pale whisper, as she hands you a small velvet box.
+
+Town Square
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7600" />
+      <child nodeId="node-0x235220" />
+    </children>
+  </item>
+  <item nodeId="node-0x235220">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart.  Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x18686710" />
+    </children>
+  </item>
+  <item nodeId="node-0x18686710">
+    <command xml:space="preserve">talk to rita</command>
+    <result xml:space="preserve">You walk up to the counter, and say,
+
+&quot;Hi Ms. Rita. Long time no see, how have you been?&quot; Her eyes focus, and she smiles grimly.
+
+&quot;Hello Marian,&quot;
+
+&quot;Marcus&quot;, you correct.
+
+&quot;Marcus. You know, same old same old. How&apos;s ya mother? She good?&quot; You nod.
+
+&quot;Yep. Uh, listen Rita. I need a ticket onto that train over there. How much does it cost?&quot;
+
+&quot;Sorry, boy. Tickets are all sold out. Budget cuts, ya know? They&apos;re limiting passengers to lighten the load.&quot; You raise your brow. Budget cuts?
+
+&quot;This is really important. The Company&apos;s done something real bad this time.&quot;
+
+&quot;The Company?&quot; Rita&apos;s eyes bulge, &quot;Oh dear. Uh... Oh! You see the Conductor over there? Sometimes he allows some extra people onto the train in exchange for something in return. Ya know what I mean?&quot;
+
+&quot;How much?&quot;
+
+&quot;$20 dollahs.&quot;
+
+&quot;20!? That&apos;s daylight robbery!&quot; She grabs a piece of scrap paper from her cluttered desk and scrawls something on it.
+
+&quot;Here,&quot; she says as she hands it to you. &quot;Give it to the kiosk guy. He owes me.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x14f48f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x14f48f70">
+    <command xml:space="preserve">talk to guy</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x18623d70" />
+    </children>
+  </item>
+  <item nodeId="node-0x18623d70">
+    <command xml:space="preserve">give guy money</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x104dd610" />
+    </children>
+  </item>
+  <item nodeId="node-0x104dd610">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Paper Scrap
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x154ac6a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x154ac6a0">
+    <command xml:space="preserve">give guy paper</command>
+    <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x14f2c1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14f2c1d0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x11c71d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x11c71d00">
+    <command xml:space="preserve">give conductor cash</command>
+    <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
+
+&quot;Alrighty. You&apos;re good to go!&quot; You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that&apos;s wrong. &quot;ALL ABOARD!&quot; He yells. And steps inside the Train.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x11ce7fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11ce7fa0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x154bd210" />
+    </children>
+  </item>
+  <item nodeId="node-0x154bd210">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x6f634a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6f634a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Town Square
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x14f43360" />
+    </children>
+  </item>
+  <item nodeId="node-0x14f43360">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+    <children>
+      <child nodeId="node-0x15477d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x15477d90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
+
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.
+
+You can see Sir Allan and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="81">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb7600">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x6fb7670" />
+    </children>
+  </item>
+  <item nodeId="node-0x6fb7670">
+    <command xml:space="preserve">talk to mayor</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x6fb8bf0">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -1295,7 +1857,7 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>YES</changed>
     <temporary score="91">YES</temporary>
   </item>
-  <item nodeId="node-0xe0a5f90">
+  <item nodeId="node-0x6fb8c60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
