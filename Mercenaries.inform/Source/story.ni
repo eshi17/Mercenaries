@@ -93,6 +93,21 @@ Station is a room. Station is south of Town Square. Description of Station is "T
 
 [Felix]
 Felix is man in Station. Felix is undescribed. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face, evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
+	Instead of talking to Felix: say "You stride towards Felix, and slap him across the face. He is dumbfounded for a moment, and registers who you are. He gestures apologetically to the the men in suits and they walk away.
+	
+	'You ignorant boy. What are you doing?' You shout at him.
+	
+	'I'm going to the city, Sheriff,' he retorts. 'I'm sick of that stupid village. I don't want to inherit the position of mayor when I have the potential to do so much more. Luckily, the Company realized this and offered to relocate me. They're bringing me to the city, it's going to be wonderful!'
+	
+	'You don't understand. Right now the Company has told your father that they are holding you in their custody. They said that if the villagers don't yield the Lady's Flower, they'll harm you.'
+	
+	'Don't joke with me. That old fart's probably willing to say anything to get me back to the village. And once they do, they'll never let me leave again.'
+	
+	'You shut up! If the villagers do end up handing over the stones, they'll catch up and toss you back into the village. Please Felix, come to your sense.'
+	
+	'No! I can't stay there. Even if your story is true, the villagers would never hand over the stupid rocks. My benefactor A-' The speakers in the Station blare out:
+	
+	'Train 342 to the City is departing in 5 minutes-please board now. Thank you.' Felix looks at you, then shoves you out of the way to board the train."; move Felix to Bathroom.
 
 [Red Ticket Booth]
 Red Ticket Booth is scenery in Station. Description of Red Ticket Booth is "A squat boxy room standing in the middle of the station. The ticket booth is old, its bright red color faded from years of neglect. On its faded walls are years of expired promotion posters, graffiti, and dried gum. Its windows are dirty and unclean, but a clean piece of paper is pasted on the glass–a train table. Behind the counter sits a bored woman. On closer inspection, you realize that the woman is a villager named Rita."
@@ -131,6 +146,10 @@ Paper Scrap is in Rita's possession. Paper Scrap is undescribed. Description of 
 
 [Kiosk Guy]
 Kiosk Guy is man in Station. Kiosk Guy is undescribed. Instead of giving Paper Scrap to Kiosk Guy: say "You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book."; move Wad of Cash to player; remove Paper Scrap from play.
+Instead of talking to Kiosk Guy, say "You approach the Kiosk Guy, who is intently reading his book. You say,
+'Uh. Hello. Can you help me?'
+
+He immediately looks up. The glare in his face startles you, and you back away."
 
 Wad of Cash is in Kiosk Guy's possession. Wad of Cash is undescribed.
 
@@ -155,22 +174,132 @@ The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is nor
 	After going south from Station:
 		Now the Sliding door is closed;
 		say "the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor's voice again: 'Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.'";
-		Continue the action.
+		Continue the action;
+		Move Felix to Bathroom.
 Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikin]
 
 [Passenger Car]
 
 Passenger Car is a room. Passenger Car is east of Train Entrance. Description of Passenger Car is "The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car."
 
+Seats are scenery in Passenger Car. Description of Seats are "Purple cotton seats that look dirty from use. As you walk through the isle, you see the belongings of a few people, including Mark's Backpack, Felix's Briefcase, Sir Allan's Luggage, and Luna's purse."
+
 [Mark's Backpack]
 Mark's Backpack is a thing in Passenger Car. Mark's Backpack is undescribed. Description of Mark's Backpack is "A brown canvas zipper backpack." Mark's Backpack is a closed openable container.
 Instead of taking Mark's Backpack, say "[if player is not carrying MarkInformation 2] You really shouldn't take what doesn't belong to you."
+Instead of opening Mark's Backpack: say "The bag is surprisingly heavy as you pick it up. When you unzip it, you gasp. There are stacks of cash crammed into the bag. You empty the contents on the chair and the piles of money drop out. When the back has been emptied, you notice a photograph among the bills."; move Photograph to player.
+	Instead of dropping Mark's Backpack, say "This is evidence of Mark's theft. It may have something to do with the murder."
+
+	[Mark's Son's Photograph]
+	Photograph is a thing in Mark's Backpack. Description of Photograph is "A small photo, presumably cut out from a yearbook, of a young boy. Clipped to the photograph is piece of paper, presumably a prescription, that reads 'Peter Markson: Scarlet Fever. Prescription for antibiotics.'"
+		Instead of dropping Photograph, say "This is evidence of Mark's theft. It may have something to do with the murder."
+
 	[Stacks of Money]
-		Stacks of Money is thing in Mark's Backpack. Stacks of Money is undescribed.
+		Stacks of Money is thing in Mark's Backpack. Stacks of Money is undescribed. Description of Stacks of Money is "You sift through the money and quickly calculate the total to be around $2000 dollars."
+		Instead of dropping Stacks of Money, say "This is evidence of Mark's theft. It may have something to do with the murder."
+		
+[Felix's Briefcase]
+	Felix's Briefcase is a thing in Passenger Car. Felix's Briefcase is undescribed. Description of Felix's Briefcase is "The large briefcase that Felix was holding in the Station. It is made of a luxurious brown leather, and engraved with the marking of some designer based in the city." Felix's briefcase is closed openable container.
+	Felix's Money is a thing in Felix's Briefcase. Description of Felix's Money is "You are amazed the the sheer number of $100 bills loaded into the Briefcase. Felix must have stolen all of this from the Mayor. It would only be right to return it. You feel your face boil from anger. The audacity of Felix to take this." Instead of taking Felix's money, say "You can't take it out."
+	
+[Sir Allan's Luggage]
+	Sir Allan's Luggage is thing in Passenger Car. Description of Sir Allan's Luggage is "A black cotton canvas luggage bag. Sir Allan's Luggage Bag is tucked into the corner of a rack." Sir Allan's Luggage is a closed container. Combination Spin Lock is thing in Passenger Car. Combination Spin Lock is locked container.
+	Instead of taking Combination Spin Lock, say "It's attached to Sir Allan's Luggage."
+	
+Instead of opening Sir Allan's Luggage:
+    say "[if Combination Spin Lock is locked]You try to open the Luggage, but it appears to be locked by a combination spin lock.[end if]
+[If Combination Spin Lock is unlocked] The luggage bag is open. [end if]"
+    
+Understand "spin [something] to [a number]" as spinning it to.
+spinning it to is an action applying to one thing and one number. 
+
+Check spinning it to:
+	if the noun is not Combination Spin Lock:
+		say "[The noun] does not spin." instead. 
+
+Report spinning it to:
+    say "Click, and not much else happens."
+
+Instead of spinning the locked Combination Spin Lock to 1942:
+    now Combination Spin Lock is unlocked;
+    now Sir Allan's Luggage is open;
+    say "You hear a satisfying and firm click, and the lock pops open. You unzip the largest pocket and look inside. There are several notebooks and files. Strange for man coming back from a retirement vacation. One of the notebooks, a Purple Notebook, catches your eye."
+[Code from Cole Damon's Laboratory Escape]
+
+Purple Notebook is a thing. Purple Notebook is in Sir Allan's Luggage. Description is "The cover of the notebook contains a familiar pattern. You take out your Lady's Flower and find that the design look awfully similar. Start by reading page 1 of Purple Notebook."
+	Instead of reading Purple Notebook: say "Start by reading page 1 of Purple Notebook."; move SirAllanInformation 3 to player.
+
+The Purple Notebook has a number called the last page read. The Purple Notebook has a number called the length. The length of the Purple Notebook is 4.
+Understand the command "read" as something new.
+Understand "read [something]" or "consult [something]" or "read in/from [something]" as reading. Reading is an action applying to one thing.
+Understand "read [number] in/from/of [something]" or "read page [number] in/from/of [something]" or "look up page [number] in/from/of [something]" or "consult page [number] in/from/of [something]" as reading it in. Reading it in is an action applying to one number and one thing.
+Named page is a kind of value. The named pages are first page, last page, next page, previous page.
+To decide what number is the effective value of (L - last page): 
+    decide on the length of the Purple Notebook.
+To decide what number is the effective value of (F - first page): 
+    decide on 1.
+To decide what number is the effective value of (N - next page): 
+    let X be the last page read of the Purple Notebook plus 1; 
+    decide on X.
+To decide what number is the effective value of (P - previous page): 
+    let X be the last page read of the Purple Notebook minus 1; 
+    decide on X.
+Understand "read [named page] in/from/of [something]" or "read the [named page] in/from/of [something]" as reading it relatively in. Reading it relatively in is an action applying to one named page and one thing.
+Does the player mean reading something in the Purple Notebook: it is very likely.
+This is the book requirement rule: 
+    if the player is not carrying the Purple Notebook, say "You're not reading anything." instead.
+Check reading it relatively in: 
+    if the second noun is not the Purple Notebook, say "There are no pages in [the second noun]." instead; 
+    abide by the book requirement rule.
+Carry out reading it relatively in: 
+    let N be the effective value of the named page understood; 
+    now the number understood is N; 
+    try reading N in the Purple Notebook.
+Check reading it in: 
+    if the second noun is not the Purple Notebook, say "There are no pages in [the second noun]." instead; 
+    abide by the book requirement rule.
+Check reading it in: 
+    if the number understood is greater than the length of the Purple Notebook, say "There are only [length of Purple Notebook in words] pages in the book." instead; 
+    if the number understood is less than 1, say "The page numbering begins with 1." instead.
+Carry out reading it in: 
+    read page number understood.
+Check reading: 
+    if the noun is not the Purple Notebook, say "There are no pages in [the noun]." instead; 
+    abide by the book requirement rule.
+
+Table of Book Contents 
+page	content
+1	"page 1."
+2	"page 2."
+3	"page 3."
+4	"page 4."
+
+To read page (N - a number): 
+	now the last page read of the Purple Notebook is N;
+	if there is a content corresponding to a page of N in the Table of Book Contents:
+		choose row with a page of N in the Table of Book Contents;
+		say "You read: '[content entry]'[paragraph break]";
+	otherwise: 
+		say "Page [N] appears to be blank."
+		[Code from Lee-Won Fulbright's Ouija Boredom]
 
 [Dining Car]
 
 Dining Car is a room. Dining Car is east of Passenger Car. Description of Dining Car is "The Dining Car has several long tables and benches. It kind of looks like a cafeteria. Occupying a large part of the car's corner is a counter with buffet-style food. To the North is the Bathroom. To the East is the Observation Car."
+
+[Bathroom]
+Blue Door is thing in Dining Car. Blue Door is undescribed.
+Instead of going to a room which is the Bathroom when the Blue Door is in the Dining Car: say
+	"The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell,
+	'Is anybody there?!' Silence. You push the door with a bit of force.
+	
+	'What in the world?' You slam your body against the door. You hear a slight crack.
+	
+	You push again, and the lock breaks with a resounding clap. The door swings open and reveals the bathroom."; remove Blue Door from play.
+
+Bathroom is a room. Bathroom is north of Dining Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Felix is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body hangs from a rope, wound around his neck, that is tied to the ceiling. [end if] A gust of wind blows in from the open window, and Felix's body sways slightly."
+
+Open Window is scenery in Bathroom. Description of Open Window is ""
 
 [Observation Car]
  
@@ -197,63 +326,14 @@ The purpose of his journey.
 
 What he was doing and where during the time of the crime.
 
-The victim."
-
-[looking through things]
-
-Instead of talking to Mark, say "[if player is carrying MarkInformation 1] You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
 The victim.
 
-Him looking through victim's belongings."
+[if player is carrying MarkInformation 1] Him looking through victim's belongings.[end if]
 
-[looking through things]
+[if player is carrying MarkInformation 2] Him stealing money from victim to pay for son's medication.[end if]
 
-Instead of talking to Mark, say "[if player is carrying MarkInformation 2] You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-Him looking through victim's belongings."
-
-[audrey]
-
-Instead of talking to Mark, say "[if player is carrying MarkInformation 3] You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-Him stealing money from victim to pay for son's medication."
-
-[medicine]
-
-Instead of talking to Mark, say "[if player is carrying MarkInformation 4] You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-His son's medication."
+[if player is carrying MarkInformation 4] His son's medication. [end if]
+"
 
 
 Instead of asking Mark about "himself", say "worried. will the mystery keep the people on the train after they arrive?"
@@ -271,7 +351,7 @@ MarkInformation 1 is a thing in Train. MarkInformation 1 is undescribed. Descrip
 MarkInformation 2 is a thing in Train. MarkInformation 2 is undescribed. Description of MarkInformation 2 is "Mark was seen rummaging through the victim's belongings>Mark says he did no such thing."
 MarkInformation 3 is a thing in Train. MarkInformation 3 is undescribed. Description of MarkInformation 3 is "Mark was seen rummaging through the victim's belongings>Mark says he did no such thing>Mark admits that he stole the money to pay for his son's medication."
 MarkInformation 4 is a thing in Train. MarkInformation 4 is undescribed. Description of MarkInformation 4 is "Mark's son is sick."
-MarkInformation 5 is a thing in Train. MarkInformation 5 is undescribed. Description of MarkInformation 5 is "$200 dollars were found in Mark's belongings."
+MarkInformation 5 is a thing in Train. MarkInformation 5 is undescribed. Description of MarkInformation 5 is "$2000 dollars were found in Mark's belongings."
 
 [Sir Allan]
 
@@ -286,23 +366,10 @@ The purpose of his journey.
 
 What he was doing and where during the time of the crime.
 
-The victim."
-
-
-
-[argument]
-
-Instead of talking to Sir Allan, say "[if player is carrying SirAllanInformation 1] You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
 The victim.
 
-His argument with the victim."
+[if player is carrying SirAllanInformation 1]His argument with the victim.[end if]"
+
 
 Instead of asking Sir Allan about "himself", say "a little shaken, but fine."
 Instead of asking Sir Allan about "the purpose of his journey", say "returning to the city after his retirement vacation."
@@ -313,6 +380,7 @@ Instead of asking Sir Allan about "his argument with the victim": say "sir allan
 [Sir Allan Informations]
 SirAllanInformation 1 is a thing in Train. SirAllanInformation 1 is undescribed. Description of SirAllanInformation 1 is "Sir Allan was arguing with the victim."
 SirAllanInformation 2 is a thing in Train. SirAllanInformation 2 is undescribed. Description of SirAllanInformation 2 is "Sir Allan was arguing with the victim>The victim supposedly stole $50 dollars from Sir Allan."
+SirAllanInformation 3 is a thing in Train. SirAllanInformation 3 is undescribed. Description of SirAllanInformation 3 is "Sir Allan is the CEO of the Company."
 
 [Audrey]
 
@@ -326,46 +394,18 @@ The purpose of her journey.
 
 What she was doing and where when the crime happened.
 
-The victim."
-
-
-
-[stealing]
-
-Instead of talking to Audrey, say "[if player is carrying MarkInformation 2] You can ask Audrey about:
-
-Herself.
-
-The purpose of her journey.
-
-What she was doing and where when the crime happened.
-
 The victim.
 
-Her husband stealing."
+[if player is carrying MarkInformation 2]Her husband stealing.[end if]
 
-
-
-[$200 dollars]
-
-Instead of talking to Audrey, say "[if player is carrying MarkInformation 5] You can ask Audrey about:
-
-Herself.
-
-The purpose of her journey.
-
-What she was doing and where when the crime happened.
-
-The victim.
-
-$200 dollars in Mark's possession."
+[if player is carrying MarkInformation 5]$2000 dollars in Mark's possession.[end if]"
 
 Instead of asking Audrey about "herself": say "she is very scared. she hopes the victim killed himself rather than someone killing him."; move AudreyInformation 1 to player.
 Instead of asking Audrey about "the purpose of her journey", say "going to city for son's medicine."
-[Instead of asking Audrey about "what she was doing and where when the crime happened": say "waited by the bathroom. she said she waited for over 15 minutes, and yet nobody came around."]
+Instead of asking Audrey about "what she was doing and where when the crime happened": say "waited by the bathroom. she said she waited for over 15 minutes, and yet nobody came around."
 Instead of asking Audrey about "the victim": say "she did not meet the victim. she only saw him and thought that he was very handsome. if anything, she saw sir allan and the victim arguing outside at the veranda."; move SirAllanInformation 1 to player.
 Instead of asking Audrey about "her husband stealing": say "she knows nothing about it, and says that her husband is a good family man."; remove AudreyInformation 1 from play; move AudreyInformation 2 to player.
-Instead of asking Audrey about "$200 dollars in Mark's possession": say "her eyes widen at the mention of $200 dollars. she realizes that mark must have stolen it because it is the exact sum that they needed in order to pay for their child's medicine."; remove AudreyInformation 2 from play; move AudreyInformation 3 to player.
+Instead of asking Audrey about "$2000 dollars in Mark's possession": say "her eyes widen at the mention of $2000 dollars. she realizes that mark must have stolen it because it is the exact sum that they needed in order to pay for their child's medicine."; remove AudreyInformation 2 from play; move AudreyInformation 3 to player.
 
 [Audrey Informations]
 AudreyInformation 1 is a thing in Train. AudreyInformation 1 is undescribed. Description of AudreyInformation 1 is "Audrey is Mark's wife."
@@ -376,21 +416,21 @@ AudreyInformation 3 is a thing in Train. AudreyInformation 3 is undescribed. Des
 
 Luna is a woman in Train.
 
-[initial]
-
 Instead of talking to Luna, say "You can ask Audrey about:
 
 Herself.
 
 The purpose of her journey.
 
+What she was doing and where when the crime happened.
+
 The victim.
 
-anything suspicious. " [What she was doing and where when the crime happened.]
+anything suspicious. "
 
 Instead of asking Luna about "herself", say "she betrays some shivers, but her face remains steady. she comes from the village, and is the tailor's daughter."
 Instead of asking Luna about "the purpose of her journey", say "going to city to hire a legal consultant to fight the Company."
-［［［［[Instead of asking Luna about "what she was doing and where when the crime happened", say "reading a book in her seat"]
+［［［［Instead of asking Luna about "what she was doing and where when the crime happened", say "reading a book in her seat."
 Instead of asking Luna about "the victim": say "she and the victim were very close, but had to keep their relationship secret."; move LunaInformation 1 to player.
 Instead of asking Luna about "anything suspicious": say "she saw mark looking through victim's belongings."; move MarkInformation 1 to player.
 
