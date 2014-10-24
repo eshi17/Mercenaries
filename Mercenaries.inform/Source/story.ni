@@ -92,7 +92,7 @@ Mayor's House is a room. Mayor's House is east of Town Square. Description of Ma
 Station is a room. Station is south of Town Square. Description of Station is "The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. [if unvisited] Leaning against one of the pillars is a tall lanky boy, who you recognize instantly: Felix. On either side of him are men in black suits, who Felix merrily jokes with. What in the world?"
 
 [Felix]
-Felix is man in Station. Felix is undescribed. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face, evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
+Felix is man in Station. Felix is undescribed. Description of Felix for the first time is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face, evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
 	Instead of talking to Felix: say "You stride towards Felix, and slap him across the face. He is dumbfounded for a moment, and registers who you are. He gestures apologetically to the the men in suits and they walk away.
 	
 	'You ignorant boy. What are you doing?' You shout at him.
@@ -107,7 +107,7 @@ Felix is man in Station. Felix is undescribed. Description of Felix is "A tall b
 	
 	'No! I can't stay there. Even if your story is true, the villagers would never hand over the stupid rocks. My benefactor A-' The speakers in the Station blare out:
 	
-	'Train 342 to the City is departing in 5 minutes-please board now. Thank you.' Felix looks at you, then shoves you out of the way to board the train."; move Felix to Bathroom.
+	'Train 342 to the City is departing in 5 minutes-please board now. Thank you.' Felix looks at you, then shoves you out of the way to gather his belongings."
 
 [Red Ticket Booth]
 Red Ticket Booth is scenery in Station. Description of Red Ticket Booth is "A squat boxy room standing in the middle of the station. The ticket booth is old, its bright red color faded from years of neglect. On its faded walls are years of expired promotion posters, graffiti, and dried gum. Its windows are dirty and unclean, but a clean piece of paper is pasted on the glass–a train table. Behind the counter sits a bored woman. On closer inspection, you realize that the woman is a villager named Rita."
@@ -165,22 +165,30 @@ Instead of going to a room which is the Train when the Conductor is in the Stati
 		
 Instead of giving Wad of Cash to Conductor: say "You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
-'Alrighty. You're good to go!' You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that's wrong. 'ALL ABOARD!' He yells. And steps inside the Train."; move Conductor to Train.
+'Alrighty. You're good to go!' You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that's wrong. 'ALL ABOARD!' He yells. And steps inside the Train."; move Conductor to Train; remove Felix from play.
 		
-[Train]
-Train Entrance is a room. Train Entrance is south of Station. Description of Train Entrance is "A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows."
+[Train Entrance]
+Train Entrance is a room. Train Entrance is south of Station. Description of Train Entrance is "[if Luna is not in Train Entrance]A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows. [end if] [if Luna is in Train Entrance] You see Luna sprawled out on the ground, with Sir Allan smugly sitting on her back. You decide to ask Sir Allan about what happened.[end if]"
+
+Instead of Asking Sir Allan about "what happened": say "'I'm not going to let this little girl run away after what she did,' he haughtily states. 'You hear that?' He turns to Luna, 'not after you killed my profit opportunity!' At this moment, several police officers rush into the Train Entrance. You explain what happened, and they swiftly arrest Luna."; move Case Solved to player.
+
+Case Solved is a thing in Train Entrance.
+	Instead of taking Case Solved, say "You can't see any such thing."
+
+Every turn rule:
+	If the player is carrying Case Solved,
+		End the story finally.
 
 The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is north of Train. The Sliding Door is open.
 	After going south from Station:
 		Now the Sliding door is closed;
 		say "the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor's voice again: 'Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.'";
-		Continue the action;
-		Move Felix to Bathroom.
+		Continue the action.
 Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikin]
 
 [Passenger Car]
 
-Passenger Car is a room. Passenger Car is east of Train Entrance. Description of Passenger Car is "The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car."
+Passenger Car is a room. Passenger Car is east of Train Entrance. Passenger Car is west of Observation Car. Description of Passenger Car is "The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car."
 
 Seats are scenery in Passenger Car. Description of Seats are "Purple cotton seats that look dirty from use. As you walk through the isle, you see the belongings of a few people, including Mark's Backpack, Felix's Briefcase, Sir Allan's Luggage, and Luna's purse."
 
@@ -269,10 +277,10 @@ Check reading:
 
 Table of Book Contents 
 page	content
-1	"page 1."
-2	"page 2."
-3	"page 3."
-4	"page 4."
+1	"We have discovered charoite at one of the factory sites. Mining and selling the charoite would produce 940% profit."
+2	"We approached the townspeople with one million dollars, hoping that they would take this meager sum in exchange for the precious stones. To our surprise, they refused with a passion. The local mayor shut down the factory and kicked us out. This does not do well."
+3	"As the CEO, I have been advised to use more... cunning means to attain the charoite. They propose that we bait the mayor's son into our possession and use him to bargain. I have already communicated with the boy, and he has fallen for the trap. Soon, we will have the stones. The Company will certainly profit greatly."
+4	"[italic type]On the last page is a detailed drawing of a Lady's Flower. Calculations and notes about the stone are scribbled on the margins.[roman type]"
 
 To read page (N - a number): 
 	now the last page read of the Purple Notebook is N;
@@ -281,35 +289,90 @@ To read page (N - a number):
 		say "You read: '[content entry]'[paragraph break]";
 	otherwise: 
 		say "Page [N] appears to be blank."
-		[Code from Lee-Won Fulbright's Ouija Boredom]
-
-[Dining Car]
-
-Dining Car is a room. Dining Car is east of Passenger Car. Description of Dining Car is "The Dining Car has several long tables and benches. It kind of looks like a cafeteria. Occupying a large part of the car's corner is a counter with buffet-style food. To the North is the Bathroom. To the East is the Observation Car."
+		[Code from Lee-Won Fulbright's Ouija Boredom]			
 
 [Bathroom]
-Blue Door is thing in Dining Car. Blue Door is undescribed.
-Instead of going to a room which is the Bathroom when the Blue Door is in the Dining Car: say
+Blue Door is thing in Passenger Car. Blue Door is undescribed.
+Instead of taking Blue Door, say "That's hardly portable."
+Instead of going to a room which is the Bathroom when the Blue Door is in the Passenger Car: say
 	"The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell,
 	'Is anybody there?!' Silence. You push the door with a bit of force.
 	
 	'What in the world?' You slam your body against the door. You hear a slight crack.
 	
 	You push again, and the lock breaks with a resounding clap. The door swings open and reveals the bathroom."; remove Blue Door from play.
+	
+Corpse is a man. Corpse is in Bathroom. Description of Corpse is "He has just recently died. His eyes are wide open, and his mouth hangs open. You notice there are red marks around Felix's neck. Perhaps Felix died from strangulation?"
 
-Bathroom is a room. Bathroom is north of Dining Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Felix is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body hangs from a rope, wound around his neck, that is tied to the ceiling. [end if] A gust of wind blows in from the open window, and Felix's body sways slightly."
+Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Corpse is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [end if] [if Soot is in Bathroom] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel."
 
-Open Window is scenery in Bathroom. Description of Open Window is ""
+Jewel is thing. Jewel is in Bathroom. Jewel is undescribed.
+	After taking Jewel: say "You realize that this jewel belongs to Luna's hairpiece. There is almost no doubt now, Luna is guilty."; Move LunaInformation 7 to Player.
+
+Understand "Felix" or "victim" as Corpse.
+
+Open Window is scenery in Bathroom. Description of Open Window is "The window is divided in the center, and the glass panes slides open and close. On the window sill are small traces of soot."
 
 [Observation Car]
  
-Observation Car is a room. Observation Car is east of Dining Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by."
+Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by."
 
-[Luna's Book]
+[Luna's Purse]
+Luna's Purse is a thing in the Observation Car. Luna's Purse is a closed openable container. Description of Luna's Purse is "A baby pink leather handbag."
+	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt."; move LunaInformation 4 to player; move Wallet to Player.
+	Silk Belt is a thing. Silk Belt is in Luna's Purse. Description of Silk Belt is "The belt is made of fine white silk, and is almost almost double your height. However, there is a bit of soot on a small portion in the center. Creases on the dirtied portion suggested it was tied to something."
+		Instead of taking Silk Belt: say "You pull the Silk Belt out of the purse, and marvel at its length. [if player is not carrying Novel] You also pick up the Novel, which was sitting on the Couch."; move Silk Belt to player; move Novel to player.
+			Instead of dropping Silk Belt, say "Why would you drop that?"
+	Makeup Bag is a thing in Luna's Purse. Makeup Bag is closed openable container. Description of Makeup Bag is "It is heavy with vials of cosmetics."
+		Instead of opening Makeup Bag, say "Sheriff, you are not a woman."
+	Wallet is a thing in Luna's Purse. Wallet is closed openable container. Description of Wallet is "A luxurious wallet, fat with credit cards and bills."
+		After opening Wallet: say "You open the wallet and flip through the bills. You notice a certificate folded neatly inside. In the plastic photo holder, there is a polaroid."; move LunaInformation 2 to player.
+			Certificate is a thing in Wallet. Description of Certificate is "You unravel the certificate and read its content. It is a marriage certificate. At the bottom, the names signed are Luna Bright, and Felix Justice."
+			Polaroid is a thing in Wallet. Description of Polaroid is "A polaroid of a couple. When you look closer, you realize that it is Luna and Felix lying in a flower field side by side."
 
 
-Luna is a woman in Train.
+Luna is a woman in Observation Car.
 
+
+Understand "climb on [something]" or “climb up [something]” or "climb down" as climbing. [from Jim Aikin]
+
+Up Ladder is scenery. Up Ladder is in Observation Car. The description is "A rusty metal ladder that runs from the window to the Roof."
+	Instead of climbing up ladder: say "You grip the cold metal handle and pull yourself up."; move player to Roof.
+	
+Instead of going to a room which is the Roof when the Couch is in the Observation Car: say "You can't go that way."
+
+Novel is a thing. Novel is in Observation Car. Novel is undescribed. Description of Novel is "A brand new romance novel. Luna said that she was reading it, it might be evidence."
+
+		Instead of taking Novel: say "You examine the novel, and you see absolutely no trace of it ever being opened."; Move LunaInformation 6 to player.
+		Instead of dropping Novel: say "This is proof against Luna's alibi, you should keep it."
+		
+Couch is scenery. Couch is in Observation Car.
+
+[Roof]
+
+Roof is north of Observation Car. Down Ladder is scenery in Roof. The description is "A rusty metal ladder that runs from the window to the Roof."
+	Instead of climbing Down Ladder: say "You grip the cold metal handle and step down."; move player to Observation Car.
+	
+Roof is a room. Instead of going to a room which is the Observation Car when the Couch is in the Roof: say "You can't go that way."
+
+	Description of Roof is "At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car."
+	
+Soot is thing in Roof. Soot is undescribed.
+
+	Metal Rod is scenery in Roof. [At one point after I coded the ladder section, I couldn't access the observation car from the passenger car. Therefore, I isolated a couple of sections, and found out that the ladder section was the problem.]
+
+Tying to is an action applying to one visible thing. [Jim Aikin]
+
+Instead of tying Silk Belt to Metal Rod:
+	now the Silk Belt is part of the Metal Rod;
+	say "You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
+	
+	This gives you an idea. What if you tied the belt to your waist? That would allow you to enter into the bathroom."
+
+A waist is a kind of thing. A waist is part of every person.
+	Instead of tying Silk Belt to waist: say "[if silk belt is not part of the metal rod]You wrap a portion of the belt around your waist, but realize that it's not attached to anything, and take off the belt.[end if] [if silk belt is part of the metal rod]You wrap a portion of the belt around your waist. You should probably test the belt's security by pulling it. [end if]"
+	
+	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to player.
 
 [Investigation]
 
@@ -332,8 +395,7 @@ The victim.
 
 [if player is carrying MarkInformation 2] Him stealing money from victim to pay for son's medication.[end if]
 
-[if player is carrying MarkInformation 4] His son's medication. [end if]
-"
+[if player is carrying MarkInformation 4] His son's medication. [end if]"
 
 
 Instead of asking Mark about "himself", say "worried. will the mystery keep the people on the train after they arrive?"
@@ -368,7 +430,9 @@ What he was doing and where during the time of the crime.
 
 The victim.
 
-[if player is carrying SirAllanInformation 1]His argument with the victim.[end if]"
+[if player is carrying SirAllanInformation 1]His argument with the victim.[end if]
+
+[if player is carrying SirAllanInformation 3] Being the CEO of the Company.[end if]"
 
 
 Instead of asking Sir Allan about "himself", say "a little shaken, but fine."
@@ -376,11 +440,24 @@ Instead of asking Sir Allan about "the purpose of his journey", say "returning t
 Instead of asking Sir Allan about "what he was doing and where during the time of the crime", say "speaking to you."
 Instead of asking Sir Allan about "the victim", say "he was friendly, and a nice boy who helped sir allan put his luggage onto the luggage rack."
 Instead of asking Sir Allan about "his argument with the victim": say "sir allan is taken aback, but regains his composure quickly. he says that he suspected that felix stole a $50 dollar bill from his luggage, and felix said he didn't."; remove SirAllanInformation 1 from play; move SirAllanInformation 2 to player; move MarkInformation 1 to player.
+Instead of asking Sir Allan about "being the CEO of the Company": say "You angrily rush up to Sir Allan, demanding to know whether or not Sir Allan is really the CEO of the Company, which has plagued your home for years.
+'You! YOU'RE the CEO of the Company?' A look of surprise contorts Sir Allan's face, but he quickly regains his composure.
+
+'No. I told you, I'm a retired old man returning to the city after a vacation.'
+
+'Would a retired old man have detailed reports of my hometown, that just so happen to be regarding a precious stone the Company seeks? Spit it out you old man.'
+
+'Well, I suppose you know now. There's really nothing else to say.'
+
+'Actually. There is. Did you kill Felix?' Sir Allan raises his brow in amusement.
+
+'Now even if I did, I wouldn't tell you. But no, I did not kill Felix. I had no reason to. What would I gain from killing him? In fact, I would actually need the stupid boy alive to get the charoite. It wasn't us, I can tell you that. What happened was a tragedy, and now I have lost leverage on the Mayor. Damn it all."; remove SirAllanInformation 3 from play; move SirAllanInformation 4 to player.
 
 [Sir Allan Informations]
 SirAllanInformation 1 is a thing in Train. SirAllanInformation 1 is undescribed. Description of SirAllanInformation 1 is "Sir Allan was arguing with the victim."
 SirAllanInformation 2 is a thing in Train. SirAllanInformation 2 is undescribed. Description of SirAllanInformation 2 is "Sir Allan was arguing with the victim>The victim supposedly stole $50 dollars from Sir Allan."
 SirAllanInformation 3 is a thing in Train. SirAllanInformation 3 is undescribed. Description of SirAllanInformation 3 is "Sir Allan is the CEO of the Company."
+SirAllanInformation 4 is a thing in Train. SirAllanInformation 4 is undescribed. Description of SirAllanInformation 4 is "Sir Allan is the CEO of the Company.>He claims that he did not kill the victim."
 
 [Audrey]
 
@@ -414,9 +491,7 @@ AudreyInformation 3 is a thing in Train. AudreyInformation 3 is undescribed. Des
 
 [Luna]
 
-Luna is a woman in Train.
-
-Instead of talking to Luna, say "You can ask Audrey about:
+Instead of talking to Luna, say "You can ask Luna about:
 
 Herself.
 
@@ -426,16 +501,29 @@ What she was doing and where when the crime happened.
 
 The victim.
 
-anything suspicious. "
+Anything suspicious.
+
+[If player is carrying LunaInformation 4] Her silk belt[end if].
+
+[If player is carrying LunaInformation 2] Her marriage.[end if]
+
+[if player is carrying LunaInformation 7] Her guilt. [end if]"
 
 Instead of asking Luna about "herself", say "she betrays some shivers, but her face remains steady. she comes from the village, and is the tailor's daughter."
 Instead of asking Luna about "the purpose of her journey", say "going to city to hire a legal consultant to fight the Company."
 ［［［［Instead of asking Luna about "what she was doing and where when the crime happened", say "reading a book in her seat."
 Instead of asking Luna about "the victim": say "she and the victim were very close, but had to keep their relationship secret."; move LunaInformation 1 to player.
 Instead of asking Luna about "anything suspicious": say "she saw mark looking through victim's belongings."; move MarkInformation 1 to player.
+Instead of asking Luna about "her marriage": say "Luna face briefly shows surprise, but it quickly turns to anger. 'Why were you looking through my stuff?'"
+Instead of asking Luna about "silk belt": say "Luna says that the belt ripped off her dress. It was originally in a bow, but it unravelled and she accidentally stepped on it."; remove LunaInformation 4 from play; move LunaInformation 5 to player.
+Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Felix, to which she refuses. You being presenting the evidence, and she gets angry. suddenly, the train stops, and luna runs towards the Train Entrance."; Move Luna to Train Entrance.
 
 
 [Luna Informations]
 LunaInformation 1 is a thing in Train. LunaInformation 1 is undescribed. Description of LunaInformation 1 is "Luna and the victim had some kind of relationship back in the village."
 LunaInformation 2 is a thing in Train. LunaInformation 2 is undescribed. Description of LunaInformation 2 is "Luna and the victim had some kind of relationship back in the village>Luna and the victim were secretly married."
 LunaInformation 3 is a thing in Train. LunaInformation 3 is undescribed. Description of LunaInformation 3 is "Luna was sitting in her cabin reading her book."
+LunaInformation 4 is a thing in Train. LunaInformation 4 is undescribed. Description of LunaInformation 4 is "Luna has a silk belt in her purse."
+LunaInformation 5 is a thing in Train. LunaInformation 5 is undescribed. Description of LunaInformation 5 is "Luna has a silk belt in her purse>Luna claims that the belt ripped off her dress. It was originally in a bow, but it unravelled and she accidentally stepped on it."
+LunaInformation 6 is a thing in Train. LunaInformation 6 is undescribed. Description of LunaInformation 6 is "Luna was sitting in her cabin reading her book>Her book shows no traces of being opened at all."
+LunaInformation 7 is a thing in Train. LunaInformation 7 is undescribed. Description of LunaInformation 7 is "Luna is guilty."

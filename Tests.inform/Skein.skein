@@ -1,424 +1,828 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1cd68e40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x477e60" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1cd68e40" />
-  <item nodeId="node-0x1cd68e40">
+  <activeNode nodeId="node-0x1014b0" />
+  <item nodeId="node-0x477e60">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 Welcome
 An Interactive Fiction
-Release 1 / Serial number 141022 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141023 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
-Train
-You can see Mark, Sir Allan, Audrey and Luna here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="66">NO</temporary>
-    <children>
-      <child nodeId="node-0x1cdb2c30" />
-      <child nodeId="node-0x1cdb2b20" />
-      <child nodeId="node-0x1cdb3100" />
-      <child nodeId="node-0x1cdb2550" />
-      <child nodeId="node-0x1cdb2910" />
-      <child nodeId="node-0x1cd68e90" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cd68e90">
-    <command xml:space="preserve">take all</command>
-    <result xml:space="preserve">There are none at all available!
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="35">YES</temporary>
+    <temporary score="529">NO</temporary>
     <children>
-      <child nodeId="node-0x1cdb28a0" />
-      <child nodeId="node-0x1cd68ee0" />
+      <child nodeId="node-0x4cd990" />
+      <child nodeId="node-0x4cd5a0" />
+      <child nodeId="node-0x4ccd40" />
+      <child nodeId="node-0x4ccf80" />
+      <child nodeId="node-0x4ccea0" />
+      <child nodeId="node-0xaec6250" />
+      <child nodeId="node-0x4cc4c0" />
+      <child nodeId="node-0x69b79a0" />
+      <child nodeId="node-0x477f00" />
+      <child nodeId="node-0x477eb0" />
+      <child nodeId="node-0xae1be80" />
     </children>
   </item>
-  <item nodeId="node-0x1cd68ee0">
-    <command xml:space="preserve">speak to mark</command>
-    <result xml:space="preserve">You can ask Mark about:
+  <item nodeId="node-0xae1be80">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
 
-Himself.
+Roof
+At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car.
 
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
+You can see Silk Belt here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="35">YES</temporary>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cd68f30" />
+      <child nodeId="node-0xae75e20" />
     </children>
   </item>
-  <item nodeId="node-0x1cd68f30">
-    <command xml:space="preserve">ask mark about victim</command>
-    <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb20f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb20f0">
-    <command xml:space="preserve">ask mark about the victim</command>
-    <result xml:space="preserve">he saw the victim arguing with sir allan, and flirting with luna.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb2140" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb2140">
-    <command xml:space="preserve">talk to sir allan</command>
-    <result xml:space="preserve">You can ask Sir Allan about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb21b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb21b0">
-    <command xml:space="preserve">ask sir allan about the victim</command>
-    <result xml:space="preserve">he was friendly, and a nice boy who helped sir allan put his luggage onto the luggage rack.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb2380" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb2380">
-    <command xml:space="preserve">ask sir allan about his argument with the victim</command>
-    <result xml:space="preserve">sir allan is taken aback, but regains his composure quickly. he says that he suspected that felix stole a $50 dollar bill from his luggage, and felix said he didn&apos;t.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb23d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb23d0">
-    <command xml:space="preserve">speak to luna</command>
-    <result xml:space="preserve">You can ask Audrey about:
-
-Herself.
-
-The purpose of her journey.
-
-The victim.
-
+  <item nodeId="node-0xae75e20">
+    <command xml:space="preserve">tie silk belt to waist</command>
+    <result xml:space="preserve">You wrap a portion of the belt around your waist, but realize that it&apos;s not attached to anything, and take off the belt.
+ 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2420" />
+      <child nodeId="node-0xae0df20" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2420">
-    <command xml:space="preserve">ask luna about anything suspicious</command>
-    <result xml:space="preserve">she saw mark looking through victim&apos;s belongings.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb2470" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb2470">
+  <item nodeId="node-0xae0df20">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  MarkInformation 1
-  SirAllanInformation 2
-  SirAllanInformation 1
+    <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb24e0" />
+      <child nodeId="node-0xaef5a30" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb24e0">
-    <command xml:space="preserve">x markinformation 1</command>
-    <result xml:space="preserve">Mark was seen rummaging through the victim&apos;s belongings.
+  <item nodeId="node-0xaef5a30">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb26e0" />
+      <child nodeId="node-0xae02270" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb26e0">
-    <command xml:space="preserve">ask mark about looking through victim&apos;s belongings</command>
-    <result xml:space="preserve">he says he did no such thing.
+  <item nodeId="node-0xae02270">
+    <command xml:space="preserve">climb down ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and step down.
+
+Observation Car
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2240" />
+      <child nodeId="node-0x193d8ae0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2240">
-    <command xml:space="preserve">ask audrey about her husband stealing</command>
-    <result xml:space="preserve">she knows nothing about it, and says that her husband is a good family man.
+  <item nodeId="node-0x193d8ae0">
+    <command xml:space="preserve">climb up ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
+
+Roof
+At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2750" />
+      <child nodeId="node-0xaeb9700" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2750">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  AudreyInformation 2
-  MarkInformation 2
-  SirAllanInformation 2
-  SirAllanInformation 1
+  <item nodeId="node-0xaeb9700">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="243">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb27c0" />
+      <child nodeId="node-0xaef6ba0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb27c0">
-    <command xml:space="preserve">x sirallaninformation 1</command>
-    <result xml:space="preserve">You see nothing special about SirAllanInformation 1.
-
+  <item nodeId="node-0xaef6ba0">
+    <command xml:space="preserve">tie silk belt to waist</command>
+    <result xml:space="preserve"> You wrap a portion of the belt around your waist. When you are done, you carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="35">YES</temporary>
+    <temporary score="242">YES</temporary>
+  </item>
+  <item nodeId="node-0x477eb0">
+    <command xml:space="preserve">climb up ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
+
+Roof
+At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car.
+
+You can see Silk Belt here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="254">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2830" />
+      <child nodeId="node-0x69dfbf0" />
+      <child nodeId="node-0xa990b50" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2830">
-    <command xml:space="preserve">x sirallaninformation 2</command>
-    <result xml:space="preserve">You see nothing special about SirAllanInformation 2.
+  <item nodeId="node-0xa990b50">
+    <command xml:space="preserve">tie silk belt to rod</command>
+    <result xml:space="preserve">You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
+
+Bathroom
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="34">YES</temporary>
-  </item>
-  <item nodeId="node-0x1cdb28a0">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  AudreyInformation 3
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="11">YES</temporary>
-  </item>
-  <item nodeId="node-0x1cdb2910">
-    <command xml:space="preserve">speak to mark</command>
-    <result xml:space="preserve">You can ask Mark about:
-
-How he is doing today.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="141">YES</temporary>
+    <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2a40" />
+      <child nodeId="node-0x69d7510" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2a40">
-    <command xml:space="preserve">ask mark about how he is doing today</command>
-    <result xml:space="preserve">There is no reply.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="140">YES</temporary>
-  </item>
-  <item nodeId="node-0x1cdb2550">
-    <command xml:space="preserve">ask mark about himself</command>
-    <result xml:space="preserve">fine.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="143">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb25a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb25a0">
-    <command xml:space="preserve">ask mark about the purpose of his journey</command>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="142">YES</temporary>
-  </item>
-  <item nodeId="node-0x1cdb3100">
-    <command xml:space="preserve">talk to mark</command>
-    <result xml:space="preserve">You can ask Mark about:
-
-Himself.
-
-The purpose of his journey.
-
-What he was doing and where during the time of the crime.
-
-The victim.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb3170" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb3170">
-    <command xml:space="preserve">ask about victim</command>
+  <item nodeId="node-0x69d7510">
+    <command xml:space="preserve">tie belt to metal rod</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb31e0" />
+      <child nodeId="node-0x69a4960" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb31e0">
-    <command xml:space="preserve">ask mark about victim</command>
-    <result xml:space="preserve">There is no reply.
+  <item nodeId="node-0x69a4960">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3250" />
+      <child nodeId="node-0xa937bf0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3250">
-    <command xml:space="preserve">ask mark about the victim</command>
-    <result xml:space="preserve">he saw the victim arguing with sir allan, and flirting with luna.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb32c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1cdb32c0">
+  <item nodeId="node-0xa937bf0">
     <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  SirAllan1
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="199">YES</temporary>
+    <children>
+      <child nodeId="node-0xaef0550" />
+    </children>
+  </item>
+  <item nodeId="node-0xaef0550">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3ab0" />
+      <child nodeId="node-0xaeaf290" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3ab0">
-    <command xml:space="preserve">x sir allan1</command>
-    <result xml:space="preserve">I only understood you as far as wanting to examine Sir Allan.
+  <item nodeId="node-0xaeaf290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
-    <children>
-      <child nodeId="node-0x1cdb3b20" />
-    </children>
+    <temporary score="198">YES</temporary>
   </item>
-  <item nodeId="node-0x1cdb3b20">
-    <command xml:space="preserve">i</command>
-    <result xml:space="preserve">You are carrying:
-  SirAllan1
+  <item nodeId="node-0x69dfbf0">
+    <command xml:space="preserve">tie silk belt to waist</command>
+    <result xml:space="preserve">You wrap a portion of the belt around your waist, but realize that it&apos;s not attached to anything, and take off the belt.
+ 
+Bathroom
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="254">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3b90" />
+      <child nodeId="node-0x19daa4c0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3b90">
-    <command xml:space="preserve">sirallan1</command>
+  <item nodeId="node-0x19daa4c0">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0xae0ff30" />
+    </children>
+  </item>
+  <item nodeId="node-0xae0ff30">
+    <command xml:space="preserve">tie silk belt to wait</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="254">YES</temporary>
+    <children>
+      <child nodeId="node-0x19d7cc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x19d7cc60">
+    <command xml:space="preserve">tie belt to waist</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+  </item>
+  <item nodeId="node-0x477f00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Roof
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cbec0" />
+      <child nodeId="node-0x478130" />
+    </children>
+  </item>
+  <item nodeId="node-0x478130">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x478180" />
+    </children>
+  </item>
+  <item nodeId="node-0x478180">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x4cbec0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cbf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cbf10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Roof
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cbfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cbfe0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc030" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc030">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc080" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc080">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc0f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc0f0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc160" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc160">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc290" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc290">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Roof
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cbf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cbf80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc300" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc300">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc370" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc370">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc3e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cc450" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cc450">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x69b79a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x69b5eb0" />
+      <child nodeId="node-0xae8ec30" />
+    </children>
+  </item>
+  <item nodeId="node-0xae8ec30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d219b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d219b0">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
+
+Roof
+At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x193ed260" />
+    </children>
+  </item>
+  <item nodeId="node-0x193ed260">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and step down.
+
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a0d0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a0d0c0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14bd62e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14bd62e0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10cac380" />
+    </children>
+  </item>
+  <item nodeId="node-0x10cac380">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c78620" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c78620">
+    <command xml:space="preserve">c</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="10">YES</temporary>
+    <temporary score="529">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3c00" />
+      <child nodeId="node-0x19d92af0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3c00">
-    <command xml:space="preserve">x sirallan1</command>
-    <result xml:space="preserve">Sir Allan was arguing with the victim.
+  <item nodeId="node-0x19d92af0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0xc6a4ce0" />
+    </children>
   </item>
-  <item nodeId="node-0x1cdb2b20">
+  <item nodeId="node-0xc6a4ce0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d98fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d98fc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x69ef6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69ef6f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b92690" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b92690">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0xa926360" />
+    </children>
+  </item>
+  <item nodeId="node-0xa926360">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b15820" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b15820">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d9b260" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d9b260">
+    <command xml:space="preserve">en</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dd2530" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dd2530">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b3c310" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b3c310">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a216b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a216b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="529">YES</temporary>
+    <children>
+      <child nodeId="node-0x1014b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1014b0">
+    <command xml:space="preserve">w</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="528">YES</temporary>
+  </item>
+  <item nodeId="node-0x69b5eb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x69bb7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69bb7a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x69a7ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69a7ed0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x69c0310" />
+    </children>
+  </item>
+  <item nodeId="node-0x69c0310">
+    <command xml:space="preserve">climb up ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
+
+Roof
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x69c1a00" />
+    </children>
+  </item>
+  <item nodeId="node-0x69c1a00">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x6969ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6969ef0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da730" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x69a9880" />
+    </children>
+  </item>
+  <item nodeId="node-0x69a9880">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0x11f180" />
+    </children>
+  </item>
+  <item nodeId="node-0x11f180">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0x4cc4c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -427,10 +831,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2b90" />
+      <child nodeId="node-0x4cc530" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2b90">
+  <item nodeId="node-0x4cc530">
     <command xml:space="preserve">speak to mark</command>
     <result xml:space="preserve">You can ask Mark about:
 
@@ -447,10 +851,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3340" />
+      <child nodeId="node-0x4cc1d0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3340">
+  <item nodeId="node-0x4cc1d0">
     <command xml:space="preserve">ask mark about himself</command>
     <result xml:space="preserve">worried. will the mystery keep the people on the train after they arrive?
 
@@ -459,10 +863,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb33b0" />
+      <child nodeId="node-0x4cc220" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb33b0">
+  <item nodeId="node-0x4cc220">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying nothing.
 
@@ -471,10 +875,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3420" />
+      <child nodeId="node-0x4cc720" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3420">
+  <item nodeId="node-0x4cc720">
     <command xml:space="preserve">ask mark about the purpose of his journey</command>
     <result xml:space="preserve">going to city for son&apos;s medicine.
 
@@ -483,10 +887,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3490" />
+      <child nodeId="node-0x4cc790" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3490">
+  <item nodeId="node-0x4cc790">
     <command xml:space="preserve">ask mark about What he was doing and where during the time of the crime</command>
     <result xml:space="preserve">taking a nap in his private room.
 
@@ -495,10 +899,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3500" />
+      <child nodeId="node-0x4cc800" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3500">
+  <item nodeId="node-0x4cc800">
     <command xml:space="preserve">ask mark about the victim</command>
     <result xml:space="preserve">he saw the victim arguing with sir allan, and flirting with luna.
 
@@ -507,10 +911,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3570" />
+      <child nodeId="node-0x4cc870" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3570">
+  <item nodeId="node-0x4cc870">
     <command xml:space="preserve">speak to sir allan</command>
     <result xml:space="preserve">You can ask Sir Allan about:
 
@@ -527,10 +931,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb35e0" />
+      <child nodeId="node-0x4cc8e0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb35e0">
+  <item nodeId="node-0x4cc8e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -539,10 +943,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3650" />
+      <child nodeId="node-0x4cc950" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3650">
+  <item nodeId="node-0x4cc950">
     <command xml:space="preserve">ask sir allan about himself</command>
     <result xml:space="preserve">a little shaken, but fine.
 
@@ -551,10 +955,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb36c0" />
+      <child nodeId="node-0x4cc9c0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb36c0">
+  <item nodeId="node-0x4cc9c0">
     <command xml:space="preserve">ask sir allan about The purpose of his journey</command>
     <result xml:space="preserve">returning to the city after his retirement vacation.
 
@@ -563,10 +967,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3730" />
+      <child nodeId="node-0x4cca30" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3730">
+  <item nodeId="node-0x4cca30">
     <command xml:space="preserve">ask sir allan about What he was doing and where during the time of the crime</command>
     <result xml:space="preserve">speaking to you.
 
@@ -575,10 +979,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb37a0" />
+      <child nodeId="node-0x4ccaa0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb37a0">
+  <item nodeId="node-0x4ccaa0">
     <command xml:space="preserve">ask sir allan about The victim</command>
     <result xml:space="preserve">he was friendly, and a nice boy who helped sir allan put his luggage onto the luggage rack.
 
@@ -587,10 +991,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3810" />
+      <child nodeId="node-0x4ccb10" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3810">
+  <item nodeId="node-0x4ccb10">
     <command xml:space="preserve">talk to audrey</command>
     <result xml:space="preserve">You can ask Audrey about:
 
@@ -607,10 +1011,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3880" />
+      <child nodeId="node-0x4ccb80" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3880">
+  <item nodeId="node-0x4ccb80">
     <command xml:space="preserve">ask audrey about herself</command>
     <result xml:space="preserve">she is very scared. she hopes the victim killed himself rather than someone killing him.
 
@@ -619,10 +1023,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb38f0" />
+      <child nodeId="node-0x4cc5a0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb38f0">
+  <item nodeId="node-0x4cc5a0">
     <command xml:space="preserve">ask audrey about The purpose of her journey</command>
     <result xml:space="preserve">going to city for son&apos;s medicine.
 
@@ -631,10 +1035,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3960" />
+      <child nodeId="node-0x4cc610" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3960">
+  <item nodeId="node-0x4cc610">
     <command xml:space="preserve">ask audrey about What she was doing and where when the crime happened.</command>
     <result xml:space="preserve">There is no reply.
 
@@ -643,10 +1047,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb39d0" />
+      <child nodeId="node-0x4cc680" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb39d0">
+  <item nodeId="node-0x4cc680">
     <command xml:space="preserve">ask audrey about the victim</command>
     <result xml:space="preserve">she did not meet the victim. she only saw him and thought that he was very handsome. if anything, she saw sir allan and the victim arguing outside at the veranda.
 
@@ -655,10 +1059,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="54">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3a40" />
+      <child nodeId="node-0x4cce30" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3a40">
+  <item nodeId="node-0x4cce30">
     <command xml:space="preserve">ask sir allan about his argument with the victim</command>
     <result xml:space="preserve">sir allan is taken aback, but regains his composure quickly. he says that he suspected that felix stole a $50 dollar bill from his luggage, and felix said he didn&apos;t.
 
@@ -667,7 +1071,450 @@ The victim.
     <changed>YES</changed>
     <temporary score="53">YES</temporary>
   </item>
-  <item nodeId="node-0x1cdb2c30">
+  <item nodeId="node-0xaec6250">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xae16150" />
+    </children>
+  </item>
+  <item nodeId="node-0xae16150">
+    <command xml:space="preserve">climb ladder</command>
+    <result xml:space="preserve">You grip the cold metal handle and pull yourself up.
+
+Roof
+At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car.
+
+You can see Silk Belt here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xae05b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xae05b00">
+    <command xml:space="preserve">climb belt to rod</command>
+    <result xml:space="preserve">I only understood you as far as wanting to climb Silk Belt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="203">YES</temporary>
+    <children>
+      <child nodeId="node-0xae113b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae113b0">
+    <command xml:space="preserve">tie silk belt to metal rod</command>
+    <result xml:space="preserve">You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
+
+Bathroom
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="202">YES</temporary>
+  </item>
+  <item nodeId="node-0x4ccea0">
+    <command xml:space="preserve">ask mark about himself</command>
+    <result xml:space="preserve">fine.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="143">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ccf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ccf10">
+    <command xml:space="preserve">ask mark about the purpose of his journey</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="142">YES</temporary>
+  </item>
+  <item nodeId="node-0x4ccf80">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cccd0" />
+      <child nodeId="node-0x4ccff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ccff0">
+    <command xml:space="preserve">speak to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd060" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd060">
+    <command xml:space="preserve">ask mark about victim</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd0d0">
+    <command xml:space="preserve">ask mark about the victim</command>
+    <result xml:space="preserve">he saw the victim arguing with sir allan, and flirting with luna.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd140" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd140">
+    <command xml:space="preserve">talk to sir allan</command>
+    <result xml:space="preserve">You can ask Sir Allan about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd1b0">
+    <command xml:space="preserve">ask sir allan about the victim</command>
+    <result xml:space="preserve">he was friendly, and a nice boy who helped sir allan put his luggage onto the luggage rack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd220" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd220">
+    <command xml:space="preserve">ask sir allan about his argument with the victim</command>
+    <result xml:space="preserve">sir allan is taken aback, but regains his composure quickly. he says that he suspected that felix stole a $50 dollar bill from his luggage, and felix said he didn&apos;t.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd290" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd290">
+    <command xml:space="preserve">speak to luna</command>
+    <result xml:space="preserve">You can ask Audrey about:
+
+Herself.
+
+The purpose of her journey.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd300" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd300">
+    <command xml:space="preserve">ask luna about anything suspicious</command>
+    <result xml:space="preserve">she saw mark looking through victim&apos;s belongings.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd370" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd370">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  MarkInformation 1
+  SirAllanInformation 2
+  SirAllanInformation 1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd3e0">
+    <command xml:space="preserve">x markinformation 1</command>
+    <result xml:space="preserve">Mark was seen rummaging through the victim&apos;s belongings.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd450" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd450">
+    <command xml:space="preserve">ask mark about looking through victim&apos;s belongings</command>
+    <result xml:space="preserve">he says he did no such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd4c0">
+    <command xml:space="preserve">ask audrey about her husband stealing</command>
+    <result xml:space="preserve">she knows nothing about it, and says that her husband is a good family man.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd530" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd530">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  AudreyInformation 2
+  MarkInformation 2
+  SirAllanInformation 2
+  SirAllanInformation 1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ccbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ccbf0">
+    <command xml:space="preserve">x sirallaninformation 1</command>
+    <result xml:space="preserve">You see nothing special about SirAllanInformation 1.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ccc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ccc60">
+    <command xml:space="preserve">x sirallaninformation 2</command>
+    <result xml:space="preserve">You see nothing special about SirAllanInformation 2.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0x4cccd0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  AudreyInformation 3
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x4ccd40">
+    <command xml:space="preserve">speak to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+How he is doing today.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="141">YES</temporary>
+    <children>
+      <child nodeId="node-0x4ccdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4ccdb0">
+    <command xml:space="preserve">ask mark about how he is doing today</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="140">YES</temporary>
+  </item>
+  <item nodeId="node-0x4cd5a0">
+    <command xml:space="preserve">talk to mark</command>
+    <result xml:space="preserve">You can ask Mark about:
+
+Himself.
+
+The purpose of his journey.
+
+What he was doing and where during the time of the crime.
+
+The victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd610" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd610">
+    <command xml:space="preserve">ask about victim</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd680" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd680">
+    <command xml:space="preserve">ask mark about victim</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd6f0">
+    <command xml:space="preserve">ask mark about the victim</command>
+    <result xml:space="preserve">he saw the victim arguing with sir allan, and flirting with luna.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd760" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd760">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  SirAllan1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd7d0">
+    <command xml:space="preserve">x sir allan1</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine Sir Allan.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd840" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd840">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  SirAllan1
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd8b0">
+    <command xml:space="preserve">sirallan1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+    <children>
+      <child nodeId="node-0x4cd920" />
+    </children>
+  </item>
+  <item nodeId="node-0x4cd920">
+    <command xml:space="preserve">x sirallan1</command>
+    <result xml:space="preserve">Sir Allan was arguing with the victim.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+  </item>
+  <item nodeId="node-0x4cd990">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -676,10 +1523,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2ca0" />
+      <child nodeId="node-0x4cda00" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2ca0">
+  <item nodeId="node-0x4cda00">
     <command xml:space="preserve">Every turn rule:</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -688,10 +1535,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2d10" />
+      <child nodeId="node-0x4cda70" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2d10">
+  <item nodeId="node-0x4cda70">
     <command xml:space="preserve"> Instead of talking to Mark, say &quot;[if player is carrying MarkInformation 1] You can ask Mark about:</command>
     <result xml:space="preserve">You seem to want to talk to someone, but I can&apos;t see whom.
 
@@ -700,10 +1547,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2d80" />
+      <child nodeId="node-0x4cdae0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2d80">
+  <item nodeId="node-0x4cdae0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -712,10 +1559,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2df0" />
+      <child nodeId="node-0x4cdb50" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2df0">
+  <item nodeId="node-0x4cdb50">
     <command xml:space="preserve">Himself.</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -724,10 +1571,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2e60" />
+      <child nodeId="node-0x4cdbc0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2e60">
+  <item nodeId="node-0x4cdbc0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -736,10 +1583,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2ed0" />
+      <child nodeId="node-0x4cdc30" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2ed0">
+  <item nodeId="node-0x4cdc30">
     <command xml:space="preserve">The purpose of his journey.</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -748,10 +1595,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2f40" />
+      <child nodeId="node-0x4cdca0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2f40">
+  <item nodeId="node-0x4cdca0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -760,10 +1607,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2fb0" />
+      <child nodeId="node-0x4cdd10" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2fb0">
+  <item nodeId="node-0x4cdd10">
     <command xml:space="preserve">What he was doing and where during the time of the crime.</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -772,10 +1619,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3020" />
+      <child nodeId="node-0x4cdd80" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3020">
+  <item nodeId="node-0x4cdd80">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -784,10 +1631,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb3090" />
+      <child nodeId="node-0x4cddf0" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb3090">
+  <item nodeId="node-0x4cddf0">
     <command xml:space="preserve">The victim.</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -796,10 +1643,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="66">YES</temporary>
     <children>
-      <child nodeId="node-0x1cdb2ab0" />
+      <child nodeId="node-0x4cde60" />
     </children>
   </item>
-  <item nodeId="node-0x1cdb2ab0">
+  <item nodeId="node-0x4cde60">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 

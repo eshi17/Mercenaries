@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x30f2e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xae2bb40" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xcaa8c70" />
-  <item nodeId="node-0x30f2e0">
+  <activeNode nodeId="node-0x19d99660" />
+  <item nodeId="node-0xae2bb40">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -11,7 +11,7 @@ You wake up to shouts and loud banging. It is early; the sun has just begun to r
 
 Mercenaries
 An Interactive Fiction by Elana Shi
-Release 1 / Serial number 141023 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141024 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Cottage
 A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table with the stone on it. On the wall above your sink is a small one way window that looks into Town Square. You can go to Town Square by going East.
@@ -19,15 +19,15 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">NO</temporary>
+    <temporary score="1495">NO</temporary>
     <children>
-      <child nodeId="node-0x6852050" />
-      <child nodeId="node-0x68520c0" />
-      <child nodeId="node-0x8ca27b0" />
-      <child nodeId="node-0x30ed70" />
+      <child nodeId="node-0xae252c0" />
+      <child nodeId="node-0xae25330" />
+      <child nodeId="node-0xae2b090" />
+      <child nodeId="node-0xae2b910" />
     </children>
   </item>
-  <item nodeId="node-0x30ed70">
+  <item nodeId="node-0xae2b910">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -36,10 +36,10 @@ A small one room compartment. Shoved into the corner of the room is your bed. Ne
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x30edc0" />
+      <child nodeId="node-0xae2b980" />
     </children>
   </item>
-  <item nodeId="node-0x30edc0">
+  <item nodeId="node-0xae2b980">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -50,11 +50,11 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855af0" />
-      <child nodeId="node-0x30ee10" />
+      <child nodeId="node-0xae2b140" />
+      <child nodeId="node-0xae2b9f0" />
     </children>
   </item>
-  <item nodeId="node-0x30ee10">
+  <item nodeId="node-0xae2b9f0">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -86,10 +86,10 @@ When you walk into the house, you are stunned by the beautiful furnishing that s
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x30ee60" />
+      <child nodeId="node-0xae2baa0" />
     </children>
   </item>
-  <item nodeId="node-0x30ee60">
+  <item nodeId="node-0xae2baa0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -98,10 +98,10 @@ When you walk into the house, you are stunned by the beautiful furnishing that s
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x30eed0" />
+      <child nodeId="node-0xae2b8b0" />
     </children>
   </item>
-  <item nodeId="node-0x30eed0">
+  <item nodeId="node-0xae2b8b0">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
 
@@ -117,10 +117,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x30ef40" />
+      <child nodeId="node-0xae2b840" />
     </children>
   </item>
-  <item nodeId="node-0x30ef40">
+  <item nodeId="node-0xae2b840">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -131,10 +131,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6856110" />
+      <child nodeId="node-0xae2b750" />
     </children>
   </item>
-  <item nodeId="node-0x6856110">
+  <item nodeId="node-0xae2b750">
     <command xml:space="preserve">talk to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -167,10 +167,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68560c0" />
+      <child nodeId="node-0xae2b700" />
     </children>
   </item>
-  <item nodeId="node-0x68560c0">
+  <item nodeId="node-0xae2b700">
     <command xml:space="preserve">give guy scrap</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -179,10 +179,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6856070" />
+      <child nodeId="node-0xae2b6b0" />
     </children>
   </item>
-  <item nodeId="node-0x6856070">
+  <item nodeId="node-0xae2b6b0">
     <command xml:space="preserve">give conductor money</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -191,10 +191,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6856000" />
+      <child nodeId="node-0xae2b640" />
     </children>
   </item>
-  <item nodeId="node-0x6856000">
+  <item nodeId="node-0xae2b640">
     <command xml:space="preserve">give conductor cash</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -205,10 +205,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855f90" />
+      <child nodeId="node-0xae2b5d0" />
     </children>
   </item>
-  <item nodeId="node-0x6855f90">
+  <item nodeId="node-0xae2b5d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Town Square
@@ -219,10 +219,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855e60" />
+      <child nodeId="node-0xae2b4a0" />
     </children>
   </item>
-  <item nodeId="node-0x6855e60">
+  <item nodeId="node-0xae2b4a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -233,10 +233,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x30efd0" />
+      <child nodeId="node-0xae2b450" />
     </children>
   </item>
-  <item nodeId="node-0x30efd0">
+  <item nodeId="node-0xae2b450">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -250,10 +250,10 @@ You can see Luna and Sir Allan here.
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855df0" />
+      <child nodeId="node-0xae2b400" />
     </children>
   </item>
-  <item nodeId="node-0x6855df0">
+  <item nodeId="node-0xae2b400">
     <command xml:space="preserve">talk to sir allan</command>
     <result xml:space="preserve">You can ask Sir Allan about:
 
@@ -270,10 +270,10 @@ The victim.
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855d80" />
+      <child nodeId="node-0xae2b3b0" />
     </children>
   </item>
-  <item nodeId="node-0x6855d80">
+  <item nodeId="node-0xae2b3b0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Wad of Cash
@@ -284,10 +284,10 @@ The victim.
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855d10" />
+      <child nodeId="node-0xae2b360" />
     </children>
   </item>
-  <item nodeId="node-0x6855d10">
+  <item nodeId="node-0xae2b360">
     <command xml:space="preserve">talk to luna</command>
     <result xml:space="preserve">You can ask Audrey about:
 
@@ -303,10 +303,10 @@ anything suspicious.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855ca0" />
+      <child nodeId="node-0xae2b2f0" />
     </children>
   </item>
-  <item nodeId="node-0x6855ca0">
+  <item nodeId="node-0xae2b2f0">
     <command xml:space="preserve">ask luna if she saw anything suspicious</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -315,10 +315,10 @@ anything suspicious.
     <changed>NO</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855c30" />
+      <child nodeId="node-0xae2b280" />
     </children>
   </item>
-  <item nodeId="node-0x6855c30">
+  <item nodeId="node-0xae2b280">
     <command xml:space="preserve">ask lune about anything suspicious</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -327,10 +327,10 @@ anything suspicious.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855bc0" />
+      <child nodeId="node-0xae2b210" />
     </children>
   </item>
-  <item nodeId="node-0x6855bc0">
+  <item nodeId="node-0xae2b210">
     <command xml:space="preserve">ask luna about anything suspicious</command>
     <result xml:space="preserve">she saw mark looking through victim&apos;s belongings.
 
@@ -339,10 +339,10 @@ anything suspicious.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855f10" />
+      <child nodeId="node-0xae2b550" />
     </children>
   </item>
-  <item nodeId="node-0x6855f10">
+  <item nodeId="node-0xae2b550">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   MarkInformation 1
@@ -354,10 +354,10 @@ anything suspicious.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855eb0" />
+      <child nodeId="node-0xae2b4f0" />
     </children>
   </item>
-  <item nodeId="node-0x6855eb0">
+  <item nodeId="node-0xae2b4f0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Passenger Car
@@ -370,10 +370,10 @@ You can see Mark and Audrey here.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68559b0" />
+      <child nodeId="node-0xae2b000" />
     </children>
   </item>
-  <item nodeId="node-0x68559b0">
+  <item nodeId="node-0xae2b000">
     <command xml:space="preserve">talk to mark</command>
     <result xml:space="preserve">You can ask Mark about:
 
@@ -390,10 +390,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855940" />
+      <child nodeId="node-0xae2af90" />
     </children>
   </item>
-  <item nodeId="node-0x6855940">
+  <item nodeId="node-0xae2af90">
     <command xml:space="preserve">talk to mark</command>
     <result xml:space="preserve">You can ask Mark about:
 
@@ -410,10 +410,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68558d0" />
+      <child nodeId="node-0xae2af20" />
     </children>
   </item>
-  <item nodeId="node-0x68558d0">
+  <item nodeId="node-0xae2af20">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   MarkInformation 1
@@ -425,10 +425,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855860" />
+      <child nodeId="node-0xae2aeb0" />
     </children>
   </item>
-  <item nodeId="node-0x6855860">
+  <item nodeId="node-0xae2aeb0">
     <command xml:space="preserve">ask mark about him looking through victim&apos;s belongings</command>
     <result xml:space="preserve">he says he did no such thing.
 
@@ -437,10 +437,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68557f0" />
+      <child nodeId="node-0xae2ae40" />
     </children>
   </item>
-  <item nodeId="node-0x68557f0">
+  <item nodeId="node-0xae2ae40">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   MarkInformation 2
@@ -452,10 +452,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855780" />
+      <child nodeId="node-0xae2add0" />
     </children>
   </item>
-  <item nodeId="node-0x6855780">
+  <item nodeId="node-0xae2add0">
     <command xml:space="preserve">talk to mark</command>
     <result xml:space="preserve">You can ask Mark about:
 
@@ -472,10 +472,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855710" />
+      <child nodeId="node-0xae2ad60" />
     </children>
   </item>
-  <item nodeId="node-0x6855710">
+  <item nodeId="node-0xae2ad60">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   MarkInformation 2
@@ -487,10 +487,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68556a0" />
+      <child nodeId="node-0xae2acf0" />
     </children>
   </item>
-  <item nodeId="node-0x68556a0">
+  <item nodeId="node-0xae2acf0">
     <command xml:space="preserve">ask audrey about her husband stealing</command>
     <result xml:space="preserve">she knows nothing about it, and says that her husband is a good family man.
 
@@ -499,10 +499,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855630" />
+      <child nodeId="node-0xae2ac80" />
     </children>
   </item>
-  <item nodeId="node-0x6855630">
+  <item nodeId="node-0xae2ac80">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   AudreyInformation 2
@@ -515,10 +515,10 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x68555c0" />
+      <child nodeId="node-0xae2ac10" />
     </children>
   </item>
-  <item nodeId="node-0x68555c0">
+  <item nodeId="node-0xae2ac10">
     <command xml:space="preserve">ask audrey about $200 dollars in mark&apos;s possession</command>
     <result xml:space="preserve">her eyes widen at the mention of $200 dollars. she realizes that mark must have stolen it because it is the exact sum that they needed in order to pay for their child&apos;s medicine.
 
@@ -527,16 +527,16 @@ The victim.
     <changed>YES</changed>
     <temporary score="131">YES</temporary>
     <children>
-      <child nodeId="node-0x6855550" />
+      <child nodeId="node-0xae2aba0" />
     </children>
   </item>
-  <item nodeId="node-0x6855550">
+  <item nodeId="node-0xae2aba0">
     <command xml:space="preserve">talk to audrey</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="130">YES</temporary>
   </item>
-  <item nodeId="node-0x6855af0">
+  <item nodeId="node-0xae2b140">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You have no reason to go to the Station.
 
@@ -545,7 +545,7 @@ The victim.
     <changed>YES</changed>
     <temporary score="128">YES</temporary>
   </item>
-  <item nodeId="node-0x8ca27b0">
+  <item nodeId="node-0xae2b090">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Town Square
@@ -554,13 +554,13 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="1495">YES</temporary>
     <children>
-      <child nodeId="node-0x110a2cf0" />
-      <child nodeId="node-0x68ec680" />
+      <child nodeId="node-0xae272b0" />
+      <child nodeId="node-0xae2b0e0" />
     </children>
   </item>
-  <item nodeId="node-0x68ec680">
+  <item nodeId="node-0xae2b0e0">
     <command xml:space="preserve">speak to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -590,12 +590,12 @@ When you walk into the house, you are stunned by the beautiful furnishing that s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x5cb420" />
+      <child nodeId="node-0xae2a8f0" />
     </children>
   </item>
-  <item nodeId="node-0x5cb420">
+  <item nodeId="node-0xae2a8f0">
     <command xml:space="preserve">speak to mayor</command>
     <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
 
@@ -609,13 +609,13 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x16ef5130" />
-      <child nodeId="node-0x68472e0" />
+      <child nodeId="node-0xae27860" />
+      <child nodeId="node-0xae2a880" />
     </children>
   </item>
-  <item nodeId="node-0x68472e0">
+  <item nodeId="node-0xae2a880">
     <command xml:space="preserve">speak to mayor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -624,10 +624,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x684e4f0" />
+      <child nodeId="node-0xae2a810" />
     </children>
   </item>
-  <item nodeId="node-0x684e4f0">
+  <item nodeId="node-0xae2a810">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -638,10 +638,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68eb5c0" />
+      <child nodeId="node-0xae2a7a0" />
     </children>
   </item>
-  <item nodeId="node-0x68eb5c0">
+  <item nodeId="node-0xae2a7a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You walk up to the Train Conductor, an elderly man with a sneer on his face. You say,
 
@@ -656,10 +656,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x684c190" />
+      <child nodeId="node-0xae2a730" />
     </children>
   </item>
-  <item nodeId="node-0x684c190">
+  <item nodeId="node-0xae2a730">
     <command xml:space="preserve">talk to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -692,10 +692,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x684bc60" />
+      <child nodeId="node-0xae2a6c0" />
     </children>
   </item>
-  <item nodeId="node-0x684bc60">
+  <item nodeId="node-0xae2a6c0">
     <command xml:space="preserve">give paper to kiosk guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -704,10 +704,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68d0d70" />
+      <child nodeId="node-0xae2a650" />
     </children>
   </item>
-  <item nodeId="node-0x68d0d70">
+  <item nodeId="node-0xae2a650">
     <command xml:space="preserve">give money to conductor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -716,10 +716,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x688f8d0" />
+      <child nodeId="node-0xae2a5e0" />
     </children>
   </item>
-  <item nodeId="node-0x688f8d0">
+  <item nodeId="node-0xae2a5e0">
     <command xml:space="preserve">give cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -730,10 +730,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8c9dac0" />
+      <child nodeId="node-0xae2a570" />
     </children>
   </item>
-  <item nodeId="node-0x8c9dac0">
+  <item nodeId="node-0xae2a570">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -747,10 +747,10 @@ You can see Luna and Sir Allan here.
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8ca7d80" />
+      <child nodeId="node-0xae2a500" />
     </children>
   </item>
-  <item nodeId="node-0x8ca7d80">
+  <item nodeId="node-0xae2a500">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Passenger Car
@@ -763,10 +763,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf0310" />
+      <child nodeId="node-0xae2a490" />
     </children>
   </item>
-  <item nodeId="node-0x8cf0310">
+  <item nodeId="node-0xae2a490">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -777,10 +777,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8ca2d80" />
+      <child nodeId="node-0xae2a420" />
     </children>
   </item>
-  <item nodeId="node-0x8ca2d80">
+  <item nodeId="node-0xae2a420">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Observation Car
@@ -791,10 +791,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x26a140" />
+      <child nodeId="node-0xae2a3b0" />
     </children>
   </item>
-  <item nodeId="node-0x26a140">
+  <item nodeId="node-0xae2a3b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Dining Car
@@ -805,10 +805,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68f0690" />
+      <child nodeId="node-0xae2a340" />
     </children>
   </item>
-  <item nodeId="node-0x68f0690">
+  <item nodeId="node-0xae2a340">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Passenger Car
@@ -821,10 +821,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x30b110" />
+      <child nodeId="node-0xae2a2d0" />
     </children>
   </item>
-  <item nodeId="node-0x30b110">
+  <item nodeId="node-0xae2a2d0">
     <command xml:space="preserve">x sir allan&apos;s luggage</command>
     <result xml:space="preserve">A black cotton canvas luggage bag. Sir Allan&apos;s Luggage Bag is tucked into the corner of a rack.
 
@@ -833,10 +833,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x3e75a0" />
+      <child nodeId="node-0xae2a260" />
     </children>
   </item>
-  <item nodeId="node-0x3e75a0">
+  <item nodeId="node-0xae2a260">
     <command xml:space="preserve">open sir allan&apos;s luggage</command>
     <result xml:space="preserve">You try to open the Luggage, but it appears to be locked by a combination spin lock.
  
@@ -845,10 +845,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8ca61b0" />
+      <child nodeId="node-0xae2a1f0" />
     </children>
   </item>
-  <item nodeId="node-0x8ca61b0">
+  <item nodeId="node-0xae2a1f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -857,10 +857,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x2354c0" />
+      <child nodeId="node-0xae2a940" />
     </children>
   </item>
-  <item nodeId="node-0x2354c0">
+  <item nodeId="node-0xae2a940">
     <command xml:space="preserve">open sir allan&apos;s luggage</command>
     <result xml:space="preserve">You try to open the Luggage, but it appears to be locked by a combination spin lock.
  
@@ -869,10 +869,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x6806310" />
+      <child nodeId="node-0xae2a9b0" />
     </children>
   </item>
-  <item nodeId="node-0x6806310">
+  <item nodeId="node-0xae2a9b0">
     <command xml:space="preserve">take book</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -881,10 +881,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68f3f40" />
+      <child nodeId="node-0xae2aa20" />
     </children>
   </item>
-  <item nodeId="node-0x68f3f40">
+  <item nodeId="node-0xae2aa20">
     <command xml:space="preserve">take notebook</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -893,10 +893,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68e92c0" />
+      <child nodeId="node-0xae2aa90" />
     </children>
   </item>
-  <item nodeId="node-0x68e92c0">
+  <item nodeId="node-0xae2aa90">
     <command xml:space="preserve">close luggage</command>
     <result xml:space="preserve">It isn&apos;t something you can close.
 
@@ -905,10 +905,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68c5a80" />
+      <child nodeId="node-0xae2ab00" />
     </children>
   </item>
-  <item nodeId="node-0x68c5a80">
+  <item nodeId="node-0xae2ab00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -917,10 +917,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x680bc50" />
+      <child nodeId="node-0xae2a180" />
     </children>
   </item>
-  <item nodeId="node-0x680bc50">
+  <item nodeId="node-0xae2a180">
     <command xml:space="preserve">spin lock to 1942</command>
     <result xml:space="preserve">You hear a satisfying and firm click, and the lock pops open. You unzip the largest pocket and look inside. There are several notebooks and files. Strange for man coming back from a retirement vacation. One of the notebooks, a Purple Notebook, catches your eye.
 
@@ -929,10 +929,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xd69a000" />
+      <child nodeId="node-0xae2a110" />
     </children>
   </item>
-  <item nodeId="node-0xd69a000">
+  <item nodeId="node-0xae2a110">
     <command xml:space="preserve">open notebook</command>
     <result xml:space="preserve">It isn&apos;t something you can open.
 
@@ -941,10 +941,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x6886d50" />
+      <child nodeId="node-0xae2a0a0" />
     </children>
   </item>
-  <item nodeId="node-0x6886d50">
+  <item nodeId="node-0xae2a0a0">
     <command xml:space="preserve">take notebook</command>
     <result xml:space="preserve">Taken.
 
@@ -953,10 +953,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x25dac0" />
+      <child nodeId="node-0xae2a030" />
     </children>
   </item>
-  <item nodeId="node-0x25dac0">
+  <item nodeId="node-0xae2a030">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -965,10 +965,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68bfd00" />
+      <child nodeId="node-0xae29fc0" />
     </children>
   </item>
-  <item nodeId="node-0x68bfd00">
+  <item nodeId="node-0xae29fc0">
     <command xml:space="preserve">read notebook</command>
     <result xml:space="preserve">Start by reading page 1 of Purple Notebook.
 
@@ -977,10 +977,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x6888e90" />
+      <child nodeId="node-0xae29f50" />
     </children>
   </item>
-  <item nodeId="node-0x6888e90">
+  <item nodeId="node-0xae29f50">
     <command xml:space="preserve">x book</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -989,10 +989,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8cc6b70" />
+      <child nodeId="node-0xae29ee0" />
     </children>
   </item>
-  <item nodeId="node-0x8cc6b70">
+  <item nodeId="node-0xae29ee0">
     <command xml:space="preserve">x notebook</command>
     <result xml:space="preserve">The cover of the notebook contains a familiar pattern. You take out your Lady&apos;s Flower and find that the design look awfully similar. Start by reading page 1 of Purple Notebook.
 
@@ -1001,10 +1001,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8c520a0" />
+      <child nodeId="node-0xae29e70" />
     </children>
   </item>
-  <item nodeId="node-0x8c520a0">
+  <item nodeId="node-0xae29e70">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1013,10 +1013,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8c34a70" />
+      <child nodeId="node-0xae29e00" />
     </children>
   </item>
-  <item nodeId="node-0x8c34a70">
+  <item nodeId="node-0xae29e00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1025,11 +1025,11 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110faeb0" />
-      <child nodeId="node-0x26d8e0" />
+      <child nodeId="node-0xae29150" />
+      <child nodeId="node-0xae29d90" />
     </children>
   </item>
-  <item nodeId="node-0x26d8e0">
+  <item nodeId="node-0xae29d90">
     <command xml:space="preserve">read notebook</command>
     <result xml:space="preserve">Start by reading page 1 of Purple Notebook.
 
@@ -1038,10 +1038,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x68ca850" />
+      <child nodeId="node-0xae29d20" />
     </children>
   </item>
-  <item nodeId="node-0x68ca850">
+  <item nodeId="node-0xae29d20">
     <command xml:space="preserve">read page 1 of notebook</command>
     <result xml:space="preserve">You read: &quot;page 1.&quot;
 
@@ -1050,10 +1050,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xd67c930" />
+      <child nodeId="node-0xae29cb0" />
     </children>
   </item>
-  <item nodeId="node-0xd67c930">
+  <item nodeId="node-0xae29cb0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   SirAllanInformation 3
@@ -1066,10 +1066,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xca4eed0" />
+      <child nodeId="node-0xae29c40" />
     </children>
   </item>
-  <item nodeId="node-0xca4eed0">
+  <item nodeId="node-0xae29c40">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1078,10 +1078,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xcae0e20" />
+      <child nodeId="node-0xae29bd0" />
     </children>
   </item>
-  <item nodeId="node-0xcae0e20">
+  <item nodeId="node-0xae29bd0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   SirAllanInformation 3
@@ -1094,10 +1094,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xd6037b0" />
+      <child nodeId="node-0xae29b60" />
     </children>
   </item>
-  <item nodeId="node-0xd6037b0">
+  <item nodeId="node-0xae29b60">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Passenger Car
 The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car.
@@ -1109,10 +1109,10 @@ You can see Sir Allan&apos;s Luggage (empty), Combination Spin Lock (closed), Ma
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8cc22f0" />
+      <child nodeId="node-0xae29af0" />
     </children>
   </item>
-  <item nodeId="node-0x8cc22f0">
+  <item nodeId="node-0xae29af0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -1123,10 +1123,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x1109df50" />
+      <child nodeId="node-0xae29a80" />
     </children>
   </item>
-  <item nodeId="node-0x1109df50">
+  <item nodeId="node-0xae29a80">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1135,10 +1135,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x1108b800" />
+      <child nodeId="node-0xae29a10" />
     </children>
   </item>
-  <item nodeId="node-0x1108b800">
+  <item nodeId="node-0xae29a10">
     <command xml:space="preserve">open blue door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1147,10 +1147,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xcabbe60" />
+      <child nodeId="node-0xae299a0" />
     </children>
   </item>
-  <item nodeId="node-0xcabbe60">
+  <item nodeId="node-0xae299a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1159,10 +1159,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x1108b370" />
+      <child nodeId="node-0xae29930" />
     </children>
   </item>
-  <item nodeId="node-0x1108b370">
+  <item nodeId="node-0xae29930">
     <command xml:space="preserve">x blue door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1171,10 +1171,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf0ca0" />
+      <child nodeId="node-0xae298c0" />
     </children>
   </item>
-  <item nodeId="node-0x8cf0ca0">
+  <item nodeId="node-0xae298c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1183,10 +1183,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf4a80" />
+      <child nodeId="node-0xae29850" />
     </children>
   </item>
-  <item nodeId="node-0x8cf4a80">
+  <item nodeId="node-0xae29850">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1195,10 +1195,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8c0a2e0" />
+      <child nodeId="node-0xae297e0" />
     </children>
   </item>
-  <item nodeId="node-0x8c0a2e0">
+  <item nodeId="node-0xae297e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1207,10 +1207,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8c415c0" />
+      <child nodeId="node-0xae29770" />
     </children>
   </item>
-  <item nodeId="node-0x8c415c0">
+  <item nodeId="node-0xae29770">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1221,10 +1221,10 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x1107fe30" />
+      <child nodeId="node-0xae29700" />
     </children>
   </item>
-  <item nodeId="node-0x1107fe30">
+  <item nodeId="node-0xae29700">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1233,10 +1233,10 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x110955e0" />
+      <child nodeId="node-0xae29690" />
     </children>
   </item>
-  <item nodeId="node-0x110955e0">
+  <item nodeId="node-0xae29690">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Car
@@ -1247,10 +1247,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x110b4620" />
+      <child nodeId="node-0xae29620" />
     </children>
   </item>
-  <item nodeId="node-0x110b4620">
+  <item nodeId="node-0xae29620">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1261,10 +1261,10 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x110cf120" />
+      <child nodeId="node-0xae295b0" />
     </children>
   </item>
-  <item nodeId="node-0x110cf120">
+  <item nodeId="node-0xae295b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Car
@@ -1275,10 +1275,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xca8a2d0" />
+      <child nodeId="node-0xae29540" />
     </children>
   </item>
-  <item nodeId="node-0xca8a2d0">
+  <item nodeId="node-0xae29540">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1287,10 +1287,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x1109d9c0" />
+      <child nodeId="node-0xae294d0" />
     </children>
   </item>
-  <item nodeId="node-0x1109d9c0">
+  <item nodeId="node-0xae294d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1299,10 +1299,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8c31f30" />
+      <child nodeId="node-0xae29460" />
     </children>
   </item>
-  <item nodeId="node-0x8c31f30">
+  <item nodeId="node-0xae29460">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1313,10 +1313,10 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8c083d0" />
+      <child nodeId="node-0xae293f0" />
     </children>
   </item>
-  <item nodeId="node-0x8c083d0">
+  <item nodeId="node-0xae293f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Car
@@ -1327,10 +1327,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x13f930" />
+      <child nodeId="node-0xae29380" />
     </children>
   </item>
-  <item nodeId="node-0x13f930">
+  <item nodeId="node-0xae29380">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1339,10 +1339,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x8cbf8d0" />
+      <child nodeId="node-0xae29310" />
     </children>
   </item>
-  <item nodeId="node-0x8cbf8d0">
+  <item nodeId="node-0xae29310">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1351,10 +1351,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xca6e730" />
+      <child nodeId="node-0xae292a0" />
     </children>
   </item>
-  <item nodeId="node-0xca6e730">
+  <item nodeId="node-0xae292a0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1363,10 +1363,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0x6846390" />
+      <child nodeId="node-0xae29230" />
     </children>
   </item>
-  <item nodeId="node-0x6846390">
+  <item nodeId="node-0xae29230">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1377,10 +1377,10 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
     <changed>YES</changed>
     <temporary score="592">YES</temporary>
     <children>
-      <child nodeId="node-0xd6904c0" />
+      <child nodeId="node-0xae291c0" />
     </children>
   </item>
-  <item nodeId="node-0xd6904c0">
+  <item nodeId="node-0xae291c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Car
@@ -1391,7 +1391,7 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="591">YES</temporary>
   </item>
-  <item nodeId="node-0x110faeb0">
+  <item nodeId="node-0xae29150">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1400,10 +1400,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x1103f950" />
+      <child nodeId="node-0xae290e0" />
     </children>
   </item>
-  <item nodeId="node-0x1103f950">
+  <item nodeId="node-0xae290e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1412,10 +1412,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca79eb0" />
+      <child nodeId="node-0xae29070" />
     </children>
   </item>
-  <item nodeId="node-0xca79eb0">
+  <item nodeId="node-0xae29070">
     <command xml:space="preserve">read notebook</command>
     <result xml:space="preserve">Start by reading page 1 of Purple Notebook.
 
@@ -1424,10 +1424,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xcabd2e0" />
+      <child nodeId="node-0xae29000" />
     </children>
   </item>
-  <item nodeId="node-0xcabd2e0">
+  <item nodeId="node-0xae29000">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1436,10 +1436,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68ca8f0" />
+      <child nodeId="node-0xae28f90" />
     </children>
   </item>
-  <item nodeId="node-0x68ca8f0">
+  <item nodeId="node-0xae28f90">
     <command xml:space="preserve">read page 1 of notebook</command>
     <result xml:space="preserve">You read: &quot;page 1.&quot;
 
@@ -1448,10 +1448,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca4e4d0" />
+      <child nodeId="node-0xae28f20" />
     </children>
   </item>
-  <item nodeId="node-0xca4e4d0">
+  <item nodeId="node-0xae28f20">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1460,10 +1460,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x32d840" />
+      <child nodeId="node-0xae28eb0" />
     </children>
   </item>
-  <item nodeId="node-0x32d840">
+  <item nodeId="node-0xae28eb0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   SirAllanInformation 3
@@ -1476,10 +1476,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8c325e0" />
+      <child nodeId="node-0xae28e40" />
     </children>
   </item>
-  <item nodeId="node-0x8c325e0">
+  <item nodeId="node-0xae28e40">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1488,10 +1488,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca93b50" />
+      <child nodeId="node-0xae28dd0" />
     </children>
   </item>
-  <item nodeId="node-0xca93b50">
+  <item nodeId="node-0xae28dd0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   SirAllanInformation 3
@@ -1504,10 +1504,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca88c00" />
+      <child nodeId="node-0xae28d60" />
     </children>
   </item>
-  <item nodeId="node-0xca88c00">
+  <item nodeId="node-0xae28d60">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Passenger Car
 The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car.
@@ -1519,10 +1519,10 @@ You can see Sir Allan&apos;s Luggage (empty), Combination Spin Lock (closed), Ma
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca316c0" />
+      <child nodeId="node-0xae28cf0" />
     </children>
   </item>
-  <item nodeId="node-0xca316c0">
+  <item nodeId="node-0xae28cf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -1533,10 +1533,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca52ae0" />
+      <child nodeId="node-0xae28c80" />
     </children>
   </item>
-  <item nodeId="node-0xca52ae0">
+  <item nodeId="node-0xae28c80">
     <command xml:space="preserve">open door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1545,10 +1545,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110db610" />
+      <child nodeId="node-0xae28c10" />
     </children>
   </item>
-  <item nodeId="node-0x110db610">
+  <item nodeId="node-0xae28c10">
     <command xml:space="preserve">open blue door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1557,10 +1557,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xd606a40" />
+      <child nodeId="node-0xae28ba0" />
     </children>
   </item>
-  <item nodeId="node-0xd606a40">
+  <item nodeId="node-0xae28ba0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1569,10 +1569,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca7ce60" />
+      <child nodeId="node-0xae28b30" />
     </children>
   </item>
-  <item nodeId="node-0xca7ce60">
+  <item nodeId="node-0xae28b30">
     <command xml:space="preserve">x blue door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1581,10 +1581,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca6ef40" />
+      <child nodeId="node-0xae28ac0" />
     </children>
   </item>
-  <item nodeId="node-0xca6ef40">
+  <item nodeId="node-0xae28ac0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1593,10 +1593,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xcaa1a60" />
+      <child nodeId="node-0xae28a50" />
     </children>
   </item>
-  <item nodeId="node-0xcaa1a60">
+  <item nodeId="node-0xae28a50">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1605,10 +1605,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xd63c630" />
+      <child nodeId="node-0xae289e0" />
     </children>
   </item>
-  <item nodeId="node-0xd63c630">
+  <item nodeId="node-0xae289e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1617,10 +1617,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xcab9cf0" />
+      <child nodeId="node-0xae28970" />
     </children>
   </item>
-  <item nodeId="node-0xcab9cf0">
+  <item nodeId="node-0xae28970">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1629,10 +1629,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca2f210" />
+      <child nodeId="node-0xae28900" />
     </children>
   </item>
-  <item nodeId="node-0xca2f210">
+  <item nodeId="node-0xae28900">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1645,10 +1645,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x1160e0" />
+      <child nodeId="node-0xae28890" />
     </children>
   </item>
-  <item nodeId="node-0x1160e0">
+  <item nodeId="node-0xae28890">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1657,10 +1657,10 @@ You can see a Blue Door here.
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8c24660" />
+      <child nodeId="node-0xae28820" />
     </children>
   </item>
-  <item nodeId="node-0x8c24660">
+  <item nodeId="node-0xae28820">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Blue Door)
 The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell, &quot;Is anybody there?!&quot; Silence. You push the door with a bit of force.
@@ -1672,10 +1672,10 @@ The door is locked shut. You politely knock once. After a long minute of silence
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x548cb0" />
+      <child nodeId="node-0xae287b0" />
     </children>
   </item>
-  <item nodeId="node-0x548cb0">
+  <item nodeId="node-0xae287b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1684,10 +1684,10 @@ The door is locked shut. You politely knock once. After a long minute of silence
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110a1480" />
+      <child nodeId="node-0xae28740" />
     </children>
   </item>
-  <item nodeId="node-0x110a1480">
+  <item nodeId="node-0xae28740">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening the Blue Door)
 
@@ -1699,10 +1699,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x100850" />
+      <child nodeId="node-0xae286d0" />
     </children>
   </item>
-  <item nodeId="node-0x100850">
+  <item nodeId="node-0xae286d0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1711,10 +1711,10 @@ You can see a Blue Door here.
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xca7db60" />
+      <child nodeId="node-0xae28660" />
     </children>
   </item>
-  <item nodeId="node-0xca7db60">
+  <item nodeId="node-0xae28660">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1723,11 +1723,11 @@ You can see a Blue Door here.
     <changed>NO</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68eeef0" />
-      <child nodeId="node-0x8cdc380" />
+      <child nodeId="node-0xae27cc0" />
+      <child nodeId="node-0xae285f0" />
     </children>
   </item>
-  <item nodeId="node-0x8cdc380">
+  <item nodeId="node-0xae285f0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1736,10 +1736,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x6840810" />
+      <child nodeId="node-0xae28580" />
     </children>
   </item>
-  <item nodeId="node-0x6840810">
+  <item nodeId="node-0xae28580">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1752,10 +1752,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xd610b80" />
+      <child nodeId="node-0xae28510" />
     </children>
   </item>
-  <item nodeId="node-0xd610b80">
+  <item nodeId="node-0xae28510">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1764,10 +1764,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110fb8f0" />
+      <child nodeId="node-0xae284a0" />
     </children>
   </item>
-  <item nodeId="node-0x110fb8f0">
+  <item nodeId="node-0xae284a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -1778,10 +1778,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110c97a0" />
+      <child nodeId="node-0xae28430" />
     </children>
   </item>
-  <item nodeId="node-0x110c97a0">
+  <item nodeId="node-0xae28430">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1790,10 +1790,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110945d0" />
+      <child nodeId="node-0xae283c0" />
     </children>
   </item>
-  <item nodeId="node-0x110945d0">
+  <item nodeId="node-0xae283c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1802,10 +1802,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf3a90" />
+      <child nodeId="node-0xae28350" />
     </children>
   </item>
-  <item nodeId="node-0x8cf3a90">
+  <item nodeId="node-0xae28350">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1814,10 +1814,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xcad90b0" />
+      <child nodeId="node-0xae282e0" />
     </children>
   </item>
-  <item nodeId="node-0xcad90b0">
+  <item nodeId="node-0xae282e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1830,10 +1830,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110593a0" />
+      <child nodeId="node-0xae28270" />
     </children>
   </item>
-  <item nodeId="node-0x110593a0">
+  <item nodeId="node-0xae28270">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -1844,10 +1844,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0xcabff80" />
+      <child nodeId="node-0xae28200" />
     </children>
   </item>
-  <item nodeId="node-0xcabff80">
+  <item nodeId="node-0xae28200">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1860,10 +1860,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110570b0" />
+      <child nodeId="node-0xae28190" />
     </children>
   </item>
-  <item nodeId="node-0x110570b0">
+  <item nodeId="node-0xae28190">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1872,10 +1872,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf9b30" />
+      <child nodeId="node-0xae28120" />
     </children>
   </item>
-  <item nodeId="node-0x8cf9b30">
+  <item nodeId="node-0xae28120">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -1886,10 +1886,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x11046440" />
+      <child nodeId="node-0xae280b0" />
     </children>
   </item>
-  <item nodeId="node-0x11046440">
+  <item nodeId="node-0xae280b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1898,10 +1898,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x16b56910" />
+      <child nodeId="node-0xae28040" />
     </children>
   </item>
-  <item nodeId="node-0x16b56910">
+  <item nodeId="node-0xae28040">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1910,10 +1910,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110bb2c0" />
+      <child nodeId="node-0xae27fd0" />
     </children>
   </item>
-  <item nodeId="node-0x110bb2c0">
+  <item nodeId="node-0xae27fd0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1922,10 +1922,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110b0280" />
+      <child nodeId="node-0xae27f60" />
     </children>
   </item>
-  <item nodeId="node-0x110b0280">
+  <item nodeId="node-0xae27f60">
     <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1934,10 +1934,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x140840" />
+      <child nodeId="node-0xae27ef0" />
     </children>
   </item>
-  <item nodeId="node-0x140840">
+  <item nodeId="node-0xae27ef0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -1950,10 +1950,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x11072330" />
+      <child nodeId="node-0xae27e80" />
     </children>
   </item>
-  <item nodeId="node-0x11072330">
+  <item nodeId="node-0xae27e80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -1964,10 +1964,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x68178c0" />
+      <child nodeId="node-0xae27e10" />
     </children>
   </item>
-  <item nodeId="node-0x68178c0">
+  <item nodeId="node-0xae27e10">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -1976,10 +1976,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110e3f90" />
+      <child nodeId="node-0xae27da0" />
     </children>
   </item>
-  <item nodeId="node-0x110e3f90">
+  <item nodeId="node-0xae27da0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -1988,10 +1988,10 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="741">YES</temporary>
     <children>
-      <child nodeId="node-0x110c1500" />
+      <child nodeId="node-0xae27d30" />
     </children>
   </item>
-  <item nodeId="node-0x110c1500">
+  <item nodeId="node-0xae27d30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2000,7 +2000,7 @@ You can see a Blue Door here.
     <changed>YES</changed>
     <temporary score="740">YES</temporary>
   </item>
-  <item nodeId="node-0x68eeef0">
+  <item nodeId="node-0xae27cc0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2013,10 +2013,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0xca2b4e0" />
+      <child nodeId="node-0xae27c50" />
     </children>
   </item>
-  <item nodeId="node-0xca2b4e0">
+  <item nodeId="node-0xae27c50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -2027,10 +2027,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0xd630d30" />
+      <child nodeId="node-0xae27be0" />
     </children>
   </item>
-  <item nodeId="node-0xd630d30">
+  <item nodeId="node-0xae27be0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2039,10 +2039,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0x14366600" />
+      <child nodeId="node-0xae27b70" />
     </children>
   </item>
-  <item nodeId="node-0x14366600">
+  <item nodeId="node-0xae27b70">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2051,10 +2051,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0x14367420" />
+      <child nodeId="node-0xae27b00" />
     </children>
   </item>
-  <item nodeId="node-0x14367420">
+  <item nodeId="node-0xae27b00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2063,10 +2063,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0xcadeb00" />
+      <child nodeId="node-0xae27a90" />
     </children>
   </item>
-  <item nodeId="node-0xcadeb00">
+  <item nodeId="node-0xae27a90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2079,10 +2079,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0x8cb0950" />
+      <child nodeId="node-0xae27a20" />
     </children>
   </item>
-  <item nodeId="node-0x8cb0950">
+  <item nodeId="node-0xae27a20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -2093,10 +2093,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0x8c2df30" />
+      <child nodeId="node-0xae279b0" />
     </children>
   </item>
-  <item nodeId="node-0x8c2df30">
+  <item nodeId="node-0xae279b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2109,10 +2109,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0xca1b720" />
+      <child nodeId="node-0xae27940" />
     </children>
   </item>
-  <item nodeId="node-0xca1b720">
+  <item nodeId="node-0xae27940">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2121,10 +2121,10 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="661">YES</temporary>
     <children>
-      <child nodeId="node-0x22e780" />
+      <child nodeId="node-0xae278d0" />
     </children>
   </item>
-  <item nodeId="node-0x22e780">
+  <item nodeId="node-0xae278d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Room
@@ -2135,7 +2135,7 @@ You can see Blue Door here.
     <changed>YES</changed>
     <temporary score="660">YES</temporary>
   </item>
-  <item nodeId="node-0x16ef5130">
+  <item nodeId="node-0xae27860">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -2144,12 +2144,12 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x16eb3dd0" />
+      <child nodeId="node-0xae277f0" />
     </children>
   </item>
-  <item nodeId="node-0x16eb3dd0">
+  <item nodeId="node-0xae277f0">
     <command xml:space="preserve">speak to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -2180,48 +2180,48 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xd6eb670" />
+      <child nodeId="node-0xae27780" />
     </children>
   </item>
-  <item nodeId="node-0xd6eb670">
+  <item nodeId="node-0xae27780">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x11069990" />
+      <child nodeId="node-0xae27710" />
     </children>
   </item>
-  <item nodeId="node-0x11069990">
+  <item nodeId="node-0xae27710">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x16ec3ee0" />
+      <child nodeId="node-0xae276a0" />
     </children>
   </item>
-  <item nodeId="node-0x16ec3ee0">
+  <item nodeId="node-0xae276a0">
     <command xml:space="preserve">give paper to guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xd6ee540" />
+      <child nodeId="node-0xae27630" />
     </children>
   </item>
-  <item nodeId="node-0xd6ee540">
+  <item nodeId="node-0xae27630">
     <command xml:space="preserve">give cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -2230,12 +2230,12 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xcae15e0" />
+      <child nodeId="node-0xae275c0" />
     </children>
   </item>
-  <item nodeId="node-0xcae15e0">
+  <item nodeId="node-0xae275c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Town Square
@@ -2244,12 +2244,12 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x138980" />
+      <child nodeId="node-0xae27550" />
     </children>
   </item>
-  <item nodeId="node-0x138980">
+  <item nodeId="node-0xae27550">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -2258,12 +2258,12 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xca2a4a0" />
+      <child nodeId="node-0xae274e0" />
     </children>
   </item>
-  <item nodeId="node-0xca2a4a0">
+  <item nodeId="node-0xae274e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -2275,12 +2275,12 @@ You can see Luna and Sir Allan here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xcacace0" />
+      <child nodeId="node-0xae27470" />
     </children>
   </item>
-  <item nodeId="node-0xcacace0">
+  <item nodeId="node-0xae27470">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Passenger Car
@@ -2291,12 +2291,12 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0x8c17000" />
+      <child nodeId="node-0xae27400" />
     </children>
   </item>
-  <item nodeId="node-0x8c17000">
+  <item nodeId="node-0xae27400">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -2305,12 +2305,12 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="921">YES</temporary>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xcaf8520" />
+      <child nodeId="node-0xae27390" />
     </children>
   </item>
-  <item nodeId="node-0xcaf8520">
+  <item nodeId="node-0xae27390">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell, &quot;Is anybody there?!&quot; Silence. You push the door with a bit of force.
 
@@ -2320,13 +2320,13 @@ You push again, and the lock breaks with a resounding clap. The door swings open
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="921">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="969">YES</temporary>
     <children>
-      <child nodeId="node-0xcaa8c70" />
+      <child nodeId="node-0xae27320" />
     </children>
   </item>
-  <item nodeId="node-0xcaa8c70">
+  <item nodeId="node-0xae27320">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2335,9 +2335,9 @@ A cramped single toilet room with one toilet and one sink.  A gust of wind blows
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="920">YES</temporary>
+    <temporary score="968">YES</temporary>
   </item>
-  <item nodeId="node-0x110a2cf0">
+  <item nodeId="node-0xae272b0">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">You push and squeeze through the crowd of angry villagers until you come to the Mayor. He does not even notice you until you shake him roughly on the shoulder. You ask &quot;Sir, what is happening?&quot;
 
@@ -2367,12 +2367,12 @@ When you walk into the house, you are stunned by the beautiful furnishing that s
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="879">YES</temporary>
+    <temporary score="1495">YES</temporary>
     <children>
-      <child nodeId="node-0x686f930" />
+      <child nodeId="node-0xae27240" />
     </children>
   </item>
-  <item nodeId="node-0x686f930">
+  <item nodeId="node-0xae27240">
     <command xml:space="preserve">talk to mayor</command>
     <result xml:space="preserve">&quot;Mayor, I think we need to hurry.&quot; The Mayor closes his eyes and sinks to the floor.
 
@@ -2386,12 +2386,12 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="879">YES</temporary>
+    <temporary score="1495">YES</temporary>
     <children>
-      <child nodeId="node-0x5500c0" />
+      <child nodeId="node-0xae271d0" />
     </children>
   </item>
-  <item nodeId="node-0x5500c0">
+  <item nodeId="node-0xae271d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -2400,12 +2400,1253 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="879">YES</temporary>
+    <temporary score="1495">YES</temporary>
     <children>
-      <child nodeId="node-0xca107d0" />
+      <child nodeId="node-0xae27160" />
+      <child nodeId="node-0xaec0860" />
     </children>
   </item>
-  <item nodeId="node-0xca107d0">
+  <item nodeId="node-0xaec0860">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You walk up to the Train Conductor, an elderly man with a sneer on his face. You say,
+
+&quot;Ah. Hello. I need to get on the train.&quot;
+
+&quot;Do you have a ticket?&quot; He asks. You shake your head.
+
+&quot;Do you have anything else that can get you on the train?&quot; He opens his palm towards you, facing upwards.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10e4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10e4e0">
+    <command xml:space="preserve">talk to rita</command>
+    <result xml:space="preserve">You walk up to the counter, and say,
+
+&quot;Hi Ms. Rita. Long time no see, how have you been?&quot; Her eyes focus, and she smiles grimly.
+
+&quot;Hello Marian,&quot;
+
+&quot;Marcus&quot;, you correct.
+
+&quot;Marcus. You know, same old same old. How&apos;s ya mother? She good?&quot; You nod.
+
+&quot;Yep. Uh, listen Rita. I need a ticket onto that train over there. How much does it cost?&quot;
+
+&quot;Sorry, boy. Tickets are all sold out. Budget cuts, ya know? They&apos;re limiting passengers to lighten the load.&quot; You raise your brow. Budget cuts?
+
+&quot;This is really important. The Company&apos;s done something real bad this time.&quot;
+
+&quot;The Company?&quot; Rita&apos;s eyes bulge, &quot;Oh dear. Uh... Oh! You see the Conductor over there? Sometimes he allows some extra people onto the train in exchange for something in return. Ya know what I mean?&quot;
+
+&quot;How much?&quot;
+
+&quot;$20 dollahs.&quot;
+
+&quot;20!? That&apos;s daylight robbery!&quot; She grabs a piece of scrap paper from her cluttered desk and scrawls something on it.
+
+&quot;Here,&quot; she says as she hands it to you. &quot;Give it to the kiosk guy. He owes me.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x69b3a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x69b3a80">
+    <command xml:space="preserve">give paper to guy</command>
+    <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9e3d20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9e3d20">
+    <command xml:space="preserve">give cash to conductor</command>
+    <result xml:space="preserve">(Conductor)
+You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
+
+&quot;Alrighty. You&apos;re good to go!&quot; You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that&apos;s wrong. &quot;ALL ABOARD!&quot; He yells. And steps inside the Train.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x115960" />
+      <child nodeId="node-0xae9d070" />
+    </children>
+  </item>
+  <item nodeId="node-0xae9d070">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Town Square
+A square plaza with a cobblestone ground. Along the sides of the square are many two-story buildings. At the center of the square is a tall stone fountain, encircled by several wooden benches. Your cottage is to the West. East is the Mayor&apos;s House, and South is the Station. There is a crowd gathered outside the Mayor&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xae88ce0" />
+    </children>
+  </item>
+  <item nodeId="node-0xae88ce0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Station
+The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa944b20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa944b20">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
+
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.  
+
+You can see Case Solved and Sir Allan here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19da7780" />
+    </children>
+  </item>
+  <item nodeId="node-0x19da7780">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9f6fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9f6fc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa93c510" />
+    </children>
+  </item>
+  <item nodeId="node-0xa93c510">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14aaf3e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14aaf3e0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19dcfc80" />
+    </children>
+  </item>
+  <item nodeId="node-0x19dcfc80">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa98f720" />
+    </children>
+  </item>
+  <item nodeId="node-0xa98f720">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14aa0980" />
+    </children>
+  </item>
+  <item nodeId="node-0x14aa0980">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ad2ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ad2ee0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.  
+
+You can see Case Solved and Sir Allan here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x50c290" />
+    </children>
+  </item>
+  <item nodeId="node-0x50c290">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19d4a560" />
+    </children>
+  </item>
+  <item nodeId="node-0x19d4a560">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a53b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a53b40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9e17a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9e17a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x6938f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x6938f90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19dfaaa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19dfaaa0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9f9ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9f9ff0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19de6fd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19de6fd0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14aaecb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14aaecb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a15560" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a15560">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa912770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa912770">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19df4a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x19df4a50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a676a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a676a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19d7ae00" />
+    </children>
+  </item>
+  <item nodeId="node-0x19d7ae00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19df9e20" />
+    </children>
+  </item>
+  <item nodeId="node-0x19df9e20">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b91580" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b91580">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d0b870" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d0b870">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b8c100" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b8c100">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ab3370" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ab3370">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19309f90" />
+    </children>
+  </item>
+  <item nodeId="node-0x19309f90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b59340" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b59340">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9e2780" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9e2780">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14a2a8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x14a2a8e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b5d510" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b5d510">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Observation Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14ad8b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x14ad8b80">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19321070" />
+    </children>
+  </item>
+  <item nodeId="node-0x19321070">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xae9f040" />
+    </children>
+  </item>
+  <item nodeId="node-0xae9f040">
+    <command xml:space="preserve">take novel</command>
+    <result xml:space="preserve">You examine the novel, and you see absolutely no trace of it ever being opened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d7feb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d7feb0">
+    <command xml:space="preserve">talk to luna</command>
+    <result xml:space="preserve">You can ask Luna about:
+
+Herself.
+
+The purpose of her journey.
+
+What she was doing and where when the crime happened.
+
+The victim.
+
+Anything suspicious.
+
+.
+
+
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14b94980" />
+    </children>
+  </item>
+  <item nodeId="node-0x14b94980">
+    <command xml:space="preserve">ask luna about her guilt</command>
+    <result xml:space="preserve">You accuse Luna of murdering Felix, to which she refuses. You being presenting the evidence, and she gets angry. suddenly, the train stops, and luna runs towards the Train Entrance.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c762a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c762a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x194e9430" />
+    </children>
+  </item>
+  <item nodeId="node-0x194e9430">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xaed9f00" />
+    </children>
+  </item>
+  <item nodeId="node-0xaed9f00">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Observation Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x14adf150" />
+    </children>
+  </item>
+  <item nodeId="node-0x14adf150">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Observation Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10ddf370" />
+    </children>
+  </item>
+  <item nodeId="node-0x10ddf370">
+    <command xml:space="preserve">talk to luna</command>
+    <result xml:space="preserve">You can ask Luna about:
+
+Herself.
+
+The purpose of her journey.
+
+What she was doing and where when the crime happened.
+
+The victim.
+
+Anything suspicious.
+
+.
+
+
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10dd9380" />
+    </children>
+  </item>
+  <item nodeId="node-0x10dd9380">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Observation Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19d3fcf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x19d3fcf0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Observation Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19431320" />
+    </children>
+  </item>
+  <item nodeId="node-0x19431320">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Observation Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10c8ade0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10c8ade0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (closed) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10d373b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10d373b0">
+    <command xml:space="preserve">open purse</command>
+    <result xml:space="preserve">You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x191c9460" />
+    </children>
+  </item>
+  <item nodeId="node-0x191c9460">
+    <command xml:space="preserve">take silk belt</command>
+    <result xml:space="preserve">You pull the Silk Belt out of the purse, and marvel at its length.  You also pick up the Novel, which was sitting on the Couch.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x10cd4aa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10cd4aa0">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (in which is Makeup Bag (closed)) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0xaec2320" />
+    </children>
+  </item>
+  <item nodeId="node-0xaec2320">
+    <command xml:space="preserve">open purse</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x163c0a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x163c0a80">
+    <command xml:space="preserve">l</command>
+    <result xml:space="preserve">Observation Car
+A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by.
+
+You can see Luna&apos;s Purse (in which is Makeup Bag (closed)) and Luna here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1495">YES</temporary>
+    <children>
+      <child nodeId="node-0x19d99660" />
+    </children>
+  </item>
+  <item nodeId="node-0x19d99660">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Novel
+  Silk Belt
+  Wallet (closed)
+  LunaInformation 4
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1494">YES</temporary>
+  </item>
+  <item nodeId="node-0x115960">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
+
+Train Entrance
+A rather small room with little furnishing. There is a small table with a few pamphlets on it. The walls of the Entrance room are mostly glass windows.
+
+You can see Sir Allan here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x690de30" />
+    </children>
+  </item>
+  <item nodeId="node-0x690de30">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Passenger Car
+The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. To the East is the Dining Car.
+
+You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), Luna&apos;s Purse (closed), Mark and Audrey here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x69471d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69471d0">
+    <command xml:space="preserve">x luna&apos;s purse</command>
+    <result xml:space="preserve">A baby pink leather handbag.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaedc790" />
+    </children>
+  </item>
+  <item nodeId="node-0xaedc790">
+    <command xml:space="preserve">open purse</command>
+    <result xml:space="preserve">You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa931e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa931e40">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">You open the wallet and flip through the bills. You notice a certificate folded neatly inside. In the plastic photo holder, there is a polaroid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x69e9ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69e9ab0">
+    <command xml:space="preserve">x certificate</command>
+    <result xml:space="preserve">You unravel the certificate and read its content. It is a marriage certificate. At the bottom, the names signed are Luna Bright, and Felix Justice.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaec10b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaec10b0">
+    <command xml:space="preserve">x mark&apos;s backpack</command>
+    <result xml:space="preserve">A brown canvas zipper backpack.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x6947380" />
+    </children>
+  </item>
+  <item nodeId="node-0x6947380">
+    <command xml:space="preserve">open backpack</command>
+    <result xml:space="preserve">The bag is surprisingly heavy as you pick it up. When you unzip it, you gasp. There are stacks of cash crammed into the bag. You empty the contents on the chair and the piles of money drop out. When the back has been emptied, you notice a photograph among the bills.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x6947260" />
+    </children>
+  </item>
+  <item nodeId="node-0x6947260">
+    <command xml:space="preserve">x money</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaebd860" />
+    </children>
+  </item>
+  <item nodeId="node-0xaebd860">
+    <command xml:space="preserve">x photograph</command>
+    <result xml:space="preserve">A small photo, presumably cut out from a yearbook, of a young boy. Clipped to the photograph is piece of paper, presumably a prescription, that reads &quot;Peter Markson: Scarlet Fever. Prescription for antibiotics.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa98f300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa98f300">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Photograph
+  LunaInformation 2
+  Wallet (open)
+    Certificate
+    Polaroid
+  LunaInformation 4
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x69ba930" />
+    </children>
+  </item>
+  <item nodeId="node-0x69ba930">
+    <command xml:space="preserve">drop photograph</command>
+    <result xml:space="preserve">This is evidence of Mark&apos;s theft. It may have something to do with the murder.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xae55830" />
+    </children>
+  </item>
+  <item nodeId="node-0xae55830">
+    <command xml:space="preserve">x wallet</command>
+    <result xml:space="preserve">A luxurious wallet, fat with credit cards and bills.
+
+In Wallet are Certificate and Polaroid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaea5c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xaea5c90">
+    <command xml:space="preserve">open purse</command>
+    <result xml:space="preserve">You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xae9f820" />
+    </children>
+  </item>
+  <item nodeId="node-0xae9f820">
+    <command xml:space="preserve">x wallet</command>
+    <result xml:space="preserve">A luxurious wallet, fat with credit cards and bills.
+
+In Wallet are Certificate and Polaroid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa926a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa926a70">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x6908180" />
+    </children>
+  </item>
+  <item nodeId="node-0x6908180">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x6909980" />
+    </children>
+  </item>
+  <item nodeId="node-0x6909980">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x6919550" />
+    </children>
+  </item>
+  <item nodeId="node-0x6919550">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa94ea40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa94ea40">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaeb4030" />
+    </children>
+  </item>
+  <item nodeId="node-0xaeb4030">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0x69e12d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x69e12d0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Passenger Car
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaee3760" />
+    </children>
+  </item>
+  <item nodeId="node-0xaee3760">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Photograph
+  LunaInformation 2
+  Wallet (open)
+    Certificate
+    Polaroid
+  LunaInformation 4
+  Wad of Cash
+  Velvet Box
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9c3260" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9c3260">
+    <command xml:space="preserve">drop wallet</command>
+    <result xml:space="preserve">Dropped.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaed51b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaed51b0">
+    <command xml:space="preserve">take wallet</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9f4f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9f4f70">
+    <command xml:space="preserve">open wallet</command>
+    <result xml:space="preserve">That&apos;s already open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9e2370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9e2370">
+    <command xml:space="preserve">x certificate</command>
+    <result xml:space="preserve">You unravel the certificate and read its content. It is a marriage certificate. At the bottom, the names signed are Luna Bright, and Felix Justice.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xaea58e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xaea58e0">
+    <command xml:space="preserve">x wallet</command>
+    <result xml:space="preserve">A luxurious wallet, fat with credit cards and bills.
+
+In Wallet are Certificate and Polaroid.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="291">YES</temporary>
+    <children>
+      <child nodeId="node-0xae24170" />
+    </children>
+  </item>
+  <item nodeId="node-0xae24170">
+    <command xml:space="preserve">x polaroid</command>
+    <result xml:space="preserve">A polaroid of a couple. When you look closer, you realize that it is Luna and Felix lying in a flower field side by side.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="290">YES</temporary>
+  </item>
+  <item nodeId="node-0xae27160">
     <command xml:space="preserve">speak to felix</command>
     <result xml:space="preserve">You stride towards Felix, and slap him across the face. He is dumbfounded for a moment, and registers who you are. He gestures apologetically to the the men in suits and they walk away.
 
@@ -2428,10 +3669,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x6838a60" />
+      <child nodeId="node-0xae270f0" />
     </children>
   </item>
-  <item nodeId="node-0x6838a60">
+  <item nodeId="node-0xae270f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Velvet Box
@@ -2441,10 +3682,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xca478e0" />
+      <child nodeId="node-0xae27080" />
     </children>
   </item>
-  <item nodeId="node-0xca478e0">
+  <item nodeId="node-0xae27080">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Station
 The Station is slow and idle. The town is not an attraction, and the Station is merely a stop for business men who need work in the city, or visit home. You see only a few people walking around, luggages in tow. Prominently in the center of the station is a large faded red ticket booth. Next to it is a small kiosk, selling beverages and food items. To the south is the Train, waiting to depart. 
@@ -2454,10 +3695,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x68e8160" />
+      <child nodeId="node-0xae27010" />
     </children>
   </item>
-  <item nodeId="node-0x68e8160">
+  <item nodeId="node-0xae27010">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Town Square
@@ -2468,10 +3709,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd686420" />
+      <child nodeId="node-0xae26fa0" />
     </children>
   </item>
-  <item nodeId="node-0xd686420">
+  <item nodeId="node-0xae26fa0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -2482,10 +3723,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x8c67890" />
+      <child nodeId="node-0xae26f30" />
     </children>
   </item>
-  <item nodeId="node-0x8c67890">
+  <item nodeId="node-0xae26f30">
     <command xml:space="preserve">talk to rita</command>
     <result xml:space="preserve">You walk up to the counter, and say,
 
@@ -2518,10 +3759,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x275790" />
+      <child nodeId="node-0xae26ec0" />
     </children>
   </item>
-  <item nodeId="node-0x275790">
+  <item nodeId="node-0xae26ec0">
     <command xml:space="preserve">give paper to kiosk guy</command>
     <result xml:space="preserve">You firmly place the paper scrap onto the kiosk desk. The man looks up from his book, and takes it. He unfolds the paper, and the corner of his mouth tugs upward. He turns to the cash register, and takes out a wad of cash, carefully counting it before he hands it to you. He does not say a word, and returns to his book.
 
@@ -2530,10 +3771,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x68cac30" />
+      <child nodeId="node-0xae26e50" />
     </children>
   </item>
-  <item nodeId="node-0x68cac30">
+  <item nodeId="node-0xae26e50">
     <command xml:space="preserve">give cash to conductor</command>
     <result xml:space="preserve">You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
@@ -2544,10 +3785,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x8cc7810" />
+      <child nodeId="node-0xae26de0" />
     </children>
   </item>
-  <item nodeId="node-0x8cc7810">
+  <item nodeId="node-0xae26de0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Town Square
@@ -2558,10 +3799,10 @@ A square plaza with a cobblestone ground. Along the sides of the square are many
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd60ed50" />
+      <child nodeId="node-0xae26d70" />
     </children>
   </item>
-  <item nodeId="node-0xd60ed50">
+  <item nodeId="node-0xae26d70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Station
@@ -2572,11 +3813,11 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>NO</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd687c30" />
-      <child nodeId="node-0x16e9dbd0" />
+      <child nodeId="node-0xae25f70" />
+      <child nodeId="node-0xae26d00" />
     </children>
   </item>
-  <item nodeId="node-0x16e9dbd0">
+  <item nodeId="node-0xae26d00">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2585,10 +3826,10 @@ The Station is slow and idle. The town is not an attraction, and the Station is 
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xca8f010" />
+      <child nodeId="node-0xae26c90" />
     </children>
   </item>
-  <item nodeId="node-0xca8f010">
+  <item nodeId="node-0xae26c90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -2602,10 +3843,10 @@ You can see Luna and Sir Allan here.
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16e83fb0" />
+      <child nodeId="node-0xae26c20" />
     </children>
   </item>
-  <item nodeId="node-0x16e83fb0">
+  <item nodeId="node-0xae26c20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Passenger Car
@@ -2618,10 +3859,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x110007b0" />
+      <child nodeId="node-0xae26bb0" />
     </children>
   </item>
-  <item nodeId="node-0x110007b0">
+  <item nodeId="node-0xae26bb0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -2632,10 +3873,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xcadd930" />
+      <child nodeId="node-0xae26b40" />
     </children>
   </item>
-  <item nodeId="node-0xcadd930">
+  <item nodeId="node-0xae26b40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell, &quot;Is anybody there?!&quot; Silence. You push the door with a bit of force.
 
@@ -2648,10 +3889,10 @@ You push again, and the lock breaks with a resounding clap.
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16ec21e0" />
+      <child nodeId="node-0xae26ad0" />
     </children>
   </item>
-  <item nodeId="node-0x16ec21e0">
+  <item nodeId="node-0xae26ad0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Observation Car
@@ -2662,10 +3903,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16e5e630" />
+      <child nodeId="node-0xae26a60" />
     </children>
   </item>
-  <item nodeId="node-0x16e5e630">
+  <item nodeId="node-0xae26a60">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2674,10 +3915,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x522550" />
+      <child nodeId="node-0xae269f0" />
     </children>
   </item>
-  <item nodeId="node-0x522550">
+  <item nodeId="node-0xae269f0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Observation Car
 [Previous turn undone.]
@@ -2687,10 +3928,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xcad8570" />
+      <child nodeId="node-0xae26980" />
     </children>
   </item>
-  <item nodeId="node-0xcad8570">
+  <item nodeId="node-0xae26980">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Dining Car
 [Previous turn undone.]
@@ -2700,10 +3941,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x50d0f0" />
+      <child nodeId="node-0xae26910" />
     </children>
   </item>
-  <item nodeId="node-0x50d0f0">
+  <item nodeId="node-0xae26910">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Dining Car
 [Previous turn undone.]
@@ -2713,10 +3954,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd6ef960" />
+      <child nodeId="node-0xae268a0" />
     </children>
   </item>
-  <item nodeId="node-0xd6ef960">
+  <item nodeId="node-0xae268a0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Passenger Car
 [Previous turn undone.]
@@ -2726,10 +3967,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16ec09b0" />
+      <child nodeId="node-0xae26830" />
     </children>
   </item>
-  <item nodeId="node-0x16ec09b0">
+  <item nodeId="node-0xae26830">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -2740,10 +3981,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16b63e00" />
+      <child nodeId="node-0xae267c0" />
     </children>
   </item>
-  <item nodeId="node-0x16b63e00">
+  <item nodeId="node-0xae267c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">The door is locked shut. You politely knock once. After a long minute of silence, you knock again. This time, you yell, &quot;Is anybody there?!&quot; Silence. You push the door with a bit of force.
 
@@ -2756,10 +3997,10 @@ You push again, and the lock breaks with a resounding clap.
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xca27950" />
+      <child nodeId="node-0xae26750" />
     </children>
   </item>
-  <item nodeId="node-0xca27950">
+  <item nodeId="node-0xae26750">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2768,10 +4009,10 @@ You push again, and the lock breaks with a resounding clap.
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16ed7dc0" />
+      <child nodeId="node-0xae266e0" />
     </children>
   </item>
-  <item nodeId="node-0x16ed7dc0">
+  <item nodeId="node-0xae266e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2780,10 +4021,10 @@ You push again, and the lock breaks with a resounding clap.
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x519b40" />
+      <child nodeId="node-0xae26670" />
     </children>
   </item>
-  <item nodeId="node-0x519b40">
+  <item nodeId="node-0xae26670">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2794,10 +4035,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x68f0400" />
+      <child nodeId="node-0xae26600" />
     </children>
   </item>
-  <item nodeId="node-0x68f0400">
+  <item nodeId="node-0xae26600">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Dining Car
@@ -2808,10 +4049,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x11eeb0" />
+      <child nodeId="node-0xae26590" />
     </children>
   </item>
-  <item nodeId="node-0x11eeb0">
+  <item nodeId="node-0xae26590">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Dining Car
 The Dining Car has several long tables and benches. It kind of looks like a cafeteria. Occupying a large part of the car&apos;s corner is a counter with buffet-style food. To the North is the Bathroom. To the East is the Observation Car.
@@ -2821,10 +4062,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd6c2720" />
+      <child nodeId="node-0xae26520" />
     </children>
   </item>
-  <item nodeId="node-0xd6c2720">
+  <item nodeId="node-0xae26520">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2833,10 +4074,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x1108f580" />
+      <child nodeId="node-0xae264b0" />
     </children>
   </item>
-  <item nodeId="node-0x1108f580">
+  <item nodeId="node-0xae264b0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -2845,10 +4086,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x8cf7850" />
+      <child nodeId="node-0xae26440" />
     </children>
   </item>
-  <item nodeId="node-0x8cf7850">
+  <item nodeId="node-0xae26440">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Observation Car
@@ -2859,10 +4100,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x16e6bb90" />
+      <child nodeId="node-0xae263d0" />
     </children>
   </item>
-  <item nodeId="node-0x16e6bb90">
+  <item nodeId="node-0xae263d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2871,10 +4112,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x143703d0" />
+      <child nodeId="node-0xae26360" />
     </children>
   </item>
-  <item nodeId="node-0x143703d0">
+  <item nodeId="node-0xae26360">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2883,10 +4124,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x51d520" />
+      <child nodeId="node-0xae262f0" />
     </children>
   </item>
-  <item nodeId="node-0x51d520">
+  <item nodeId="node-0xae262f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2895,10 +4136,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xca2ca10" />
+      <child nodeId="node-0xae26280" />
     </children>
   </item>
-  <item nodeId="node-0xca2ca10">
+  <item nodeId="node-0xae26280">
     <command xml:space="preserve">ns</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -2907,10 +4148,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x520300" />
+      <child nodeId="node-0xae26210" />
     </children>
   </item>
-  <item nodeId="node-0x520300">
+  <item nodeId="node-0xae26210">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2919,10 +4160,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x14373660" />
+      <child nodeId="node-0xae261a0" />
     </children>
   </item>
-  <item nodeId="node-0x14373660">
+  <item nodeId="node-0xae261a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2931,10 +4172,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x14373e50" />
+      <child nodeId="node-0xae26130" />
     </children>
   </item>
-  <item nodeId="node-0x14373e50">
+  <item nodeId="node-0xae26130">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2943,10 +4184,10 @@ A long with glass window on the walls and ceiling. There are several couches fac
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x143598c0" />
+      <child nodeId="node-0xae260c0" />
     </children>
   </item>
-  <item nodeId="node-0x143598c0">
+  <item nodeId="node-0xae260c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Dining Car
@@ -2957,10 +4198,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0x8cab390" />
+      <child nodeId="node-0xae26050" />
     </children>
   </item>
-  <item nodeId="node-0x8cab390">
+  <item nodeId="node-0xae26050">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -2971,10 +4212,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="879">YES</temporary>
     <children>
-      <child nodeId="node-0xd6746c0" />
+      <child nodeId="node-0xae25fe0" />
     </children>
   </item>
-  <item nodeId="node-0xd6746c0">
+  <item nodeId="node-0xae25fe0">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Bathroom
 A cramped single toilet room with one toilet and one sink.  At the center of the bathroom is a horrible sight: Felix&apos;s body hangs from a rope, wound around his neck, that is tied to the ceiling.  A gust of wind blows in from the open window, and Felix&apos;s body sways slightly.
@@ -2984,7 +4225,7 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="878">YES</temporary>
   </item>
-  <item nodeId="node-0xd687c30">
+  <item nodeId="node-0xae25f70">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">the Sliding Door slid shut just as you leap into the Train Entrance car. You hear the train whir to life. Suddenly, you feel yourself stumble backwards, and find that outside, the scenery begins flying past. You hear the Conductor&apos;s voice again: &quot;Hello everybody. We are now headed to the City. Relax, and enjoy your time during this journey.&quot;
 
@@ -2998,10 +4239,10 @@ You can see Luna and Sir Allan here.
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8ca8ee0" />
+      <child nodeId="node-0xae25f00" />
     </children>
   </item>
-  <item nodeId="node-0x8ca8ee0">
+  <item nodeId="node-0xae25f00">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Passenger Car
@@ -3014,10 +4255,10 @@ You can see Sir Allan&apos;s Luggage (closed), Combination Spin Lock (closed), M
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8c55490" />
+      <child nodeId="node-0xae25e90" />
     </children>
   </item>
-  <item nodeId="node-0x8c55490">
+  <item nodeId="node-0xae25e90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -3028,10 +4269,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8c08260" />
+      <child nodeId="node-0xae25e20" />
     </children>
   </item>
-  <item nodeId="node-0x8c08260">
+  <item nodeId="node-0xae25e20">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -3042,10 +4283,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xca29a50" />
+      <child nodeId="node-0xae25db0" />
     </children>
   </item>
-  <item nodeId="node-0xca29a50">
+  <item nodeId="node-0xae25db0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3054,10 +4295,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xd69e790" />
+      <child nodeId="node-0xae25d40" />
     </children>
   </item>
-  <item nodeId="node-0xd69e790">
+  <item nodeId="node-0xae25d40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3066,10 +4307,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xd60eb40" />
+      <child nodeId="node-0xae25cd0" />
     </children>
   </item>
-  <item nodeId="node-0xd60eb40">
+  <item nodeId="node-0xae25cd0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Bathroom
 [Previous turn undone.]
@@ -3079,10 +4320,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e76f00" />
+      <child nodeId="node-0xae25c60" />
     </children>
   </item>
-  <item nodeId="node-0x16e76f00">
+  <item nodeId="node-0xae25c60">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Bathroom
 [Previous turn undone.]
@@ -3092,10 +4333,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8c089a0" />
+      <child nodeId="node-0xae25bf0" />
     </children>
   </item>
-  <item nodeId="node-0x8c089a0">
+  <item nodeId="node-0xae25bf0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Dining Car
 [Previous turn undone.]
@@ -3105,10 +4346,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e681d0" />
+      <child nodeId="node-0xae25b80" />
     </children>
   </item>
-  <item nodeId="node-0x16e681d0">
+  <item nodeId="node-0xae25b80">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">Passenger Car
 [Previous turn undone.]
@@ -3118,10 +4359,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xd63e040" />
+      <child nodeId="node-0xae25b10" />
     </children>
   </item>
-  <item nodeId="node-0xd63e040">
+  <item nodeId="node-0xae25b10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Dining Car
@@ -3132,10 +4373,10 @@ The Dining Car has several long tables and benches. It kind of looks like a cafe
     <changed>NO</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8cd7c80" />
+      <child nodeId="node-0xae25aa0" />
     </children>
   </item>
-  <item nodeId="node-0x8cd7c80">
+  <item nodeId="node-0xae25aa0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bathroom
@@ -3146,10 +4387,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8caa3e0" />
+      <child nodeId="node-0xae25a30" />
     </children>
   </item>
-  <item nodeId="node-0x8caa3e0">
+  <item nodeId="node-0xae25a30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3158,10 +4399,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e98d30" />
+      <child nodeId="node-0xae259c0" />
     </children>
   </item>
-  <item nodeId="node-0x16e98d30">
+  <item nodeId="node-0xae259c0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3170,10 +4411,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x11025730" />
+      <child nodeId="node-0xae25950" />
     </children>
   </item>
-  <item nodeId="node-0x11025730">
+  <item nodeId="node-0xae25950">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3182,10 +4423,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x110790c0" />
+      <child nodeId="node-0xae258e0" />
     </children>
   </item>
-  <item nodeId="node-0x110790c0">
+  <item nodeId="node-0xae258e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3194,10 +4435,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xcac86f0" />
+      <child nodeId="node-0xae25870" />
     </children>
   </item>
-  <item nodeId="node-0xcac86f0">
+  <item nodeId="node-0xae25870">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Bathroom
 A cramped single toilet room with one toilet and one sink.  At the center of the bathroom is a horrible sight: Felix&apos;s body hangs from a rope, wound around his neck, that is tied to the ceiling.  A gust of wind blows in from the open window, and Felix&apos;s body sways slightly.
@@ -3207,10 +4448,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xd67ba60" />
+      <child nodeId="node-0xae25800" />
     </children>
   </item>
-  <item nodeId="node-0xd67ba60">
+  <item nodeId="node-0xae25800">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -3219,10 +4460,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x1379c0" />
+      <child nodeId="node-0xae25790" />
     </children>
   </item>
-  <item nodeId="node-0x1379c0">
+  <item nodeId="node-0xae25790">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -3231,10 +4472,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x68268e0" />
+      <child nodeId="node-0xae25720" />
     </children>
   </item>
-  <item nodeId="node-0x68268e0">
+  <item nodeId="node-0xae25720">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3243,10 +4484,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e8b190" />
+      <child nodeId="node-0xae256b0" />
     </children>
   </item>
-  <item nodeId="node-0x16e8b190">
+  <item nodeId="node-0xae256b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3255,10 +4496,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x126670" />
+      <child nodeId="node-0xae25640" />
     </children>
   </item>
-  <item nodeId="node-0x126670">
+  <item nodeId="node-0xae25640">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3267,10 +4508,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e93ef0" />
+      <child nodeId="node-0xae255d0" />
     </children>
   </item>
-  <item nodeId="node-0x16e93ef0">
+  <item nodeId="node-0xae255d0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3279,10 +4520,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16e6b240" />
+      <child nodeId="node-0xae25560" />
     </children>
   </item>
-  <item nodeId="node-0x16e6b240">
+  <item nodeId="node-0xae25560">
     <command xml:space="preserve">ns</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -3291,10 +4532,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0xd608550" />
+      <child nodeId="node-0xae254f0" />
     </children>
   </item>
-  <item nodeId="node-0xd608550">
+  <item nodeId="node-0xae254f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3303,10 +4544,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x16eb1230" />
+      <child nodeId="node-0xae25480" />
     </children>
   </item>
-  <item nodeId="node-0x16eb1230">
+  <item nodeId="node-0xae25480">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3315,10 +4556,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x8c41160" />
+      <child nodeId="node-0xae25410" />
     </children>
   </item>
-  <item nodeId="node-0x8c41160">
+  <item nodeId="node-0xae25410">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3327,10 +4568,10 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="834">YES</temporary>
     <children>
-      <child nodeId="node-0x6832950" />
+      <child nodeId="node-0xae253a0" />
     </children>
   </item>
-  <item nodeId="node-0x6832950">
+  <item nodeId="node-0xae253a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3339,7 +4580,7 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="833">YES</temporary>
   </item>
-  <item nodeId="node-0x68520c0">
+  <item nodeId="node-0xae25330">
     <command xml:space="preserve">rules on</command>
     <result xml:space="preserve">Rules tracing now switched on. Type &quot;rules off&quot; to switch it off again, or &quot;rules all&quot; to include even rules which do not apply.
 
@@ -3348,7 +4589,7 @@ A cramped single toilet room with one toilet and one sink.  At the center of the
     <changed>YES</changed>
     <temporary score="91">YES</temporary>
   </item>
-  <item nodeId="node-0x6852050">
+  <item nodeId="node-0xae252c0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
