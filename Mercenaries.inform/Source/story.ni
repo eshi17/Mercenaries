@@ -21,6 +21,11 @@ Sink is scenery in Cottage. "A year ago, the mayor cut off all water from the pi
 Table is scenery in Cottage. "A round wooden table that you constructed out of the spare wood pile from the carpenter. It serves as your desk and dining table. At the center of the table is a polished purple stone."
 [Stone]
 Purple Stone is thing in Cottage. Description of Purple Stone is "The townspeople call it Lady's Flower. The opaque material is an intense purple, mixed with grays and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager's farms. There, they found masses of the Lady's Flower, which they called Charoite. Shortly after, they offered a huge sum of money to the town's mayor, hoping that he would allow the Company to keep digging. The mayor refused." Understand "Lady's Flower" as Purple Stone. Purple Stone is undescribed.
+
+Understand "Lady's Flower" as Purple Stone.
+
+Instead of going to a room which is Town Square when Purple Stone is in Cottage: say "Wait. You still have to take your Lady's Flower, it should be on the table."
+
 [Window]
 	Window is scenery in Cottage. "The window overlooks Town Hall. There is a crowd of people gathered outside."
 
@@ -79,7 +84,7 @@ Talking to is an action applying to one visible thing.
 Mayor's House is a room. Mayor's House is east of Town Square. Description of Mayor's House is "When you walk into the house, you are stunned by the beautiful furnishing that seems to glitter in the house. At the center of the pearly marble white floor is a large glossy wooden dining table, on top of which is an elegant flower arrangement. Under a magnificent acrylic painting is a polished large leather sofa. The Mayor plops down on the sofa and deflates."
 	[Main Door]
 	Main Door is a door. Main Door is west of Mayor's House. Main door is undescribed. Description of Main Door is "A tall door made of smooth wood. Expertly carved into the door are two women, holding hands and sitting on a rock. Placed on their heads are two flower garlands. The brass handles curve elegantly outward from the center of the door. The mayor should have the key."
-	Instead of going to a room which is the Mayor's House when the player is in Town Square: say "You pull the on the brass handle, but the door appears to unlocked. Plus, it's not your home–you shouldn't go in without permission."
+	Instead of going to a room which is the Mayor's House when Mayor is in Town Square: say "You pull the on the brass handle, but the door appears to unlocked. Plus, it's not your home–you shouldn't go in without permission."
 	[Couch]
 		Leather Sofa is an enterable scenery supporter in Mayor's House. Description of Leather Sofa is "A leather sofa. Mayor is sitting on Sofa."
 	[Floor]
@@ -105,7 +110,19 @@ Station is a room. Station is south of Town Square. Description of Station is "T
 	Train is scenery in Station. Description of Train is "Train."
 
 [Suit Man]
-	Black Suit is a man. Black Suit is in Station. Black Sui is undescribed. Description of Black Suit is "Man in Black suit."
+	Black Suit is a man. Black Suit is in Station. Black Suit is undescribed. Description of Black Suit is "[if Black Suit is in Station]Man in Black suit.[end if] [if Black Suit is in Train Entrance]Black Suit is pacing around.[end if]"
+	
+Instead of talking to Black Suit when Black Suit is in Station, say "You greet the man in the Black Suit, but he looks at you and you immediately shut up."
+
+Instead of talking to Black Suit when Black Suit is in Train Entrance, say "You approach Black Suit again, and he grunts.
+
+'Where is Felix?' You demand.
+
+'If I knew, I wouldn't be pacing! I don't know. He went to the restroom and never came back.'"
+
+Instead of talking to Black Suit when Black Suit is in Observation Car, say "Black Suit rests his head in his hands, he is in a lot of distress. You sit next to him and pat him on the back.
+
+'He wasn't supposed to die,' he sobs. 'We were just supposed to escort him to the city, and release him when they gave up the stupid rocks. How am I going to face my family?'"
 
 [Felix]
 Felix is man in Station. Felix is undescribed. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face and evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
@@ -184,7 +201,7 @@ Instead of going to a room which is the Train Entrance when the Conductor is in 
 		
 Instead of giving Wad of Cash to Conductor: say "You hand the Conductor the wad of cash. He flips through, quickly counting it, and nods.
 
-'Alrighty. You're good to go!' You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that's wrong. 'ALL ABOARD!' He yells. And steps inside the Train."; move Conductor to Train; remove Felix from play.
+'Alrighty. You're good to go!' You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... that's wrong. 'ALL ABOARD!' He yells. And steps inside the Train."; move Conductor to Train Entrance; remove Wad of Cash from play; remove Felix from play.
 		
 [Train Entrance]
 Train Entrance is a room. Train Entrance is south of Station. Description of Train Entrance is "[if Luna is not in Train Entrance]A rather small room with little furnishing. The walls of the Entrance room are mostly glass windows. [end if] [if Luna is in Train Entrance] You see Luna sprawled out on the ground, with Sir Allan smugly sitting on her back. You decide to ask Sir Allan about Luna's attempt to escape.[end if]"
@@ -232,29 +249,8 @@ Instead of opening Mark's Backpack: say "The bag is surprisingly heavy as you pi
 	Felix's Money is a thing in Felix's Briefcase. Description of Felix's Money is "You are amazed the the sheer number of $100 bills loaded into the Briefcase. Felix must have stolen all of this from the Mayor. It would only be right to return it. You feel your face boil from anger. The audacity of Felix to take this." Instead of taking Felix's money, say "You can't take it out."
 	
 [Sir Allan's Luggage]
-	Sir Allan's Luggage is thing in Passenger Car. Description of Sir Allan's Luggage is "A black cotton canvas luggage bag. Sir Allan's Luggage Bag is tucked into the corner of a rack." Sir Allan's Luggage is a closed container. Combination Spin Lock is thing in Passenger Car. Combination Spin Lock is locked container.
-	Instead of taking Combination Spin Lock, say "It's attached to Sir Allan's Luggage."
+	Sir Allan's Luggage is thing in Passenger Car. Description of Sir Allan's Luggage is "A black cotton canvas luggage bag. Sir Allan's Luggage Bag is tucked into the corner of a rack." Sir Allan's Luggage is a closed container.
 	
-Instead of opening Sir Allan's Luggage:
-    say "[if Combination Spin Lock is locked]You try to open the Luggage, but it appears to be locked by a combination spin lock.[end if]
-[If Combination Spin Lock is unlocked] The luggage bag is open. [end if]"
-    
-Understand "spin [something] to [a number]" as spinning it to.
-spinning it to is an action applying to one thing and one number. 
-
-Check spinning it to:
-	if the noun is not Combination Spin Lock:
-		say "[The noun] does not spin." instead. 
-
-Report spinning it to:
-    say "Click, and not much else happens."
-
-Instead of spinning the locked Combination Spin Lock to 1942:
-    now Combination Spin Lock is unlocked;
-    now Sir Allan's Luggage is open;
-    say "You hear a satisfying and firm click, and the lock pops open. You unzip the largest pocket and look inside. There are several notebooks and files. Strange for man coming back from a retirement vacation. One of the notebooks, a Purple Notebook, catches your eye."
-[Code from Cole Damon's Laboratory Escape]
-
 Purple Notebook is a thing. Purple Notebook is in Sir Allan's Luggage. Description is "The cover of the notebook contains a familiar pattern. You take out your Lady's Flower and find that the design look awfully similar. Start by reading page 1 of Purple Notebook."
 	Instead of reading Purple Notebook: say "Start by reading page 1 of Purple Notebook."; move SirAllanInformation 3 to player.
 
@@ -341,7 +337,7 @@ Open Window is scenery in Bathroom. Description of Open Window is "The window is
 Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by. On one of the couches is Luna's purse, which is placed on top of a Novel.."
 
 [Luna's Purse]
-Luna's Purse is a thing in the Observation Car. Luna's Purse is a closed openable container. Description of Luna's Purse is "A baby pink leather handbag."
+Luna's Purse is a closed openable container. Luna is carrying Luna's Purse. Description of Luna's Purse is "A baby pink leather handbag."
 	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt."; move LunaInformation 4 to player; move Wallet to Player.
 	Silk Belt is a thing. Silk Belt is in Luna's Purse. Description of Silk Belt is "The belt is made of fine white silk, and is almost almost double your height. However, there is a bit of soot on a small portion in the center. Creases on the dirtied portion suggested it was tied to something."
 		Instead of taking Silk Belt: say "You pull the Silk Belt out of the purse, and marvel at its length. [if player is not carrying Novel] You also pick up the Novel, which was sitting on the Couch."; move Silk Belt to player; move Novel to player.
@@ -355,7 +351,6 @@ Luna's Purse is a thing in the Observation Car. Luna's Purse is a closed openabl
 
 
 Luna is a woman in Observation Car. Description of Luna is "A pretty blond girl. You recognize her as the village's tailor's daughter. She is wearing a white silk dress and sneakers. What a strange pairing."
-
 
 Understand "climb on [something]" or “climb up [something]” or "climb down" as climbing. [from Jim Aikin]
 
@@ -556,6 +551,8 @@ The victim.
 
 Anything suspicious. [end if]
 
+[if Luna is in Passenger Car] Luna asked not to be disturbed. You shouldn't talk to her.[end if]
+
 [If player is carrying LunaInformation 4] Her silk belt[end if].
 
 [If player is carrying LunaInformation 2] Her marriage.[end if]
@@ -566,7 +563,7 @@ Instead of asking Luna about "herself", say "she betrays some shivers, but her f
 Instead of asking Luna about "the purpose of her journey", say "going to city to hire a legal consultant to fight the Company."
 ［［［［Instead of asking Luna about "what she was doing and where when the crime happened", say "reading a book in her seat."
 Instead of asking Luna about "the victim": say "she and the victim were very close, but had to keep their relationship secret."; move LunaInformation 1 to player.
-Instead of asking Luna about "anything suspicious": say "she saw mark looking through victim's belongings."; move MarkInformation 1 to player.
+Instead of asking Luna about "anything suspicious": say "she saw mark looking through victim's belongings. After talking, Luna puts her purse down and excuses herself because she needs some time alone to think about what's happened."; move MarkInformation 1 to player; move Luna to Passenger Car; move Luna's Purse to Observation Car.
 Instead of asking Luna about "her marriage": say "Luna face briefly shows surprise, but it quickly turns to anger. 'Why were you looking through my stuff?'"
 Instead of asking Luna about "silk belt": say "Luna says that the belt ripped off her dress. It was originally in a bow, but it unravelled and she accidentally stepped on it."; remove LunaInformation 4 from play; move LunaInformation 5 to player.
 Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Felix, to which she refuses. You being presenting the evidence, and she gets angry. suddenly, the train stops, and luna runs towards the Train Entrance."; Move Luna to Train Entrance.

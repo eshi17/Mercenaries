@@ -14,7 +14,7 @@ Reading language definition from </Users/eshi17/Desktop/ComputerScience/Inform.a
 Phase I ... Lexical analysis
 -----------------------------------------------------
 
-I've now read your source text, which is 49 words long.
+I've now read your source text, which is 3993 words long.
 
 
 -----------------------------------------------------
@@ -107,47 +107,6 @@ Phase XII ... Code generation
 
 ==== Phase XII.6 ... Compiling first block of phrases ====
 
-        (a.2) problem message:
-        found: (A)'if player is carrying jewel'/UNKNOWN/UNKNOWN
-        expected: (A)COMMAND_FMY/UNKNOWN
-        Problem PM_PossibleUnterminatedIf issued from inform7/Chapter 20/Type Checking.w, line 752
-
-          >--> You wrote 'If player is carrying Jewel' (source text, line 2): but this
-            is a phrase which I don't recognise, even though it starts with 'if'. 'If'
-            phrases normally have one of two forms: 'if (condition), (do something)'
-            and 'if (condition) begin; ... ; end if'. The difference is that the
-            begin/end version can encompass multiple-phrase consequences if the
-            condition is true, whereas the simpler form allows only one phrase to count
-            as the 'do something' part.
-
-        (a.2) problem message:
-        found: (A)'ring'/UNKNOWN/UNKNOWN
-        expected: (A)COMMAND_FMY/UNKNOWN
-        Problem PM_UnknownPhrase issued from inform7/Chapter 20/Type Checking.w, line 796
-
-          >--> You wrote 'Ring' (source text, line 4): but this is a phrase which I
-            don't recognise, possibly because it is one you meant to define but never
-            got round to, or because the wording is wrong (see the Phrasebook section
-            of the Index to check). Alternatively, it may be that the text immediately
-            previous to this was a definition whose ending, normally a full stop, is
-            missing?
-
-        (a.2) problem message:
-        found: (A)'novel'/UNKNOWN/UNKNOWN
-        expected: (A)COMMAND_FMY/UNKNOWN
-        Problem PM_UnknownPhrase issued from inform7/Chapter 20/Type Checking.w, line 796
-
-          >--> You wrote 'Novel' (source text, line 5): again, this is a phrase which I
-            don't recognise.
-
-        (a.2) problem message:
-        found: (A)'then move information1 to player'/UNKNOWN/UNKNOWN
-        expected: (A)COMMAND_FMY/UNKNOWN
-        Problem PM_UnknownPhrase issued from inform7/Chapter 20/Type Checking.w, line 796
-
-          >--> You wrote 'then move Information1 to player' (source text, line 6):
-            again, this is a phrase which I don't recognise.
-
 
 
 ==== Phase XII.7 ... Compiling the rulebooks ====
@@ -170,12 +129,53 @@ Phase XII ... Code generation
 
 
 
+==== Phase XII.12 ... Compiling GPR tokens for parsing various kinds of value ====
+
+
+
+==== Phase XII.13 ... Compiling second block of phrases ====
+
+
+
+==== Phase XII.14 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.15 ... Compiling chronology ====
+
+
+
+==== Phase XII.16 ... Compiling I6 Verb directives ====
+
+
+
+==== Phase XII.17 ... Slashing grammar (G1) ====
+
+
+
+==== Phase XII.18 ... Determining grammar (G2) ====
+
+
+
+==== Phase XII.19 ... Sorting and compiling non-value grammar (G3, G4) ====
+
+
+
+==== Phase XII.20 ... Compiling noun and scope filter tokens ====
+
+
+
+==== Phase XII.21 ... Compiling routines from predicate calculus ====
+
+Providing for a total heap of 8192, given requirement of 8192
+
+
 -----------------------------------------------------
 Phase XIII ... Compilation now complete
 -----------------------------------------------------
 
-Total of 4 files written as streams.
-CPU time: 71 centiseconds
+Total of 112 files written as streams.
+CPU time: 161 centiseconds
 
 
 That concludes the debugging log from this run of Inform.
