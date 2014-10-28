@@ -1,6 +1,6 @@
 "Mercenaries" by Elana Shi
 
-When Play begins, say "You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. There is a crowd of people gathered outside in front of the Mayor's House."
+When Play begins, say "You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. There is a crowd of people gathered outside, in front of the Mayor's House."
 
 [Cottage]
 Cottage is a room. "A small one room compartment. Shoved into the corner of the room is your bed. Next to the door is your sorry excuse of a kitchen: a small stove, and a sink. At the center of the room is a squat wooden table with the stone on it. On the wall above your sink is a small one way window that looks into Town Square. You can go to Town Square by going East." Cottage is west of Town Square.
@@ -10,9 +10,9 @@ Bed is scenery in Cottage. "Your sheets are tangled into a ball at the foot of t
 	Sheets are scenery in Cottage. "White cotton sheets that are surprisingly rough to the touch. You bought them from a small store during a trip to the city."
 		Understand "blanket" as Sheets.
 	[Pillow]
-	Pillow is scenery in Cottage. "When you were a child, you fell asleep on a rice bag and discovered that it was the only pillow that could give you a restful night. Since then, you've always preferred the lumpy hard pillow over a feather pillow."
+	Pillow is scenery in Cottage. "When you were a child, you fell asleep on a rice bag and discovered that it was the only pillow that could give you a restful night. Since then, you've always preferred the lumpy hard pillow over feather pillows."
 [Kitchen]
-	Kitchen is scenery in Cottage. Description of Kitchen is "Super simplistic."
+	Kitchen is scenery in Cottage. Description of Kitchen is "Super simplistic. Consists of only a sink and a stove."
 [Stove]
 Stove is scenery in Cottage. "Occasionally you dabble in some cooking, and you're quite good at it too. The neighbors often ask for recipes and tips, which you willingly give. The stove itself is quite old, as you bought it from a second hand store."
 [Sink]
@@ -20,7 +20,7 @@ Sink is scenery in Cottage. "A year ago, the mayor cut off all water from the pi
 [Table]
 Table is scenery in Cottage. "A round wooden table that you constructed out of the spare wood pile from the carpenter. It serves as your desk and dining table. At the center of the table is a polished purple stone."
 [Stone]
-Purple Stone is thing in Cottage. Description of Purple Stone is "The townspeople call it Cloud Stone. The opaque material is an intense purple, mixed with grays and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager's farms. There, they found masses of the Cloud Stone, which they called Charoite. Shortly after, they offered a huge sum of money to the town's mayor, hoping that he would allow the Company to keep digging. The mayor refused." Understand "Cloud Stone" as Purple Stone. Purple Stone is undescribed.
+Purple Stone is thing in Cottage. Description of Purple Stone is "The townspeople call it Cloud Stone. The opaque material is an intense purple, mixed with greys and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager's farms. There, they found masses of the Cloud Stone, which they called Charoite. Shortly after, they offered a huge sum of money to the town's mayor, hoping that he would allow the Company to keep digging. The mayor refused." Understand "Cloud Stone" as Purple Stone. Purple Stone is undescribed.
 
 Instead of going to a room which is Town Square when Purple Stone is in Cottage: say "Wait. You still have to take your Cloud Stone, it should be on the table."
 
@@ -34,11 +34,11 @@ Instead of going to a room which is the Station when the Mayor is in the Town Sq
 [Ground]
 	Cobblestone Ground is scenery in Town Square. "Medium sized rocks lay in a circular pattern around the fountain."
 [Buildings]
-	Two-story Buildings are scenery in Town Square. "Two-story buildings line the side of the square. These buildings contain homes, stores, and restaurants. The stores and restaurants are all closed, but dim lights illuminate from the windows."
+	Two-story Buildings are scenery in Town Square. "Two-story buildings line the side of the square. These buildings contain homes, stores, and restaurants. The stores and restaurants are all closed, but dim lights illuminate the windows."
 [Stone Fountain]
-	Stone Fountain is scenery in Town Square. "The sculpture makes as a humble fountain, but radiates an aura of tranquility. The smooth stone features a woman carrying a flower in one hand and a rock in the other. This is probably the woman in the Lady's Flower."
+	Stone Fountain is scenery in Town Square. "The sculpture makes as a humble fountain, but radiates an aura of tranquility. The smooth stone features a woman carrying a flower in one hand and a rock in the other."
 [Benches]
-	Benches are scenery in Town Square. "Plain wooden benches meant for decoration. Years ago when you were a small child, you would stand on these benches and haughtily beamed over your friend's heads. You were the king of the world!" Benches are an enterable scenery supporter in Town Square.
+	Benches are scenery in Town Square. "Plain wooden benches meant for decoration. Years ago when you were a small child, you would stand on these benches and haughtily beam over your friend's heads. You were the king of the world!" Benches are an enterable scenery supporter in Town Square.
 	Understand "Bench" as Benches.
 [Crowd]
 	Crowd is scenery in Town Square. "The crowd consists of angry village women and men. They hold pitchforks and shovel; you cannot see what's happening as they are too tall."
@@ -47,7 +47,7 @@ An every turn rule:
 		say "After stepping onto the bench, you take a look over the crowd. What you see does not surprise you. A young man in a black suit stands proudly at the center of the crowd, a smirk corrupting his handsome face. This man is Edgar, a representative of the Company. Next to him, the Mayor angrily faces him. He looks like he wants to punch Edgar right then and there, but is holding back for some reason." [Mrs. Kiang helped me on this]
 		
 [Edgar]
-	Edgar is a man in Town Square. Edgar is undescribed. Description of Edgar is "Edgar is a handsome young man. Although the Company has been around town for more than ten years, Edgar has not aged one bit."
+	Edgar is a man in Town Square. Edgar is undescribed. Description of Edgar is "Edgar is a handsome man. Although the Company has been around town for more than ten years, Edgar has not aged one bit."
 	Instead of talking to Edgar, say "You yell out at Edgar, but your voice is lost in the shouts of the other villagers."
 [Mayor]
 	Mayor is a man in Town Square. Mayor is undescribed. Description of Mayor is "A man in his fifties. He has been mayor since you were a child. You remember how he proudly took on the title back then. You realize the job has taken quite a toll on him, as his hair and beard has turned almost completely grey. His stomach, once quite fit, has become a potbelly, threatening to burst his black suit."
@@ -107,17 +107,17 @@ Station is a room. Station is south of Town Square. Description of Station is "T
 	Train is scenery in Station. Description of Train is "The train has already arrived at the Station, and is patiently waiting for passengers to board."
 
 [Suit Man]
-	Black Suit is a man. Black Suit is in Station. Black Suit is undescribed. Description of Black Suit is "[if Black Suit is in Station]A large man, dressed formally in a black suit and tie. He vainly looks around, as if guarding Felix.[end if] [if Black Suit is in Train Entrance]The man in the black suit is pacing around, murmuring to himself. He seems to have lost something.[end if]"
+	Black Suit is a man. Black Suit is in Station. Description of Black Suit is "[if Black Suit is in Station]A large man, dressed formally in a black suit and tie. He vainly looks around, as if guarding Felix.[end if] [if Black Suit is in Train Entrance]The man in the black suit is pacing around, murmuring to himself. He seems to have lost something.[end if]"
 	
 Instead of talking to Black Suit when Black Suit is in Station, say "You greet the man in the Black Suit, but he looks at you and you immediately stop talking- you can't help it. Something about this man screams ominous, and you are frightened."
 
-Instead of talking to Black Suit when Black Suit is in Train Entrance, say "You approach Black Suit again, and he grunts.
+Instead of talking to Black Suit when Black Suit is in Observation Car, say "You approach Black Suit again, and he grunts.
 
 'Where is Felix?' You demand.
 
 'If I knew, I wouldn't be here looking for him! I don't know. He went to the restroom and never came back.' You silently mention to yourself that Black Suit is not looking, but pacing about. How productive."
 
-Instead of talking to Black Suit when Black Suit is in Observation Car, say "Black Suit rests his head in his hands- it is obvious that he is in distress. You silently sit next to him, and he acknowledges you.
+Instead of talking to Black Suit when Black Suit is in Train Entrance, say "Black Suit rests his head in his hands- it is obvious that he is in distress. You silently sit next to him, and he acknowledges you.
 
 'He wasn't supposed to die,' he sobs. 'We were just supposed to escort him to the city, and release him when they gave up the stupid rocks. How am I going to face my family?'
 
@@ -126,7 +126,7 @@ Instead of talking to Black Suit when Black Suit is in Observation Car, say "Bla
 Understand "Man in Black Suit" as Black Suit.
 
 [Felix]
-Felix is man in Station. Felix is undescribed. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face and evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
+Felix is man in Station. Description of Felix is "A tall boy, who just turned 18 in the fall. He cooly leans against the a concrete pillar, an aura of youthful arrogance and hopefulness surrounds him. His hair is cropped closely to his narrow face and evenly combed. Freckles are splattered over his nose, and his mouth naturally curves up into a faint smile. He is dressed smartly in a light grey suit, with a black tie. He hugs a rather large briefcase, pulling it tightly towards his chest."
 	Instead of talking to Felix: say "You stride towards Felix, and slap him across the face. He is dumbfounded for a moment before registering who you are. He gestures apologetically to the the men in suits and they walk away.
 	
 	'What are you doing?' You shout at him.
@@ -141,7 +141,7 @@ Felix is man in Station. Felix is undescribed. Description of Felix is "A tall b
 	
 	'No! I can't stay there. Even if your story is true, the villagers would never hand over the stupid rocks. They have too much prided for that!' The speakers in the Station suddenly blare out:
 	
-	'Train 342 to the City is departing in 5 minutes-please board now. Thank you.' Felix looks at you, then shoves you out of the way to gather his belongings."; move Black Suit to Train Entrance.
+	'Train 342 to the City is departing in 5 minutes-please board now. Thank you.' Felix looks at you, then shoves you out of the way to gather his belongings."; move Black Suit to Observation Car.
 
 [Red Ticket Booth]
 Red Ticket Booth is scenery in Station. Description of Red Ticket Booth is "A squat boxy room standing in the middle of the station. The ticket booth is old, its bright red color faded from years of neglect. On its faded walls are years of expired promotion posters, graffiti, and dried gum. Its windows are dirty and unclean, but a clean piece of paper is pasted on the glass–a train table. Behind the counter sits a bored woman. On closer inspection, you realize that the woman is a villager named Rita."
@@ -208,20 +208,15 @@ Instead of giving Wad of Cash to Conductor: say "You hand the Conductor the wad 
 'Alright. You're good to go!' You cringe on the inside. This corruption is not unfamiliar to you, but to engage in it yourself... it's so wrong. 'ALL ABOARD!' He yells, and steps inside the Train."; remove Conductor from play; remove Wad of Cash from play; remove Felix from play.
 		
 [Train Entrance]
-Train Entrance is a room. Train Entrance is south of Station. Description of Train Entrance is "[if Luna is not in Train Entrance]A rather small room with little furnishing. The walls are made mostly of polished wood, and the floor is covered with a dark purple carpet.[end if] [if Luna is in Train Entrance] You see Luna sprawled out on the ground, with Sir Allan smugly sitting on her back. You resolve to ask Sir Allan about Luna's attempt to escape.[end if]"
+Train Entrance is a room. Train Entrance is south of Station. Description of Train Entrance is "[if Luna is not in Train Entrance]A rather small room with little furnishing. The walls are made mostly of polished wood, and the floor is covered with a dark purple carpet.[end if] [if Luna is in Train Entrance] You see Luna sprawled out on the ground, with Sir Allan and Black Suit gripping her wrists and arms. You resolve to ask Sir Allan about Luna's attempt to escape.[end if]"
 
 	Wall is scenery in Train Entrance. Wall are undescribed. Description of Wall is "Polished brown red wood. It is quite nice to look at."
 	Carpet is scenery in Train Entrance. Carpet are undescribed. Description of Carpet is "A dark purple carpet. There are a few stains here and there, but it is mostly clean."
 
-Instead of asking Sir Allan about "Luna's attempt to escape":
-	say "'She came out of nowhere, and I realized something was wrong. So I stuck my leg out and tripped her. You came in just as I caught her.' You nod. 'I'm not going to let this little girl run away after what she did,' he haughtily states. 'You hear that?' He turns to Luna, 'not after you killed my profit opportunity!' At this moment, several police officers rush into the Train Entrance. You explain what happened, and they swiftly arrest Luna."; move Case Solved to player.
-
-Case Solved is a thing in Train Entrance. Case Solved is undescribed.
-	Instead of taking Case Solved, say "You can't see any such thing."
-
-Every turn rule:
-	If the player is carrying Case Solved,
-		End the story finally.
+Instead of asking Sir Allan about "Luna's attempt to escape" when Luna is in Train Entrance:
+	say "'She came out of nowhere, and I realized something was wrong. So I stuck my leg out and tripped her. You came in just as we caught her.' You nod. At this moment, the train lurches to a stop and several police officers rush into the Train Entrance. You explain what happened, and they swiftly arrest Luna."; move Player to Interrogation Room; move Sir Allan to Interrogation Room; move Arrest to Box; remove MarkInformation 1 from play; remove MarkInformation 2 from play; remove MarkInformation 3 from play; remove MarkInformation 4 from play; remove MarkInformation 5 from play; remove SirAllanInformation 1 from play; remove SirAllanInformation 2 from play; remove SirAllanInformation 3 from play; remove SirAllanInformation 4 from play; remove SirAllanInformation 1 from play; remove AudreyInformation 1 from play; remove AudreyInformation 2 from play; remove AudreyInformation 3 from play; remove LunaInformation 1 from play; remove LunaInformation 2 from play; remove LunaInformation 3 from play; remove LunaInformation 4 from play; remove LunaInformation 5 from play; remove LunaInformation 6 from play; remove LunaInformation 7 from play;
+	
+Arrest is a thing.
 
 The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is north of Train Entrance. The Sliding Door is open.
 	After going south from Station:
@@ -231,18 +226,29 @@ The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is nor
 	Instead of going to a room which is the Station when the Sliding Door is closed: say "But the train is moving."
 Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikin]
 
+[Interrogation Room]
+Interrogation Room is a room. Description of Interrogation Room is "A dimly lit square room with a table and two chairs. You sit in one of the seats."
+
+Case Solved is a thing. Case Solved is in Box. Case Solved is undescribed.
+	Instead of taking Case Solved, say "You can't see any such thing."
+
+Every turn rule:
+	If the player is carrying Case Solved,
+		End the story finally.
+
+
 [Passenger Car]
 
-Passenger Car is a room. Passenger Car is east of Train Entrance. Passenger Car is west of Observation Car. Description of Passenger Car is "The room is longer than it is wide. There are about 30 open seats, but only a few are occupied. Along the walls are large glass windows. [if Murder is in Box] As you walk through the isle, you see the belongings of a few people, including Mark's Backpack, Felix's Briefcase, and Sir Allan's Luggage.[end if] To the East is the Observation Car."
+Passenger Car is a room. Passenger Car is east of Train Entrance. Passenger Car is west of Observation Car. Description of Passenger Car is "There are about 30 open seats uniformly lined up across the room, but only a few are occupied. This should be where everybody sits during the majority of the journey. [if Murder is in Box] As you walk through the isle, you see the belongings of a few people, including Mark's Backpack, Felix's Briefcase, and Sir Allan's Luggage.[end if]To the East is the Observation Car, and North is the Toilet."
 
 Seats are scenery in Passenger Car. Description of Seats are "Purple cotton seats that are slightly soiled from use."
 
 [Mark's Backpack]
 Mark's Backpack is a thing in Passenger Car. Mark's Backpack is undescribed. Description of Mark's Backpack is "A brown canvas zipper backpack. It is quite large, and occupies the whole seat." Mark's Backpack is a closed openable container.
 
-Instead of opening Mark's Backpack: say "[if MarkInformation 2 is not in Box] Maybe you shouldn't touch other people's things unless you have a good reason to [end if] [if MarkInformation 2 is in Box]When you unzip it, you gasp. There are stacks of cash crammed into the bag. You empty the contents on the chair and the piles of money drop out. When the back has been emptied, you notice a photograph among the bills.[end if]"; move Photograph to player.
+Instead of opening Mark's Backpack: say "[if MarkInformation 2 is not in Box] Maybe you shouldn't touch other people's things unless you have a good reason to [end if] [if MarkInformation 2 is in Box]When you unzip it, you gasp. There are stacks of cash crammed into the bag. You empty the contents on the chair and the piles of money drop out. When the back has been emptied, you notice a photograph among the bills.[end if]"
 
-Instead of taking Mark's Backpack: say "[if MarkInformation 2 is not in Box] Maybe you shouldn't take other people's things unless you have a good reason to [end if] [if MarkInformation 2 is in Box]You take the backpack, which is surprisingly heavy.[end if]"; move Photograph to player.
+Instead of taking Mark's Backpack: say "[if MarkInformation 2 is not in Box] Maybe you shouldn't take other people's things unless you have a good reason to [end if] [if MarkInformation 2 is in Box]You take the backpack, which is surprisingly heavy.[end if]"
 
 
 	Instead of dropping Mark's Backpack, say "This is evidence of Mark's theft. It may have something to do with the murder."
@@ -339,16 +345,17 @@ Instead of going to a room which is the Bathroom when the Blue Door is in the Pa
 	
 	'What in the world?' You slam your body against the door. You hear a slight crack.
 	
-	You push again, and the lock breaks with a resounding clap. The door swings open and reveals the bathroom."; remove Blue Door from play; move Murder to Box.
+	You push again, and the lock breaks with a resounding clap. The door swings open and reveals the bathroom."; remove Blue Door from play; move Murder to Box; move Black Suit to Train Entrance.
 	
 Murder is a thing. Murder is in Bathroom. Instead of taking Murder, say "You can't see any such thing."
 	
-Corpse is a man. Corpse is in Bathroom. Description of Corpse is "He has just recently died. His eyes are wide open, and his mouth hangs open. You notice there are red marks around Felix's neck. Perhaps Felix died from strangulation?"
+Corpse is a thing. Corpse is in Bathroom. Description of Corpse is "He has just recently died. His eyes are wide open, and his mouth hangs open. You notice there are red marks around Felix's neck. Perhaps he died from strangulation?"
+Instead of taking Corpse, say "You may investigate, but try not to move anything that might mess up the crime scene."
 
-Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Corpse is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [end if] [if Soot is in Bathroom] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel."
+Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Corpse is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [end if] [if Soot is in Box] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel."
 
 Jewel is thing. Jewel is in Bathroom. Jewel is undescribed.
-	After taking Jewel: say "You realize that this jewel belongs to Luna's hairpiece. There is almost no doubt now, Luna is guilty."; Move LunaInformation 7 to Box.
+	After taking Jewel: say "A small pink jewel. You realize that this jewel belongs to the bracelet. There is almost no doubt now, Luna is guilty."; Move LunaInformation 7 to Box.
 
 Understand "Felix" or "victim" as Corpse.
 
@@ -366,6 +373,7 @@ Luna's Purse is a closed openable container. Luna is carrying Luna's Purse. Desc
 			Instead of dropping Silk Belt, say "Why would you drop that?"
 	Makeup Bag is a thing in Luna's Purse. Makeup Bag is closed openable container. Description of Makeup Bag is "It is heavy with vials of cosmetics."
 		Instead of opening Makeup Bag, say "Alex, you are not a woman."
+	Bracelet is a thing in Luna's Purse. Description of Bracelet is "A homemade bracelet with a number of small soft pink jewels (probably fake) strung together."
 	Wallet is a thing in Luna's Purse. Wallet is closed openable container. Description of Wallet is "A luxurious wallet, fat with credit cards and bills."
 		After opening Wallet: say "You open the wallet and flip through the bills. You notice a certificate folded neatly inside. In the plastic photo holder, there is a polaroid."; move LunaInformation 2 to Box.
 			Certificate is a thing in Wallet. Description of Certificate is "You unravel the certificate and read its content. It is a marriage certificate. At the bottom, the names signed are Luna Bright, and Felix Justice."
@@ -386,7 +394,7 @@ Novel is a thing. Novel is in Observation Car. Novel is undescribed. Description
 		Instead of taking Novel: say "You examine the novel, and you see absolutely no trace of it ever being opened."; Move LunaInformation 6 to Box.
 		Instead of dropping Novel: say "This is proof against Luna's alibi, you should keep it."
 		
-Couch is scenery. Couch is in Observation Car.
+Couch is scenery. Couch is in Observation Car. Description of Couch is "A small leather couch that passengers are allowed to sit on as they enjoy the scenery outside."
 
 [Roof]
 
@@ -397,22 +405,21 @@ Roof is a room. Instead of going to a room which is the Observation Car when the
 
 	Description of Roof is "At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car."
 	
-Soot is thing in Roof. Soot is undescribed.
+Soot is thing in Roof. Soot is undescribed. Instead of taking Soot, say "You can't see any such thing."
 
-	Metal Rod is scenery in Roof. [At one point after I coded the ladder section, I couldn't access the observation car from the passenger car. Therefore, I isolated a couple of sections, and found out that the ladder section was the problem.]
-
+	Metal Rod is scenery in Roof. Description of Metal Rod is "A long metal rod attached to the roof of the train. It appears to be extremely sooty... a bit of soot rubs off onto your when you touch it."
 Tying to is an action applying to one visible thing. [Jim Aikin]
 
 Instead of tying Silk Belt to Metal Rod:
 	now the Silk Belt is part of the Metal Rod;
 	say "You tie the silk belt securely on the metal rod. When you pull, you are surprised by the strength the belt.
 	
-	This gives you an idea. What if you tied the belt to your waist? That would allow you to enter into the bathroom."
+	This gives you an idea. What if the murderer used the Silk Belt as a rope? They could tie it to their waist and lower themselves into the bathroom!"
 
 A waist is a kind of thing. A waist is part of every person.
 	Instead of tying Silk Belt to waist: say "[if silk belt is not part of the metal rod]You wrap a portion of the belt around your waist, but realize that it's not attached to anything, and take off the belt.[end if] [if silk belt is part of the metal rod]You wrap a portion of the belt around your waist. You should probably test the belt's security by pulling it. [end if]"
 	
-	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to player.
+	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to Box.
 
 [Investigation]
 
@@ -480,7 +487,13 @@ The victim. [end if]
 
 [if SirAllanInformation 1 is in Box]His argument with the victim.[end if]
 
-[if SirAllanInformation 3 is in Box] Being the CEO of the Company.[end if]"
+[if SirAllanInformation 3 is in Box] Being the CEO of the Company.[end if]
+
+[if Sir Allan is in Interrogation Room] Sir Allan sits in front of you. You can ask him about:
+
+His Company.
+
+Kidnapping Felix for Cloud Stones.[end if]"
 
 
 Instead of asking Sir Allan about "himself", say "a little shaken, but fine."
@@ -501,6 +514,16 @@ Instead of asking Sir Allan about "being the CEO of the Company": say "You angri
 
 'Now even if I did, I wouldn't tell you. But no, I did not kill Felix. I had no reason to. What would I gain from killing him? In fact, I would actually need the stupid boy alive to get the charoite. It wasn't us, I can tell you that. What happened was a tragedy, and now I have lost leverage on the Mayor. Damn it all."; remove SirAllanInformation 3 from play; move SirAllanInformation 4 to Box.
 
+Instead of asking Sir Allan about "his Company": say "Sir Allan raises his eyebrows.
+
+'My company? The Company? It is a textile company that specializes in special materials.'"
+
+Instead of asking Sir Allan about "Kidnapping Felix for Cloud Stones": say "[if Sir Allan is in Interrogation Room]He laughs.
+'Recently, we found a mass of Charoite in your village. Felix was just a stepping stone to get it.'
+
+Sir Allan just admitted to his crime. You gesture for him to return to his cell. He will be tried.[end if]"; remove Sir Allan from play; Move Luna to Interrogation Room.
+
+
 [Sir Allan Informations]
 SirAllanInformation 1 is a thing in Train. SirAllanInformation 1 is undescribed. Description of SirAllanInformation 1 is "Sir Allan was arguing with the victim."
 SirAllanInformation 2 is a thing in Train. SirAllanInformation 2 is undescribed. Description of SirAllanInformation 2 is "Sir Allan was arguing with the victim>The victim supposedly stole $50 dollars from Sir Allan."
@@ -513,7 +536,7 @@ Audrey is a woman in Passenger Car.
 
 Instead of talking to Audrey, say "[if Murder is not in Box]
 
-Audrey paces by the bathroom, as if she really needs to go. She grumbles that the person inside has been in there for over an hour. You talk to her, and she gives you a small smile,
+Audrey paces by the bathroom, as if she really needs to go. She grumbles that the person inside has been in there for over half an hour. You talk to her, and she gives you a small smile,
 
 'I would talk to you, but my bladder is quite uncomfortable right now.'[end if]
 
@@ -577,7 +600,15 @@ Anything suspicious. [end if]
 
 [If LunaInformation 2 is in Box] Her marriage.[end if]
 
-[if LunaInformation 7 is in Box] Her guilt. [end if]"
+[if LunaInformation 7 is in Box] Her guilt. [end if]
+
+[if Arrest is in Box] Luna avoids your gaze. You can ask her about:
+
+Her relationship with Felix.
+
+Her relationship with the Company.
+
+Why she murdered Felix.[end if]"
 
 Instead of asking Luna about "herself", say "she betrays some shivers, but her face remains steady. she comes from the village, and is the tailor's daughter."
 Instead of asking Luna about "the purpose of her journey", say "going to city to hire a legal consultant to fight the Company."
@@ -587,6 +618,23 @@ Instead of asking Luna about "anything suspicious": say "she saw mark looking th
 Instead of asking Luna about "her marriage": say "Luna face briefly shows surprise, but it quickly turns to anger. 'Why were you looking through my stuff?'"
 Instead of asking Luna about "silk belt": say "Luna says that the belt ripped off her dress. It was originally in a bow, but it unravelled and she accidentally stepped on it."; remove LunaInformation 4 from play; move LunaInformation 5 to Box.
 Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Felix, to which she refuses. You being presenting the evidence, and she gets angry. suddenly, the train stops, and luna runs towards the Train Entrance."; Move Luna to Train Entrance.
+
+Instead of asking Luna about "her relationship with Felix": say "She first refuses to answer, but you remind her that her sentence would be reduced if she cooperated with the authorities.
+
+'We were married, in case you didn't know. We were secretly married in the village. I dunno. I married him so that I could be known as the Mayor's wife. I wanted to live in that house. I wanted the privileges and prestige that came with being the Mayor's wife. I wanted a share in the Mayor's wealth.'"
+
+Instead of asking Luna about "Her relationship with the Company": say "She laughs.
+
+'Oh, I had nothing to do with them. Those greedy scoundrels just set the stage up."
+
+Instead of asking Luna about "Why she murdered Felix": say "She first refuses to answer, but you remind her that her sentence would be reduced if she cooperated with the authorities.
+
+'I confess. I murdered that selfish wretch. We were supposed to be together, and I was supposed to live happily as his rich wife. He didn't warn me that he was leaving. I woke up this morning to find a crowd telling me that he was gone. I rushed over to the Station, and found him. I asked him what was going on, and he told me that he wasn't going back. And at that point, I realized he really wasn't.
+
+What was I supposed to do? If he left, our marriage would have meant nothing. The only way to inherit his money was if Felix died. Legally, the money would be left to me, his widow. I murdered Felix. For his money.'
+
+You shake you head, and call for the police to bring Luna back to her cell. The evidence and confession have been collected, this case is solved."; move Case Solved to player.
+
 
 
 [Luna Informations]
