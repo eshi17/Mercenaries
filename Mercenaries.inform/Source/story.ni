@@ -18,7 +18,8 @@ Stove is scenery in Cottage. "Occasionally you dabble in some cooking, and you'r
 [Sink]
 Sink is scenery in Cottage. "A year ago, the mayor cut off all water from the pipes to prevent the Company's factory from working. Although it was inconvenient, the town's residents all agreed that we needed to send a warning to the Company."
 [Table]
-Table is scenery in Cottage. "A round wooden table that you constructed out of the spare wood pile from the carpenter. It serves as your desk and dining table. At the center of the table is a polished purple stone."
+Table is scenery in Cottage. "A round wooden table that you constructed out of the spare wood pile from the carpenter. It serves as your desk and dining table.[if player is not carrying Purple Stone] At the center of the table is a polished purple stone.[end if]"
+
 [Stone]
 Purple Stone is thing in Cottage. Description of Purple Stone is "The townspeople call it Cloud Stone. The opaque material is an intense purple, mixed with greys and whites. The colors swirls into intricate patterns that almost look artificially enhanced. Just two years ago, there were only a couple of stones that a select few families held. But then the Company discovered the precious materials, and began digging deep into the villager's farms. There, they found masses of the Cloud Stone, which they called Charoite. Shortly after, they offered a huge sum of money to the town's mayor, hoping that he would allow the Company to keep digging. The mayor refused." Understand "Cloud Stone" as Purple Stone. Purple Stone is undescribed.
 
@@ -272,8 +273,8 @@ Instead of taking Mark's Backpack: say "[if MarkInformation 2 is not in Box] May
 [Felix's Briefcase]
 	Felix's Briefcase is a thing in Passenger Car. Felix's Briefcase is undescribed. Description of Felix's Briefcase is "The large briefcase that Felix was holding in the Station. It is made of a luxurious brown leather, and engraved with the marking of some designer based in the city." Felix's briefcase is closed openable container.
 	Felix's Money is a thing in Felix's Briefcase. Description of Felix's Money is "You are amazed the the sheer number of $100 bills loaded into the Briefcase. Felix must have stolen all of this from the Mayor. It would only be right to return it. You feel your face boil from anger. The audacity of Felix to take this." Instead of taking Felix's money, say "You can't take it out."
-	Instead of taking Felix's Briefcase, say "[if Murder is not in Box] You really shouldn't take what doesn't belong to you."
-	Instead of opening Felix's Briefcase, say "[if Murder is not in Box] You really shouldn't touch what doesn't belong to you."
+	Instead of taking Felix's Briefcase, say "[if Murder is not in Box] You really shouldn't take what doesn't belong to you.[end if][if Murder is in Box] You pick up the briefcase, but it is too heavy and you put it down."
+	Instead of opening Felix's Briefcase, say "[if Murder is not in Box] You really shouldn't touch what doesn't belong to you.[end if][if Murder is in box] You pull open the briefcase and peer inside: stacks and stacks of Felix's Money." [I had trouble separating the before and after Murder conversations.]
 	
 Rack is scenery in Passenger Car. Rack is undescribed. Description of Rack is "A metal structure meant to store passenger's belongings."
 
@@ -351,12 +352,12 @@ Instead of going to a room which is the Bathroom when the Blue Door is in the Pa
 	You push again, and the lock breaks with a resounding clap. The door swings open and reveals the bathroom."; remove Blue Door from play; move Murder to Box; move Murder1 to box; move Black Suit to Train Entrance.
 	
 Murder is a thing. Murder is in Bathroom. Instead of taking Murder, say "You can't see any such thing."
-Murder1 is a thing. Murder1 is in Bathroom. Instead of taking Murder1, say "You can't see any such thing."
+Murder1 is a thing. Murder1 is in Bathroom. Instead of taking Murder1, say "You can't see any such thing." [I encountered a problem where I took out Murder from play, which prompted an original conversation to appear. Murder1 fixed that.]
 	
 Corpse is a thing. Corpse is in Bathroom. Description of Corpse is "He has just recently died. His eyes are wide open, and his mouth hangs open. You notice there are red marks around Felix's neck. Perhaps he died from strangulation?"
 Instead of taking Corpse, say "You may investigate, but try not to move anything that might mess up the crime scene."
 
-Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [if Soot in Box] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel.[end if]"
+Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. Opposite of the door is an open window. At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [if Soot in Box] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel.[end if]"
 
 Jewel is thing. Jewel is in Bathroom. Jewel is undescribed.
 	After taking Jewel: say "A small pink jewel. You realize that this jewel belongs to the bracelet. There is almost no doubt now, Luna is guilty."; Move LunaInformation 7 to Box.
@@ -367,18 +368,16 @@ Open Window is scenery in Bathroom. Description of Open Window is "The window is
 
 [Observation Car]
  
-Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by. [if Murder is in Box]On one of the couches is Luna's purse, which is placed on top of a Novel.[end if][if player is carrying Silk Belt] You push open the window, and find a ladder leading up to the roof. You could climb it. [end if]"
+Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long room with glass windows on the walls. There are several couches facing the Glass Windows, so that people can watch the beautiful scenery fly by. [if Murder is in Box]On one of the couches is Luna's purse, which is placed on top of a Novel.[end if]"
 
-Glass Windows are scenery in Observation Car. "The clear glass windows replace the walls of the train. Light floods into the room, and the everything is tranquil. Through the windows, you watch the green countryside fly past."
+Glass Windows are scenery in Observation Car. "The clear glass windows replace the walls of the train. Light floods into the room, and the everything is tranquil. Through the windows, you watch the green countryside fly past. You push against the window, and it opens, surprising you. You stick your head out the window, wanting to feel the air, and see a ladder leading from the side of the train to the Roof. Perhaps you could climb up it."
 
 [Luna's Purse]
 Luna's Purse is a closed openable container. Luna is carrying Luna's Purse. Description of Luna's Purse is "A baby pink leather handbag."
-	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a makeup bag, a bracelet, and a silk belt."; move LunaInformation 4 to Box.
+	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a bracelet and a silk belt."; move LunaInformation 4 to Box.
 	Silk Belt is a thing. Silk Belt is in Luna's Purse. Description of Silk Belt is "The belt is made of fine white silk, and is almost almost double your height. However, there is a bit of soot on a small portion in the center. Creases on the dirtied portion suggested it was tied to something."
 		Instead of taking Silk Belt: say "You pull the Silk Belt out of the purse, and marvel at its length. [if player is not carrying Novel] You also pick up the Novel, which was sitting on the Couch."; move Silk Belt to player; move Novel to player.
 			Instead of dropping Silk Belt, say "Why would you drop that?"
-	Makeup Bag is a thing in Luna's Purse. Makeup Bag is closed openable container. Description of Makeup Bag is "It is heavy with vials of cosmetics."
-		Instead of opening Makeup Bag, say "Alex, you are not a woman."
 	Bracelet is a thing in Luna's Purse. Description of Bracelet is "A homemade bracelet with a number of small soft pink jewels (probably fake) strung together."
 
 Luna is a woman in Observation Car. Description of Luna is "A pretty blond girl. You recognize her as the village's tailor's daughter. She is wearing a white silk dress and sneakers. What a strange pairing."
@@ -386,7 +385,7 @@ Luna is a woman in Observation Car. Description of Luna is "A pretty blond girl.
 Understand "climb on [something]" or “climb up [something]” or "climb down" as climbing. [from Jim Aikin]
 
 Up Ladder is scenery. Up Ladder is in Observation Car. The description is "A rusty metal ladder that runs from the window to the Roof."
-	Instead of climbing up ladder: say "You grip the cold metal handle and pull yourself up."; move player to Roof.
+	Instead of climbing up ladder: say "[if Luna is in Observation Car] Luna eyes you suspiciously, as[end if] You grip the cold metal handle and pull yourself up."; move player to Roof.
 	
 Instead of going to a room which is the Roof when the Couch is in the Observation Car: say "You can't go that way."
 
@@ -404,7 +403,7 @@ Roof is north of Observation Car. Down Ladder is scenery in Roof. The descriptio
 	
 Roof is a room. Instead of going to a room which is the Observation Car when the Couch is in the Roof: say "You can't go that way."
 
-	Description of Roof is "At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car."
+	Description of Roof is "At the top of the train, you feel very unsafe. However, as you gaze at your surroundings, you are struck with admiration of the beautiful landscape. In front of you, there is a long stretch of white panels that is the roof. You notice that there is a metal rod running across the edges of each car. [if Luna is in Observation Car] Caught under the metal rod is a black card.[end if]"
 	
 Soot is thing in Roof. Soot is undescribed. Instead of taking Soot, say "You can't see any such thing."
 
@@ -417,12 +416,24 @@ Instead of tying Silk Belt to Metal Rod:
 	
 	This gives you an idea. What if the murderer used the Silk Belt as a rope? They could tie it to their waist and lower themselves into the bathroom!"
 
-A waist is a kind of thing. A waist is part of every person.
+[Alternate Ending!]	
+	Instead of taking Card: say "As you pick up the card, you hear a small sound behind you. There is a clink, and then everything goes black."; move Dead to player.
+	
+Card is a thing. Card is in Roof. Card is undescribed. Description of Card is "A black rectangular card. It is faced down."
+	
+Dead is a thing.
+Every turn rule:
+	If Player is carrying Dead,
+		End the story finally saying "You feel your body get thrown off the train, and then nothing."
+
+A waist is a kind of thing. A waist is part of every person. [I thought this was weird, and I didn't get it. But it works. Got this from the recipe book.]
 	Instead of tying Silk Belt to waist: say "[if silk belt is not part of the metal rod]You wrap a portion of the belt around your waist, but realize that it's not attached to anything, and take off the belt.[end if] [if silk belt is part of the metal rod]You wrap a portion of the belt around your waist. You should probably test the belt's security by pulling it. [end if]"
 	
 	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to Box
 
 [Investigation]
+
+[I made this whole section devoted to variations of conversation. Originally I was going to use variables, but I realized those would only increase and decrease. Additionally, I had already made it. At first it didn't actually work, but I eventually tried using if statements inside quotational brackets.]
 
 [Mark]
 Mark is a man in Passenger Car. Description of Mark is "A dark haired man, probably around 25 years old. His tanned and calloused hands betray his arduous labor job. Mark wears a cotton vest over a white button-up shirt."
@@ -645,7 +656,7 @@ Instead of asking Luna about "Why she murdered Felix": say "She first refuses to
 
 What was I supposed to do? If he left, our marriage would have meant nothing. The only way to inherit his money was if Felix died. Legally, the money would be left to me, his widow. I murdered Felix. For his money.'
 
-You shake you head, and call for the police to bring Luna back to her cell. The evidence and confession have been collected, this case is solved."; move Case Solved to player.
+You shake you head, and call for the police to bring Luna back to her cell. The evidence and confession have been collected, this case is solved."; move Case Solved to player. [I ended up creating a bunch of nonsense things. There should be another way, but at the moment this is the best I could do.]
 
 
 
@@ -658,7 +669,7 @@ LunaInformation 5 is a thing in Train. LunaInformation 5 is undescribed. Descrip
 LunaInformation 6 is a thing in Train. LunaInformation 6 is undescribed. Description of LunaInformation 6 is "Luna was sitting in her cabin reading her book>Her book shows no traces of being opened at all."
 LunaInformation 7 is a thing in Train. LunaInformation 7 is undescribed. Description of LunaInformation 7 is "Luna is guilty."
 
-Box is a room.
+Box is a room. [I realized that if the Information clues were put to player, the gameplay would look incredibly clunky. So I created this room, called Box where all the information would be stored. At the same time, this would challenge the player to keep track of everything that is going on in the game themselves.]
 
 Description of player is "Your ear-length hair messily tangles around your face, you didn't have time to comb it this morning. In a rush, you threw on a pair of sneakers, a clean t-shirt, and shorts. You grew up in the village, and are very protective of it. You became the town sheriff, and are determined to undo the injustice done to the villagers."
 
@@ -672,9 +683,18 @@ Description of player is "Your ear-length hair messily tangles around your face,
 >Give cash to Conductor
 >s
 >e
+
+-
+ALTERNATE ENDING
+>e
+>Climb up ladder
+>Take Card
+-
+
 >n
 >e
 >Ask Luna about anything suspicious
+
 -
 NPC Puzzle (optional)
 MARK
@@ -697,7 +717,9 @@ SIR ALLAN
 ~
 >e
 >e
+~
 -
+
 >Open Luna's purse
 >Take Silk Belt
 >Climb up Ladder
