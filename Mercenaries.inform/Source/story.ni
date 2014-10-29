@@ -1,5 +1,7 @@
 "Mercenaries" by Elana Shi
 
+Release along with cover art ("Bag of Money").
+
 When Play begins, say "You wake up to shouts and loud banging. It is early; the sun has just begun to rise. After groggily getting out from bed, you peer out the window. There is a crowd of people gathered outside, in front of the Mayor's House."
 
 [Cottage]
@@ -121,11 +123,13 @@ Instead of talking to Black Suit when Black Suit is in Observation Car, say "You
 
 'If I knew, I wouldn't be here looking for him! I don't know. He went to the restroom and never came back.' You silently mention to yourself that Black Suit is not looking, but pacing about. How productive."
 
-Instead of talking to Black Suit when Black Suit is in Train Entrance, say "Black Suit rests his head in his hands- it is obvious that he is in distress. You silently sit next to him, and he acknowledges you.
+Instead of talking to Black Suit when Black Suit is in Train Entrance for the first time, say "Black Suit rests his head in his hands- it is obvious that he is in distress. You silently sit next to him, and he acknowledges you.
 
 'He wasn't supposed to die,' he sobs. 'We were just supposed to escort him to the city, and release him when they gave up the stupid rocks. How am I going to face my family?'
 
 'It's not alright that you've done this. But it wasn't your fault,' you console. You realize that he genuinely cares about the situation, and is afraid of what will happen. He might not be at fault."
+
+Instead of talking to Black Suit when Black Suit is in Train Entrance, say "[if Luna is not in Train Entrance]He looks down dully, but his grief has subsided.[end if] [If Luna is in Train Entrance] He dutifully holds Luna's wrists and forearm, restricting her movement as she struggles. He nods to you, and gives you a faint smile."
 
 Understand "Man in Black Suit" as Black Suit.
 
