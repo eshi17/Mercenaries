@@ -227,7 +227,7 @@ The Sliding Door is a door. Sliding Door is undescribed. The Sliding Door is nor
 Instead of opening Sliding door, say "But the train is moving." [Code from Jim Aikin]
 
 [Interrogation Room]
-Interrogation Room is a room. Description of Interrogation Room is "A dimly lit square room with a table and two chairs. You sit in one of the seats."
+Interrogation Room is a room. Description of Interrogation Room is "A dimly lit square room with a table and two chairs. You sit in one of the seats. [if Sir Allan in Interrogation Room] Sir Allan sits across from you. [end if] [if Luna is in Interrogation Room] Luna sits across from you.[end if]"
 
 Case Solved is a thing. Case Solved is in Box. Case Solved is undescribed.
 	Instead of taking Case Solved, say "You can't see any such thing."
@@ -352,7 +352,7 @@ Murder is a thing. Murder is in Bathroom. Instead of taking Murder, say "You can
 Corpse is a thing. Corpse is in Bathroom. Description of Corpse is "He has just recently died. His eyes are wide open, and his mouth hangs open. You notice there are red marks around Felix's neck. Perhaps he died from strangulation?"
 Instead of taking Corpse, say "You may investigate, but try not to move anything that might mess up the crime scene."
 
-Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. [If Corpse is in Bathroom] At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [end if] [if Soot is in Box] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel."
+Bathroom is a room. Bathroom is north of Passenger Car. Description of Bathroom is "A cramped single toilet room with one toilet and one sink. At the center of the bathroom is a horrible sight: Felix's body is sprawled out on the floor. He is dead. [if Soot in Box] Out of the corner of your eye, you notice a small glimmer in Felix's palm. You carefully pick it up and discover that it is a small jewel.[end if]"
 
 Jewel is thing. Jewel is in Bathroom. Jewel is undescribed.
 	After taking Jewel: say "A small pink jewel. You realize that this jewel belongs to the bracelet. There is almost no doubt now, Luna is guilty."; Move LunaInformation 7 to Box.
@@ -363,22 +363,17 @@ Open Window is scenery in Bathroom. Description of Open Window is "The window is
 
 [Observation Car]
  
-Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by. On one of the couches is Luna's purse, which is placed on top of a Novel.."
+Observation Car is a room. Observation Car is east of Passenger Car. Description of Observation Car is "A long with glass window on the walls and ceiling. There are several couches facing the windows, so that people can watch the beautiful scenery fly by. On one of the couches is Luna's purse, which is placed on top of a Novel.[if player is carrying Silk Belt] You push open the window, and find a ladder leading up to the roof. You could climb it. [end if]"
 
 [Luna's Purse]
 Luna's Purse is a closed openable container. Luna is carrying Luna's Purse. Description of Luna's Purse is "A baby pink leather handbag."
-	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a makeup bag, a wallet, and a silk belt."; move LunaInformation 4 to Box; move Wallet to Player.
+	After opening Luna's Purse: say "You open the purse and rummage around. Inside, she carries a makeup bag, a bracelet, and a silk belt."; move LunaInformation 4 to Box.
 	Silk Belt is a thing. Silk Belt is in Luna's Purse. Description of Silk Belt is "The belt is made of fine white silk, and is almost almost double your height. However, there is a bit of soot on a small portion in the center. Creases on the dirtied portion suggested it was tied to something."
 		Instead of taking Silk Belt: say "You pull the Silk Belt out of the purse, and marvel at its length. [if player is not carrying Novel] You also pick up the Novel, which was sitting on the Couch."; move Silk Belt to player; move Novel to player.
 			Instead of dropping Silk Belt, say "Why would you drop that?"
 	Makeup Bag is a thing in Luna's Purse. Makeup Bag is closed openable container. Description of Makeup Bag is "It is heavy with vials of cosmetics."
 		Instead of opening Makeup Bag, say "Alex, you are not a woman."
 	Bracelet is a thing in Luna's Purse. Description of Bracelet is "A homemade bracelet with a number of small soft pink jewels (probably fake) strung together."
-	Wallet is a thing in Luna's Purse. Wallet is closed openable container. Description of Wallet is "A luxurious wallet, fat with credit cards and bills."
-		After opening Wallet: say "You open the wallet and flip through the bills. You notice a certificate folded neatly inside. In the plastic photo holder, there is a polaroid."; move LunaInformation 2 to Box.
-			Certificate is a thing in Wallet. Description of Certificate is "You unravel the certificate and read its content. It is a marriage certificate. At the bottom, the names signed are Luna Bright, and Felix Justice."
-			Polaroid is a thing in Wallet. Description of Polaroid is "A polaroid of a couple. When you look closer, you realize that it is Luna and Felix lying in a flower field side by side."
-
 
 Luna is a woman in Observation Car. Description of Luna is "A pretty blond girl. You recognize her as the village's tailor's daughter. She is wearing a white silk dress and sneakers. What a strange pairing."
 
@@ -419,7 +414,7 @@ Instead of tying Silk Belt to Metal Rod:
 A waist is a kind of thing. A waist is part of every person.
 	Instead of tying Silk Belt to waist: say "[if silk belt is not part of the metal rod]You wrap a portion of the belt around your waist, but realize that it's not attached to anything, and take off the belt.[end if] [if silk belt is part of the metal rod]You wrap a portion of the belt around your waist. You should probably test the belt's security by pulling it. [end if]"
 	
-	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to Box.
+	Instead of pulling Silk Belt: say "You give the belt a tug, and sure enough, the belt is securely fastened to the metal rod. You carefully lower yourself on the side of the train, gripping the metal rod for support. Suddenly, your foot hits a window sill. You continue to lower yourself into the window, until you are completely in the bathroom. So [italic type] this [roman type] is how the murderer entered the crime scene!"; move player to Bathroom; move Silk Belt to player; move Soot to Box
 
 [Investigation]
 
@@ -447,15 +442,16 @@ The victim. [end if]
 [if MarkInformation 4 is in Box] His son's medication. [end if]"
 
 
-Instead of asking Mark about "himself", say "worried. will the mystery keep the people on the train after they arrive?"
-Instead of asking Mark about "the purpose of his journey": say "going to city for son's medicine."; move MarkInformation 4 to Box.
-Instead of asking Mark about "his son's medicine", say "the medicine is extremely expensive."
-Instead of asking Mark about "the money stuffed in his luggage", say "he saw the luggage and took a few bundles of cash. his family is poor and he needed the money."[maybe make it mark's son?]
+Instead of asking Mark about "himself", say "'I'm very worried. Will we have to stay on the train even after it arrives at the station? I'm in a hurry."
+Instead of asking Mark about "the purpose of his journey": say "'I'm going to the city to buy my son's medicine. He's really sick and I need to save him'"; move MarkInformation 4 to Box.
+Instead of asking Mark about "his son's medicine", say "'The medicine is extremely expensive.'"
 Instead of asking Mark about "what he was doing and where during the time of the crime", say "taking a nap in his private room."
 Instead of asking Mark about "the victim": say "he saw the victim arguing with sir allan"; move SirAllanInformation 1 to Box.
 Instead of asking Mark about "him looking through victim's belongings": say "he says he did no such thing."; remove MarkInformation 1 from play; move MarkInformation 2 to Box.
 Instead of asking Mark about "son's medication": say "he is uncomfortable and tries to avoid the conversation."
-Instead of asking Mark about "him stealing money from victim to pay for son's medication": say "you confront him, and tell him that audrey told you. he confesses."; remove MarkInformation 2 from play; move MarkInformation 3 to Box.
+Instead of asking Mark about "him stealing money from victim to pay for son's medication": say "You confront Mark, telling him that you know he stole the money to pay for his son's medicine.
+
+'Okay, okay. I saw the money in the briefcase, and I just took it. My son is desperately sick, and I fear that once I pay for the medicine, I won't be able to feed my family.'"; remove MarkInformation 2 from play; move MarkInformation 3 to Box.
 
 [Mark Informations]
 MarkInformation 1 is a thing in Train. MarkInformation 1 is undescribed. Description of MarkInformation 1 is "Mark was seen rummaging through the victim's belongings."
@@ -496,9 +492,9 @@ His Company.
 Kidnapping Felix for Cloud Stones.[end if]"
 
 
-Instead of asking Sir Allan about "himself", say "a little shaken, but fine."
-Instead of asking Sir Allan about "the purpose of his journey", say "returning to the city after his retirement vacation."
-Instead of asking Sir Allan about "what he was doing and where during the time of the crime", say "speaking to you."
+Instead of asking Sir Allan about "himself", say "'Oh dear, I'm a little shaken, but I'm fine.'"
+Instead of asking Sir Allan about "the purpose of his journey", say "'I'm returning to the city. I've just finished my retirement vacation.'"
+Instead of asking Sir Allan about "what he was doing and where during the time of the crime", say "I was in the Train Entrance. You saw me!"
 Instead of asking Sir Allan about "the victim", say "he was friendly, and a nice boy who helped sir allan put his luggage onto the luggage rack."
 Instead of asking Sir Allan about "his argument with the victim": say "sir allan is taken aback, but regains his composure quickly. he says that he suspected that felix stole a $50 dollar bill from his luggage, and felix said he didn't."; remove SirAllanInformation 1 from play; move SirAllanInformation 2 to Box.
 Instead of asking Sir Allan about "being the CEO of the Company": say "You angrily rush up to Sir Allan, demanding to know whether or not Sir Allan is really the CEO of the Company, which has plagued your home for years.
@@ -556,12 +552,14 @@ The victim. [end if]
 
 [if MarkInformation 5 is in Box]$2000 dollars in Mark's possession.[end if]"
 
-Instead of asking Audrey about "herself": say "she is very scared. she hopes the victim killed himself rather than someone killing him."; move AudreyInformation 1 to Box.
-Instead of asking Audrey about "the purpose of her journey", say "going to city for son's medicine."
+Instead of asking Audrey about "herself": say "'I'm very scared. A murder? Unthinkable. I was by my husband, Mark, the whole time. Just in case you needed to know.'"; move AudreyInformation 1 to Box.
+Instead of asking Audrey about "the purpose of her journey", say "'I'm going to the city to buy medicine for my son. He's quite sick, and we're in hurry.'"
 Instead of asking Audrey about "what she was doing and where when the crime happened": say "waited by the bathroom. she said she waited for over 15 minutes, and yet nobody came around."
-Instead of asking Audrey about "the victim": say "she did not meet the victim. she only saw him and thought that he was very handsome. if anything, she saw sir allan and the victim arguing outside at the veranda."; move SirAllanInformation 1 to Box.
-Instead of asking Audrey about "her husband stealing": say "she knows nothing about it, and says that her husband is a good family man."; remove AudreyInformation 1 from play; move AudreyInformation 2 to Box.
-Instead of asking Audrey about "$2000 dollars in Mark's possession": say "her eyes widen at the mention of $2000 dollars. she realizes that mark must have stolen it because it is the exact sum that they needed in order to pay for their child's medicine."; remove AudreyInformation 2 from play; move AudreyInformation 3 to Box.
+Instead of asking Audrey about "the victim": say "'I didn't meet the victim. But if anything, I saw Sir Allan and the victim arguing in the Passenger Car."; move SirAllanInformation 1 to Box.
+Instead of asking Audrey about "her husband stealing": say "'No. My husband is a good man, he wouldn't do such a thing.'"; remove AudreyInformation 1 from play; move AudreyInformation 2 to Box.
+Instead of asking Audrey about "$2000 dollars in Mark's possession": say "Audrey's eyes widen at the mention of $2000 dollars.
+
+'$2000... that's the price of the medicine,' she breathes. 'Our son's medicine. Mark must've... Oh dear."; remove AudreyInformation 2 from play; move AudreyInformation 3 to Box.
 
 [Audrey Informations]
 AudreyInformation 1 is a thing in Train. AudreyInformation 1 is undescribed. Description of AudreyInformation 1 is "Audrey is Mark's wife."
@@ -610,23 +608,31 @@ Her relationship with the Company.
 
 Why she murdered Felix.[end if]"
 
-Instead of asking Luna about "herself", say "she betrays some shivers, but her face remains steady. she comes from the village, and is the tailor's daughter."
-Instead of asking Luna about "the purpose of her journey", say "going to city to hire a legal consultant to fight the Company."
-［［［［Instead of asking Luna about "what she was doing and where when the crime happened", say "reading a book in her seat."
-Instead of asking Luna about "the victim": say "she and the victim were very close, but had to keep their relationship secret."; move LunaInformation 1 to Box.
-Instead of asking Luna about "anything suspicious": say "she saw mark looking through victim's belongings. After talking, Luna puts her purse down and excuses herself because she needs some time alone to think about what's happened."; move MarkInformation 1 to Box; move Luna to Passenger Car; move Luna's Purse to Observation Car.
-Instead of asking Luna about "her marriage": say "Luna face briefly shows surprise, but it quickly turns to anger. 'Why were you looking through my stuff?'"
-Instead of asking Luna about "silk belt": say "Luna says that the belt ripped off her dress. It was originally in a bow, but it unravelled and she accidentally stepped on it."; remove LunaInformation 4 from play; move LunaInformation 5 to Box.
-Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Felix, to which she refuses. You being presenting the evidence, and she gets angry. suddenly, the train stops, and luna runs towards the Train Entrance."; Move Luna to Train Entrance.
+Instead of asking Luna about "herself", say "'Come on, Alex. You've known me for years.'
+
+'Yes, but it's for the investigation.'
+
+'Ha ha, okay. I am the tailor's daughter. And, as you know, I  dorn and raised in the village.'"
+Instead of asking Luna about "the purpose of her journey", say "'This morning when I heard that Felix was kidnapped, I immediately rushed to the Station to take a train to the City. I planned to find a legal consultant. If I could help the village, it would be through the law.'"
+［［［［Instead of asking Luna about "what she was doing and where when the crime happened", say "'I was in the Observation Car reading a novel.'"
+Instead of asking Luna about "the victim": say "'We... we were in a secret relationship before. I'm devastated that he's gone...'"; move LunaInformation 1 to Box.
+Instead of asking Luna about "anything suspicious": say "Luna thinks for a second, then says
+
+'Yes. I saw that guy, Mark, rummaging through Felix's,' her voice cracks, '-I mean the victim's things. You know what? Sorry. I want to be alone for a bit.' Luna stands up and walks to the Passenger Car, leaving her purse behind."; move MarkInformation 1 to Box; move Luna to Passenger Car; move Luna's Purse to Observation Car.
+Instead of asking Luna about "her marriage": say "Luna face briefly shows surprise, but it quickly turns to anger. 'Why were you looking through my stuff?' Yes, we were married... secretly."
+Instead of asking Luna about "silk belt": say "'Oh!' She exclaims, 't-that. It was a ribbon on the back of my dress. I accidentally stepped on it, and it ripped off."; remove LunaInformation 4 from play; move LunaInformation 5 to Box.
+Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Felix, to which she refuses.
+
+'But I have evidence!' You exclaim as you bring out the jewel and silk belt. 'Both are obviously yours, and your alibi does not match the current situation. Your book-'
+
+Luna doesn't let you finish. Seeing that train is nearing the Station, she rushes towards the Train Entrance."; Move Luna to Train Entrance.
 
 Instead of asking Luna about "her relationship with Felix": say "She first refuses to answer, but you remind her that her sentence would be reduced if she cooperated with the authorities.
 
 'We were married, in case you didn't know. We were secretly married in the village. I dunno. I married him so that I could be known as the Mayor's wife. I wanted to live in that house. I wanted the privileges and prestige that came with being the Mayor's wife. I wanted a share in the Mayor's wealth.'"
-
 Instead of asking Luna about "Her relationship with the Company": say "She laughs.
 
 'Oh, I had nothing to do with them. Those greedy scoundrels just set the stage up."
-
 Instead of asking Luna about "Why she murdered Felix": say "She first refuses to answer, but you remind her that her sentence would be reduced if she cooperated with the authorities.
 
 'I confess. I murdered that selfish wretch. We were supposed to be together, and I was supposed to live happily as his rich wife. He didn't warn me that he was leaving. I woke up this morning to find a crowd telling me that he was gone. I rushed over to the Station, and found him. I asked him what was going on, and he told me that he wasn't going back. And at that point, I realized he really wasn't.
@@ -647,3 +653,28 @@ LunaInformation 6 is a thing in Train. LunaInformation 6 is undescribed. Descrip
 LunaInformation 7 is a thing in Train. LunaInformation 7 is undescribed. Description of LunaInformation 7 is "Luna is guilty."
 
 Box is a room.
+
+[Steps:
+>Take stone
+>e
+>Talk to Mayor
+>Talk to Mayor
+>Talk to Rita
+>Give paper to guy
+>Give cash to Conductor
+>s
+>n
+>Ask Luna about anything suspicious
+>Open Luna's purse
+>Take Silk Belt
+>Climb up Ladder
+>Tie Silk Belt to Metal Rod
+>Tie Silk Belt to Waist
+>Pull Silk Belt
+>Take Jewel
+>s
+>Ask Luna about her guilt
+>w
+>Ask Sir Allan about Luna's attempt to escape
+>Ask Sir Allan about kidnapping Felix for cloud stones
+>Ask Luna about why she murdered Felix]
