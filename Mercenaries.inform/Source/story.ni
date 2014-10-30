@@ -244,7 +244,7 @@ Train Entrance is a room. Train Entrance is south of Station. Description of Tra
 	Carpet is scenery in Train Entrance. Carpet are undescribed. Description of Carpet is "A dark purple carpet. There are a few stains here and there, but it is mostly clean."
 
 Instead of asking Sir Allan about "Luna's attempt to escape" when Luna is in Train Entrance:
-	say "'She came out of nowhere, and I realized something was wrong. So I stuck my leg out and tripped her. You came in just as we caught her.' You nod. At this moment, the train lurches to a stop and several police officers rush into the Train Entrance. You explain what happened, and they swiftly arrest Luna."; move Player to Interrogation Room; move Sir Allan to Interrogation Room; move Arrest to Box; remove MarkInformation 1 from play; remove MarkInformation 2 from play; remove MarkInformation 3 from play; remove MarkInformation 4 from play; remove MarkInformation 5 from play; remove SirAllanInformation 1 from play; remove SirAllanInformation 2 from play; remove SirAllanInformation 3 from play; remove SirAllanInformation 4 from play; remove SirAllanInformation 1 from play; remove AudreyInformation 1 from play; remove AudreyInformation 2 from play; remove AudreyInformation 3 from play; remove LunaInformation 1 from play; remove LunaInformation 3 from play; remove LunaInformation 4 from play; remove LunaInformation 5 from play; remove LunaInformation 7 from play; remove Murder from play.
+	say "'She came out of nowhere, and I realized something was wrong. So I stuck my leg out and tripped her. You came in just as we caught her.' You nod. At this moment, the train lurches to a stop and several police officers rush into the Train Entrance. You explain what happened, and they swiftly arrest Luna."
 	
 Arrest is a thing.
 
@@ -557,7 +557,11 @@ The victim. [end if]
 
 [if SirAllanInformation 3 is in Box] Being the CEO of the Company.[end if]
 
-[if Sir Allan is in Interrogation Room] Sir Allan sits in front of you. You can ask him about:
+[if Sir Allan is in Interrogation Room] Sir Allan sits in front of you. On the paper in front of you, Sir Allan's description reads:
+
+SIR ALLAN EDGAR: CEO OF THE COMPANY.
+
+You can ask him about:
 
 His Company.
 
@@ -588,7 +592,7 @@ But it wasn't us, who murdered him, I can tell you that. What happened was a tra
 
 Instead of asking Sir Allan about "his Company": say "Sir Allan raises his eyebrows.
 
-'My company? The Company? It is a textile company that specializes in special materials.'"
+'My company? It is a textile company that specializes in special materials.'"
 
 Instead of asking Sir Allan about "Kidnapping Felix for Cloud Stones": say "[if Sir Allan is in Interrogation Room]He laughs.
 'Recently, we found a mass of Charoite in your village,' you take the Cloud Stone out from your pocket.
@@ -661,6 +665,8 @@ You politely wave at Luna, and she waves back.
 
 'I was there this morning, and I've decided to travel to the city for legal help. If we can't push back the Company, then maybe the law can.[end if]
 
+[if Luna is in Train Entrance] 'I hate you!' She yells. 'You'll regret doing this, you will. I swear!'[end if]
+
 [If Murder is in Box]
 
 You can ask Luna about:
@@ -705,7 +711,7 @@ Instead of asking Luna about "her guilt": say "You accuse Luna of murdering Feli
 
 'But I have evidence!' You exclaim as you bring out the jewel and silk belt. 'Both are obviously yours. You used the silk belt to climb into the bathroom when the victim was inside, and used it to strangle him as well. I found this pink jewel in the palm of Felix's hand. I reckon he had pulled apart your bracelet when he was struggling against you. I have investigat-'
 
-Luna doesn't let you finish. Seeing that train is nearing the Station, she rushes west towards the Train Entrance."; Move Luna to Train Entrance.
+Luna doesn't let you finish. Seeing that train is nearing the Station, she rushes west towards the Train Entrance."; Move Luna to Train Entrance; move Player to Interrogation Room; move Sir Allan to Interrogation Room; move Arrest to Box; remove MarkInformation 1 from play; remove MarkInformation 2 from play; remove MarkInformation 3 from play; remove MarkInformation 4 from play; remove MarkInformation 5 from play; remove SirAllanInformation 1 from play; remove SirAllanInformation 2 from play; remove SirAllanInformation 3 from play; remove SirAllanInformation 4 from play; remove SirAllanInformation 1 from play; remove AudreyInformation 1 from play; remove AudreyInformation 2 from play; remove AudreyInformation 3 from play; remove LunaInformation 1 from play; remove LunaInformation 3 from play; remove LunaInformation 4 from play; remove LunaInformation 5 from play; remove LunaInformation 7 from play; remove Murder from play.
 
 Instead of asking Luna about "her relationship with Felix": say "She first refuses to answer, but you remind her that her sentence would be reduced if she cooperated with the authorities.
 
