@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6L38
+
+status "/Users/eshi17/Desktop/ComputerScience/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/eshi17/Desktop/Mercenaries/Mercenaries.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/eshi17/Desktop/Mercenaries/Mercenaries.inform"
+release to "/Users/eshi17/Desktop/Mercenaries/Mercenaries.materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "Mercenaries.gblorb"
+storyfile "/Users/eshi17/Desktop/Mercenaries/Mercenaries.inform/Build/output.ulx" include
+ifiction "/Users/eshi17/Desktop/Mercenaries/Mercenaries.inform/Metadata.iFiction" include
+cover "/Users/eshi17/Desktop/Mercenaries/Mercenaries.materials/Cover.png"
+picture 1 "/Users/eshi17/Desktop/Mercenaries/Mercenaries.materials/Cover.png"
+
+! Placeholder variables
+
+placeholder [IFID] = "CBB2743A-D16F-4C04-8CE1-2949EE87E1AD"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2014"
+placeholder [TITLE] = "Mercenaries"
+placeholder [AUTHOR] = "Elana Shi The release number is 1"
+placeholder [BLURB] = "A simple mystery caused by our natural inclinations to possessions. It doesn't matter whether it's for protection or gain, nobody can escape the clutches of possession.<br/>Mercenaries explores the small world of a villager, Alex, who struggles to protect his home from a greedy company. On the way, he encounters a couple of people, all driven by their own goals and agendas. What will he find out? And what will you do about it?<br/>Cover Art by turtlegirlman on DeviantArt"
+
+! Other material to release
+
+status instruction ||&nbsp;<a href="source:story.ni#line11"><img border=0 src=inform:/doc_images/Reveal.tif></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc400.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ifindex version="1.0" xmlns="http://babel.ifarchive.org/protocol/iFiction/">
+    <story>
+        <identification>
+            <ifid>CBB2743A-D16F-4C04-8CE1-2949EE87E1AD</ifid>
+            <format>glulx</format>
+        </identification>
+        <bibliographic>
+            <title>Mercenaries</title>
+            <author>Elana Shi The release number is 1</author>
+            <headline>A story about greed.</headline>
+            <genre>Mystery</genre>
+            <firstpublished>2014</firstpublished>
+            <description>A simple mystery caused by our natural inclinations to possessions. It doesn't matter whether it's for protection or gain, nobody can escape the clutches of possession.<br/>Mercenaries explores the small world of a villager, Alex, who struggles to protect his home from a greedy company. On the way, he encounters a couple of people, all driven by their own goals and agendas. What will he find out? And what will you do about it?<br/>Cover Art by turtlegirlman on DeviantArt</description>
+            <language>en</language>
+            <group>Inform</group>
+        </bibliographic>
+        <cover>
+            <format>png</format>
+            <height>400</height>
+            <width>500</width>
+            <description>Bag of Money</description>
+        </cover>
+        <releases>
+            <attached>
+                <release>
+                    <releasedate>2014-10-30</releasedate>
+                    <version>1</version>
+                    <compiler>Inform 7</compiler>
+                    <compilerversion>6L38</compilerversion>
+                </release>
+            </attached>
+        </releases>
+        <colophon>
+            <generator>Inform 7</generator>
+            <generatorversion>6L38</generatorversion>
+            <originated>2014-10-30</originated>
+        </colophon>
+        <glulx>
+            <serial>141030</serial>
+            <release>1</release>
+            <compiler>Inform 7 build 6L38</compiler>
+            <coverpicture>1</coverpicture>
+        </glulx>
+    </story>
+</ifindex>
